@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       56f918ca-8d08-4e59-96ef-3e1171c3094a
+:END:
+#+title: CFD programming languages
+
+Most CFD codes are written in:
+* FORTRAN
+(Formula Translation)
+  Originally developed in the 1950s at IBM.
+* C
+Made first appearance in 1972, C was developed by Dennis Ritchie while working at Bell Labs
+* C++
+Designed by Bjarne Stroustrup, first made appearance in 1985. Bjarne started working on the programming language while working at Bell Labs in 1972.

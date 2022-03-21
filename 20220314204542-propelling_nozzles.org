@@ -1,0 +1,134 @@
+:PROPERTIES:
+:ID:       b3aa54d4-7e14-4b66-8e86-e66af5d81e79
+:END:
+#+title: Propelling nozzles
+
+The function of the propelling nozzles is to convert the pressure energy into velocity, producing thrust and give it direction.
+- There are many types of nozzle:
+  - Plain circular
+  - Rectangular
+  - Separate jets
+  - Mixed (annular and forced)
+  - Noise suppressed
+  - Vectored
+
+* Convergent and convergent-divergent nozzles
+- For most civil subsonic aero engines, the propelling nozzle is usually a simple convergent nozzle.
+- Sometimes a Convergent-Divergent (Con-Di) Nozzle is fitted the object is to increase thrust relative to a convergent nozzle for values of pressure ratio greater than choking.
+- Each Con-Di nozzle only operates "full" at one value of pressure ratio depending on the ratio of exit area to throat area.
+- Operating "full" implies that the flow has accelerated until its static pressure at nozzle exit is just equal to ambient static pressure.
+- There is a benefit from a Con-Di nozzle is when it is operating ‘full’ but there is a loss when the pressure ratio is less the optimum value at lower throttle settings, or forward speeds. This is due to losses occurring in the shocks necessary to achieve a nozzle exit static pressure equal to ambient pressure.
+- The actual CD and CV are established with flow and engine tests, Nozzle Calibration, usually in an Altitude Test Facility
+
+* Gas stream mixing
+** Separate jets
+- External mixing of gas streams from core and [[id:f96249c2-2cc5-4013-bf22-0f662c8d3550][Bypass]] airflow.
+- Used in most modern under-wing applications with [[id:5bd17ae4-4895-4162-9f91-416c5c444266][High bypass ratio engines]].
+
+** Integrated nozzles
+- Partial internal mixing of gas streams
+- Simple construction
+- Low loss
+- But requires exhaust streams to have similar velocities
+- Used in tail-mounted applications, business jets, and older medium-range aircraft
+  - Reduces interference drag between engine and aft fuselage for tail-mounted
+  - Issue with underwing penetration in placing them under the wing, can cause aerodynamic loss but this has never materialised
+- There is a performance benefit for mixing the hot and cold streams prior to exhausting througha a common nozzle, but with added cost and weight
+- Reasons for mixing:
+  - To improve cruise [[id:da543acc-5803-4881-bb4e-b475f69a38d8][Specific fuel consumption]]
+  - If the fan pressure ratio is lower than the optimum for separate jets
+  - To reduce jet noise
+  - Prior to afterburning
+  - To provide IR shielding
+
+*** Mixers
+**** Annular mixer
+- Simplest design
+- Both gas streams combine just prior to final nozzle
+- Requires exhaust streams to have similar velocities
+
+**** Integrated forced mixers
+- More complicated construction
+- Higher losses
+- Used where exhaust streams have dissimilar velocities
+- Shorter mixing length
+- Used where annular mixer would be too long to be practical
+- Sometimes used when engine designed for separate jets requires noise suppression for a different application
+
+*** Noise supporession
+There is a benefit in noise reduction by treatment of the final nozzle. For a turbojet, serrations promote smoother mixing of the nacelle boundary air and the jet efflux, reducing external noise. The serrations can be internal or external.
+A more recent advance has been the application of serrations to the cold nozzle of [[id:5bd17ae4-4895-4162-9f91-416c5c444266][High bypass ratio engines]]. This had the benefit of reducing cabin noise as well as far-field noise.
+
+* Vectored nozzles
+Adjusting thrust angle has been used to provide vertical thrust, as a means to a means to give aircraft vertical (VTOL) or short (STOL) take off and landing capbility.
+Subsequently, it was realised that using vectored thrust in flight enabled aircraft to perform better in combat maneuvers.
+
+Thrust is vectored by a nozzle rotating on a bearing to change the direction of the exiting flow.
+
+A more recent development is the three bearing swivel nozzle, allowing the thrust to go fully rearwards for conventional flight, to fully vertical for VTOL and STOL operations. There is no impact on engine operating parameters during the transition. Also provides yaw control during the hover and transition to hover.
+
+* Reheat
+- Turbine materials restricted the gross thrust of early jet engines
+- Some form of thrust augmentation was needed to provide additional thrust for interceptor aircraft both for take-off from short fields or aircraft carriers
+- Frank Whittle had a reheat system fitted to a W2/700 in 1943
+- Reheat is a means of obtaining a considerable thrust boost, burning additonal fuel in the engine jet pipe to raise the temperature, and hence jet velocity and thrust
+- Boosts of up to 70% can be obtained and as this applies to gross thrust, it is particularly powerful at high flight speeds
+- As the fuel is burned at a relatively low pressure, the [[id:da543acc-5803-4881-bb4e-b475f69a38d8][Specific fuel consumption]] is very much worse than without reheat
+- Turbofans and turbojets can be reheated
+  - Turbojets generally have higher jet pipe pressures and temperatures, both being advantageous to the achievement of maximum reheat performance
+  - Lower temperature of turbofans give the potential for large boosts
+
+** Basic operation
+- The gas stream from the engine turbine enters the jet pipe at a velocity that is far too high for a stable flame to be maintained.
+- A flame stabilizer (vapour gutter) is located downstream of the fuel burners to provide a region in which turbulent eddies are formed to assist combustion and where the local gas velocity is further reduced to a figure at which flame stabilization occurs whilst combustion is in operation.
+- An atomized fuel spray is fed into the jet pipe through several burners, which are arranged to distribute the fuel evenly.
+- Combustion is then initiated by an igniter plug adjacent to the burner. Simply spraying fuel into the exhaust from the engine would simply create cool flames as combustion will not take place below 800\deg C.
+- Once combustion is initiated, the gas temperature increases, and the expanding gases accelerate through the enlarged area propelling nozzle to provide the additional thrust
+
+** Reheat with variable nozzle
+- At the point of initiating reheat the engine parameters should be unchanged to avoid such affects such as engine surge, overspeed and over temperature.
+- Consequently, the mass flow, pressure, and temperature, the W√T/AP, at the, exit of the engine, and the entry to the reheat diffuser, need to be unaffected.
+- Under non-reheat conditions there is a propelling nozzle pressure ratio. To avoid any change to the engine parameters that pressure ratio needs to be unchanged.
+- When reheat is engaged the jet pipe temperature, T, is increased, as the nozzle is choked for the value of P to be unaltered then A must increase.
+- At the corresponding value of V/√T as T has increased so then V must increase resulting in more thrust.
+- From the above relationships it can be seen that at a given nozzle pressure ratio, the velocity of jet exhaust, and therefore gross thrust, increases in proportion to the square root of the jet temperature
+
+** Reheat construction
+- Reheated bypass may be fitted with a chuted (integrated/forced) or annular mixer
+- For effective mixing, p_cold/p_hot should be within the range 0.95 to 1.05
+- An engine reheat pipe consists of:
+  - A diffuser section (to decrease the air velocity and increase static pressure) attached to the turbine exhaust unit either directly or after an intermediate section of normal jet pipe size
+  - A combustion section
+  - A variable nozzle
+
+** Thrust calculation
+- In the thrust formula Fn = W(Vj - V0 ) the fully expanded VJ is difficult to determine
+- But considering the engine in a closed box and equating forces then:
+
+  F_G = WV_N + A_N (p_N - p_0)
+  F_D = WV_0
+  F_N = F_G - F_D
+
+  Where F_N is net thrust, F_G is gross thrust, and F_D is momentum drag
+  See: [[id:6e7e33eb-420b-4517-8993-5d24babea27c][Engine thrust]]
+
+In practice nozzles do not have [[id:bb975d06-10f8-41d2-b7cc-b0cb3af6393a][isentropic]] flow, so a flow and velocity coefficients are introduced to determine the effective area and actual mean velocities
+*** Discharge coefficient
+The flow coefficient C_d = (Actual mass flow)/(Ideal mass flow)
+C_d is dependent on:
+  - Rate of nozzle convergence (cone angle)
+  - External flowe (free stream flow over nacelle)
+  - Proximity of exterior bodies (wing, pylon)
+*** Velocity coefficient
+C_v = (Actual mean velocity)/(Ideal velocity) = (Actual thrust)/(Ideal thrust)
+C_v depends on:
+- Nozzle shape
+- Surface roughness
+
+** Thrust calibration
+- Nozzles need to be calibrated to determine Cd and Cv to ensure that the actual thrust of an engine is as predicted.
+- These are determined by model tests
+- An engine can be run in an altitude facility to map the flight envelope and create the correct nozzle pressure ratios
+- There was one at RAE Pyestock UK but that could not accommodate the larger engines and the only one capable facility is in Tullahoma USA which is expensive to run and transport engines.
+- An open air test which avoids test bed interactions can be used but that does not accommodate the range of nozzle pressure ratios
+- But Performance points can be run at lower pressure ratios and extrapolated using the ‘Residual Error’ method.

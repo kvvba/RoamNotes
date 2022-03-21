@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       0dca3e3a-7634-455c-914f-1e54ddd964e0
+:END:
+#+title: Neumann boundary condition
+
+Also known as "type 2", "natural", or "flux" [[id:438274de-8894-4ba7-9f51-715e206bf46a][Boundary condition]].
+
+This is given as a flux (or derivative) at the boundary.
+The derivative is not a function of the unknown, and hence Neumann can be used when we don't know what to specify.
+
+The type of Neumann boundary condition to select depends on the physics of the flow problem.
+
+Boundaries values are updated based on values at interior mesh points. When this occurs, the boundary values are said to "float".
+
+In CFD calculations, often there are multiple variables to be treated as boundaries.
+
+* Inflow and outflow boundary conditions
+** Inflow
+*** Subsonic inflow (Ma<1)
+Specify two flow properties, e.g. p and T, and allow others to "float".
+*** Supersonic inflow (Ma>1)
+Specify three flow properties, e.g. p, T, and U, and allow others to "float".
+** Outflow
+*** Subsonic outflow (Ma<1)
+Specify one flow property, e.g. p, and allow others to "float".
+*** Supersonic outflow (Ma>1)
+Don't specify anything. Allow all variables to "float".
+* Wall boundary conditions
+Heat flux or temperature gradient across the wall can be set using Neumann conditions.
+e.g. for adiabatic (insulated) wall, (\partial T)/(\partial y) = 0
+gives T_i = T_(i+1)
+or for constant heat flux, q = -k((\partial T)/(\partial y))|_i
+giving T_i = T_i+1 + (q\Delta y)/(k)

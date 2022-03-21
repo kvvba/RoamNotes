@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       7ba9790c-aa85-443d-b250-07b85b094ebe
+:END:
+#+title: Propulsive efficiency
+
+The efficiency of the propulsor, which converts available kinetic energy to useful propulsive work.
+
+* Engine design
+Propulsive efficiency needs to be maximised, but thrust needs to be maintained.
+The higher \eta_p is, the less [[id:6e7e33eb-420b-4517-8993-5d24babea27c][thrust]] the engine produces as the difference between V_jet and V_0 decreases for the same mass flow rate. To increase thrust while maintaining high propulsive efficiency, the [[id:f96249c2-2cc5-4013-bf22-0f662c8d3550][Bypass ratio]] is increased.
+
+* Power to propel aircraft
+
+Work, W = F \cdot s
+Where F is force and s is displacement
+
+Power is rate of work hence power required to propel an aircraft:
+
+P = m'(V_jet - V_0)V_0
+
+* Power to produce jet
+Difference of rate of kinetic energy going in and leaving through the jet.
+Hence rate of energy input into engine:
+
+P = (1/2)m'(V_jet^2 - V_0^2)
+
+* Propulsive efficiency, \eta_p
+Ratio of power used to propel aircraft over power to produce jet.
+At 100% all power is used to propel the jet.
+
+\eta_p = (power to aircraft)/(power to jet)
+
+\eta_p = (2V_0)/(V_jet + V_0)

@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       9586f42a-7341-40f2-bd54-d514e965851a
+:END:
+#+title: CFD conventions
+
+* Inflow and outflow
+- Inflow defined as negative mass flow rate
+- Outflow defined as positive mass flow rate
+
+* Control volumes
+- Horizontal flow:
+  - x is the horizontal axis, positive to the right
+  - u is the horizontal component of fluid velocity
+  - Control volumes have thickness \Delta x in the x direction
+- Vertical flow:
+  - y is the vertical axis, positive upwards
+  - v is the vertical component of fluid velocity
+  - Control volumes have thickness \Delta y in the y direction
+- Faces
+  - l, r, b, t represent the left, right, bottom, and top faces respectively
+
+* 2D simulation
+- Assume unit depth of control volumes

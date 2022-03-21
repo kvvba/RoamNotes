@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       cdf31e29-c1d1-49a7-a742-816785a1f2b3
+:END:
+#+title: Gas turbine power output
+
+* Formula
+W'_out = m'_air c_p T_1 ((T_3/T_1)(1 - r^(\gamma(\gamma - 1))) \times \eta_turb - (r^((\gamma - 1)/\gamma) - 1)/(\eta_comp))
+
+Where W'_out is useful work output
+W'_out = W'_t - W'_c (power output of turbine - power input to compressor)
+
+m'_air is mass flow rate of air
+
+Point 1 is compressor intake, point 3 is turbine intake
+
+\eta_comp is the [[id:0cff770f-30ce-42f8-aa7a-1199c88fdb56][Isentropic]] [[id:841a1d13-5409-4bb8-bd35-5cbdcd423b6a][Compressor efficiency]]
+\eta_turb is the [[id:0cff770f-30ce-42f8-aa7a-1199c88fdb56][Isentropic]] [[id:102568d2-a06b-416f-9037-1ce6c86164db][Turbine efficiency]]
+
+r is the pressure ratio across the compressor (p_2/p_1)
+
+* Effect of T_3/T_1
+To maintain high [[id:4b8ea1b7-bc32-4987-93d6-bd9b296d24ca][Cycle efficiency]], need to keep the ratio (T_3/T_1) high.
+Cycle efficiency increases with pressure ratio r until a peak before falling again, except with a sufficiently high (T_3/T_1). Therefore especially important to have high temperature difference across the turbine for high pressure ratios.
+
+Temperature T_3 is limited by the temperature which can be tolerated by the turbine. However, the ratio can also be increased by decreasing T_1 by climbing to higher altitude. Therefore highest values of T_3/T_1 are achieved at the top of climb before cruise.

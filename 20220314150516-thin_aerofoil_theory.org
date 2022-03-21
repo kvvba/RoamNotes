@@ -1,0 +1,59 @@
+:PROPERTIES:
+:ID:       2b5b47ae-cc62-4cae-8895-7d444a9511e2
+:END:
+#+title: Thin aerofoil theory
+
+* Kutta-Joukowski
+Can perform conformal mapping to map the flow around a rotating cyclinder to an aerofoil and calculate [[id:84005369-0a9e-48a7-8c69-53bc4422377a][Lift]] and drag using the [[id:1ee6f188-9cba-4870-8266-626fe7628cd6][Kutta-Joukowski theorum]].
+The downstream stagnation point is at the trailing edge when a condition is satisfied. This happens because the aerofoil adapts exactly the correct circulation: \Gamma = \Gamma_Kutta. This is the Kutta condition.
+If \Gamma < \Gamma_Kutta, the stagnation point is at the top surface.
+If \Gamma > \Gamma_Kutta, then stagnation point is at the bottom surface.
+This can be compared to the rotating cylinder, where the two stagnation points move closer with increasing \Gamma.
+
+This Kutta condition happens because the trailing edge of an aerofoil is sharp. A sharp edge causes a stagnation point in any flow.
+Flow turning around a sharp corner has ifinite velocity at corner for potential flow. This is obviously not possible.
+
+Flow accelerates over a curved surface, a sharp edge is like a round edge with infinitely small radius. If the flow would go around the sharp corner, it would get infinite acceleration. This is impossible in inviscid flow.
+If the flow does not go around the corner, it has finite velocity and leaves smoothly. There is a dividing streamline, and hence stagnation point.
+
+* Basic assumptions
+Assumes a small thickness/chord ratio. Approximately t/c ~ 0.12
+Assumed a small angle of attack (see: [[id:335c0324-aef0-47a3-ace8-31f8ddd1ae4d][Aerofoil terminology]]). \alpha ~ 10\deg or \alpha ~ 0.17 radians
+
+With these asusmptions, the aerofoil induces only a small pertubation to the free-stream velocity.
+Streamwise pertubation u' and vertical pertubation v' are such that:
+u',v' << U_0
+
+* Velocities
+** Streamwise
+u = U_0 cos\alpha + u'
+Where U_0 is freestream velocity, \alpha is the AoA, and u' is the pertubation added to freestream velocity
+Assuming a small angle of attack, cos\alpha \approx 1
+Hence
+
+u \approx U_0 + u'
+
+** Vertical
+v = U_0 sin\alpha + v'
+Where U_0 is freestream velocity, \alpha' is the AoA, and v' is the pertubation added to freestream velocity
+Assuming a small angle of attack, sin\alpha \approx \alpha
+Hence
+
+v = U_0 + v'
+
+* Modelling
+The thin aerofoil can be modelled by playing vorticies and sources/sinks along the chord line.
+
+Three different flows are superposed to obtain velocity around aerofoil.
+** Flows
+*** Incidence flow
+Flow created by vorticies on flat plane
+*** Camber flow
+Flow created by vorticies on a cambered chord
+*** Thickness flow
+Flow around an aerofoil with varying sources and sinks to create thickness
+
+* Limitations
+For thick/general aerofoils use panel method.
+[[id:1ee6f188-9cba-4870-8266-626fe7628cd6][Kutta-Joukowski theorum]] works only for inviscid flow, for viscous flow experiments or CFD required.
+

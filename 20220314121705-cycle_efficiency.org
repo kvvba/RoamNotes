@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       4b8ea1b7-bc32-4987-93d6-bd9b296d24ca
+:END:
+#+title: Cycle efficiency
+
+The cycle efficiency is the efficiency of the [[id:872886f1-7923-45c2-a3d2-9dfdf57e6bb1][Brayton cycle]].
+\eta_cycle = (w_net)/(q_in) = (w_turbine - w_comp)/(q_in)
+
+w_net = w_turbine - w_compressor
+w_net is the useful work out of the shaft.
+
+w_turbine = c_p(T_3 - T_4)
+
+w_comp = c_p(T_2 - T_1)
+
+q_in is the heat input into the system.
+
+* Formula
+
+\eta_cycle = 1 - (T_1/T_2) \cdot (((T_4/T_1) - 1)/((T_3/T_2) - 1))
+
+Note that:
+T_2/T_1 = (p_2/p_1)^((\gamma - 1)/\gamma) = (p_3/p_4)^((\gamma - 1)/\gamma) = T_3/T_4
+Hence: T_4/T_1 = T_3/T_2
+Therefore \eta_cycle = 1 - 1/((p_2/p_1)^((\gamma - 1)/\gamma))
+
+Which indicates that the efficiency of the Brayton cycle increases with the pressure ratio.
+

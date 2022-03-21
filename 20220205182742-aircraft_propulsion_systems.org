@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       24f0ca87-e3b0-43ba-9ad9-a4e8067f03d8
+:END:
+#+title: Aircraft Propulsion Systems (module)
+
+* Topics
+
+  
+* Assessment
+Coursework: 45%
+Examination: 55%
+
+* Recommended textbooks
+- "Jet Propulsion"
+  - Author: Nicholas Cumpsty
+  - ISBN: 0521541441
+  - 2nd edition (2003)
+- "The Jet Engine"
+  - Author: Rolls Royce
+  - TL709 JET (George Green Library)
+- "Gas Turbine Performance"
+  - Author: Walsh and Fletcher
+  - TJ 778 (George Green Library)

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       409d7757-4dbe-4b93-a6e7-38e372b9bb7b
+:END:
+#+title: Aerofoil camber
+
+Symmetric aerofoils produce no lift at 0 angle of attack.
+Cambered aerofoils produce lift at 0 angle of attack.
+

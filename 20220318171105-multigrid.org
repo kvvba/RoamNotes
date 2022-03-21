@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       e3f4f157-9728-4e7b-a2f7-963794f07f06
+:END:
+#+title: Multigrid
+
+Multigrid is a popular method of [[id:01642bd1-dc9b-409c-8c2c-629d360f1711][convergence acceleration]] for [[id:9144ea7d-bb69-4755-99f5-ceeffe2bb21f][Steady flow]].
+
+Multigrid method are similar to [[id:a7d7763c-2bd2-4bea-ab95-08de63774596][Mesh sequencing]]. Information is propagated between coarse and fine meshes at every iteration.
+
+In terms of errors - solution contains both high and low frequency errors.
+High frequency errors tend to be reduced much faster than low frequency errors (low frequency error tends to slow down convergence).
+
+Transferring to a coarse grid, the low frequency errors become high frequency and are more readily damped.

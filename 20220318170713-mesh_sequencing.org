@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       a7d7763c-2bd2-4bea-ab95-08de63774596
+:END:
+#+title: Mesh sequencing
+
+Mesh sequencing is a method of [[id:01642bd1-dc9b-409c-8c2c-629d360f1711][convergence acceleration]] for [[id:9144ea7d-bb69-4755-99f5-ceeffe2bb21f][Steady flow]].
+
+Mesh density is based on accuracy considerations. A sufficiently fine mesh must be used so that spatial errors lie below a desired threshold. Iterative methods require an initial solution to begin the process. Fewer iterations are needed to converge to a steady state if the initial state is not too far from the converged solution. It is common to initiate the iterations with a solution given by a uniform flow that satisfies some free-stream or inflow boundary conditions. This, however, provides a relatively poor initial guess.
+
+One way to improve convergence is to begin the iterations using a much coarser mesh than dictated by the accuracy requirements. On a coarse mesh, the iterations will converge with relatively little computational work. This method can also improve the "robustness" of a solver.

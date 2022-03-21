@@ -1,0 +1,94 @@
+:PROPERTIES:
+:ID:       bd467448-61c5-4dfb-bdbb-2ea516628a0f
+:END:
+#+title: Meshing
+
+* CAD model types
+Spline model: defined using basis splines (B-splines)
+Polygon model: defined by coordinates / mesh points
+Distance function model: geometry defined by function
+
+* Structured meshing
+Regular, structured grid using squares or distorted squares. Easy to loop over and reference neighbouring nodes.
+Structured code is becoming fahsionable again due to its computational efficiency for very large simulations.
+
+** Advantages
+- Computationally efficient
+- Low memory usage
+- Can give better convergence
+- Good for high-order CFD
+- Low cell counts achievable with careful design
+- Easier to program
+- Easier to parallelise
+- Easy to control cell count
+- Easy to refine areas of interest
+- Advantageous near to walls
+- High-aspect ratio cells to capture boundary layers and shear layers
+
+** Disadvantages
+- Hard to automate
+- Difficult to mesh complex geometry
+
+** Types of structured meshes
+*** Cartesian mesh
+- Can be non-uniform
+  - Cell size changes
+*** Curvilinear mesh
+- Structured but wrapped to a curve geometry
+*** Chimera/overset mesh
+- Interpolation between multiple structured meshes
+- Stitched together
+- Better for complex geometry
+
+* Unstructured meshing
+Cells do not follow cartesian grid and do not need to be 4-sided.
+
+** Advantages
+- Much easier to generate mesh for complex geometries
+- Much faster meshing (automation)
+- "1-click" meshing
+- Well suited to inexperienced users (little user input)
+- Automated process
+
+** Disadvantages
+- No obvious order to loop over
+  - Need to store additional information about connections between cells
+  - Hence more memory intensive and requires more work to calculate
+- Can lead to very high cell counts
+- More memory + CPU intensive
+
+** Types
+*** Tetrahedral mesh
+Uses tetrahedrons. First generates non-manifold simulation mode, then meshes model's edges and faces, then volume.
+*** Hex rich meshing
+Uses hexagonal cells. High cell counts and memory usage, good for complex geometry. Very fast meshing technique. Improvement over tetrahedral meshing.
+*** Polyhedral mesh
+Uses polyhedrons. Provide faster convergence, robust convergence to lower residuals, and faster solution runtimes compares to tetrahedral and hexahedral meshes.
+*** Hydrid meshing
+Structured and unstructured meshes can be combined into a hybrid mesh, gaining benefits for both in different regions.
+
+* Designing meshes
+Important to capture high gradients in flow. Therefore need refinement in high gradient regions, by using more mesh points. Important to have [[id:20e08c09-6934-401e-8f27-3375b09b314c][Mesh independence]].
+
+* Meshing circles
+- H-type grid
+- O-type grid
+- Butterfly grid
+- Paved grid
+
+* Meshing trade offs
+- Time to mesh
+- Accuracy
+- Control
+- Quality
+- Cell count (run-time)
+- Handling of complex geometry
+
+* Moving simulations
+** Moving meshes
+Mesh points moved by a transformation.
+** Re-meshing
+New mesh is generated at each step of movement, which is computationally expensive.
+
+* Mesh adaptation
+Automatically refines mesh in high-gradient areas to capture detail.

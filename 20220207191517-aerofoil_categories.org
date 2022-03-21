@@ -1,0 +1,50 @@
+:PROPERTIES:
+:ID:       36fb8401-5a82-4a8a-a9b8-652a12fd56f1
+:END:
+#+title: Aerofoil categories
+
+* NACA 4 digit
+Created in the 1930s. Rarely used today except for simple symmetrical tailplane and fin sections.
+
+1st digit: Max camber as % of chord
+2nd digit: (x10) Location of max camber as % of chord from leading edge (LE)
+3rd & 4th digits: Maximum section thickness as % of chord
+
+* NACA 5 digit
+Aimed at pushing position of max camber forward for increased C_L,max.
+Much better low-speed characterics than 4 digit series.
+
+1st digit: (x0.15) Design lift coefficient (C_L)
+2nd & 3rd digits: (x0.5) Location of maximum camber as % of chord from LE
+4th & 5th digits: Maximum section thickness as % of chord
+
+* NACA 6 digit
+Designed for lower drag by increasing region of laminar flow.
+Still represents good basis for some subsonic & high-speed applications.
+Mach 2 F-15 uses 64A series
+
+1st digit: Identifies series type
+2nd digit: (x10) Location of minumum pressure as % of chord from LE
+3rd digit: Indicates acceptable range of C_L above/below design value for satisfactory low drag performance, as tenths of C_L
+4th digit: (x0.1) Design C_L
+5th & 6th digits: Maximum section thickness as % of chord
+
+*  Modern computationally-designed sections
+Based upon need for improved aerodynamic characterics just below speed of sound.
+Pioneered in 1960s.
+
+Produced the peaky section, featuring:
+- Relatively flat upper surface
+- Marked suction peak near to leading edge on graph of C_p against x/c
+- Cusped trailing edge for increased rear loading on graph of C_p against x/c
+
+* Supercritical sections
+Sections designed to minimise transonic effects, allow aerocraft to travel at high speed without suffering from too much wave drag.
+First use on an F-8 in 1971.
+
+Features:
+- Very flat upper surfaces to spread out lift
+- Increased lower surface camber at rear end
+- Increased leading edge radius to reduce leading edge vortices
+- Blunt trailing edge to increase structural strength
+

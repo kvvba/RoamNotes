@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       b66fcf27-d26b-4e44-a1c4-fe3a6e777509
+:END:
+#+title: Compressible & incompressible flow
+
+Important for considering flow through bypass ducts and nozzles.
+
+* Incompressible flows
+Incompressible flows have a constant density.
+Typically has a [[id:0e42ba60-18fc-4f17-a227-cf7cab76ca51][Mach number]] less than 0.3. Compressibility effects do not need to be considered in analysis.
+
+* Compressible flows
+Compressible flows have a variable density.
+Flow is considered compressible when [[id:0e42ba60-18fc-4f17-a227-cf7cab76ca51][Mach number]] is above 0.3.
+

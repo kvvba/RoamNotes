@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       335c0324-aef0-47a3-ace8-31f8ddd1ae4d
+:END:
+#+title: Aerofoil terminology
+
+*** Chord line
+Line between leading (LE) and trailing edge (TE)
+*** Angle of attack \alpha
+Angle between chord line and relative wind direction (free-stream)
+*** Camber line
+Mid-section between upper and lower surfaces
+*** Chord length
+Length of chord line
+*** Aspect ratio
+AR = s/c
+Where s is the span of the wing
+And c is the average chord length
+

@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       cfd9f787-1fa6-4fa8-a614-245fda8b34ad
+:END:
+#+title: Thrust at top of climb
+
+We want to maximise the quantity Lift/Drag, by minimising drag. Airlines like to get places quickly therefore we maximise (Velocity \times [[id:84005369-0a9e-48a7-8c69-53bc4422377a][Lift]])/(Drag) or ([[id:0e42ba60-18fc-4f17-a227-cf7cab76ca51][Mach number]] \times Lift)/(Drag). For transport aircraft we also need to consider range, hence needing to optimise VL/D or ML/D. Large airliners will typically cruise at Ma = 0.84 with a C_L of 0.5.
+
+We quantify these with lift coefficient and drag coefficient. (See: [[id:12e0bef5-93ff-41f3-9ba2-22bb42b782a2][Aerofoil coefficients]]). These are both functions of angle of attack. Flow begins to separate from the wing at high angles of attack, shown on a C_L against \alpha curve where the curve passes the stall point, where C_L is at a maximum. Must keep a stall margin from this stall point.
+
+It's advantageous during cruise for the aircraft to maintain optimal value of C_L \approx 0.5.
+The lift is increasing over time as the aircraft burns fuel, so the density of air is reduced by gaining altitude to maintain C_L.
+
+* Calculating thrust at top of climb
+
+(F_N)/(w) = 1/(L/D) + sin\theta
+
+Where F_N is [[id:6e7e33eb-420b-4517-8993-5d24babea27c][net thrust]], w is weight, L/D is the lift upon drag ratio, and \theta is [[id:335c0324-aef0-47a3-ace8-31f8ddd1ae4d][angle of attack]].
+L/D is generally known and an optimised value.
