@@ -3,9 +3,6 @@
 :END:
 #+title: Aircraft Propulsion Systems hub
 
-* Module information
-- [[id:24f0ca87-e3b0-43ba-9ad9-a4e8067f03d8][Aircraft Propulsion Systems (module)]]
-
 * Theory
 ** Introduction and atmosphere
 - [[id:e89bfa23-2189-4341-b810-6e9802312de9][Gas turbine engine basics]]

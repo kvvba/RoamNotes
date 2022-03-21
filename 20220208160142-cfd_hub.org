@@ -3,9 +3,6 @@
 :END:
 #+title: CFD hub
 
-* Module information
-- [[id:be87ccb4-46df-4d00-8f7f-8acdc9226d52][CFD (module)]]
-
 * Background
 - [[id:e9e1facf-6331-4052-a337-e9f14d5c06e5][CFD strength and weaknesses]]
 - [[id:501f6284-468d-4b33-a967-5cd02933dae7][CFD process]]

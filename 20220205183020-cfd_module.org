@@ -1,8 +1,0 @@
-:PROPERTIES:
-:ID:       be87ccb4-46df-4d00-8f7f-8acdc9226d52
-:END:
-#+title: CFD (module)
-
-* Assessment
-Coursework 45%
-Examination 55%

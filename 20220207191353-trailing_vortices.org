@@ -9,14 +9,43 @@
 - Induce significant drag
 
 * Wing-tip vortex creation
-Lift created by the pressure difference between lower and upper aerofoil surfaces.
-For a 3D finite wing flow is induced around the wing tip, from the lower to upper surface by this pressure difference.
-This forms the wing-tip vortex.
+[[id:84005369-0a9e-48a7-8c69-53bc4422377a][Lift]] is created by [[id:1ee6f188-9cba-4870-8266-626fe7628cd6][Kutta-Joukowski]] [[id:54e6fb44-f9a9-4515-920b-9c3ada22d266][Circulation]] caused by the bound vortex along the chord. This is a result of the pressure difference between lower and upper aerofoil surfaces. For a 3D finite wing flow is induced around the wing tip, from the lower to upper surface by this pressure difference. This forms the wing-tip vortex.
+Wing-tip vorticies have the same [[id:54e6fb44-f9a9-4515-920b-9c3ada22d266][Circulation]] \Gamma as the bound vortex.
+
+** Variation of circulation
+[[id:54e6fb44-f9a9-4515-920b-9c3ada22d266][Circulation]] varies over the chord, e.g. for [[id:2b5b47ae-cc62-4cae-8895-7d444a9511e2][flat plate aerofoil]]
+\gamma(x) = 2U_0 sin(\alpha) \cdot ((c/x) - 1)
+Circulation also varies over the span, z, of a 3D aerofoil.
+Local section lift:
+l(z) = \rho U_0 \Gamma(z)dz
+Hence, total lift of the wing of total span 2s:
+L = \int_-s^s \rho U_0 \Gamma dz
+
+*** Elliptic loading
+For elliptic (sometimes called semi-elliptic): \Gamma = \Gamma_0 \cdot (1 - (z/s)^2)
+Where s is the major axis and \Gamma_0 is minor axis (\Gamma at z=0, at maximum).
+From [[id:1ee6f188-9cba-4870-8266-626fe7628cd6][Kutta-Joukowski theorum]]:
+L = \int_-s^s \rho U_0 \Gamma dz = \int_-s^s \rho U_0 \Gamma_0 (1 - (z/s)^2) dz
+Substitute variables:
+\eta = z/s
+d\eta = s^-1 dz -> dz = sd\eta
+z = -s -> \eta = -1
+z = s -> \eta = 1
+
+Hence
+L = \rho U_0 \Gamma_0 s \int_-1^1 (1 - \eta^2)d\eta = \rho U_0 \Gamma_0 s (\pi/2)
+C_L = L/(\rho U_0^2 A) = (\rho U_0 \Gamma_0 s (\pi/2))/(0.5\rho U_0^2 c \cdot (2s))
+C_L = (\Gamma_0 \pi)/(2U_0 c)
+
+Using aspect ratio AR = (2s)/c => c = (2s)/(AR)
+
+Therefore
+C_L = (\pi\Gamma_0 \cdot AR)/(4s)
 
 * Downwash and drag
 For a 2D wing, there are no trailing vortices. Lift is perpendicular to U_\infin.
 
-In a 3D wing, wing-tip vortices are present and cause a downwash velocity.
+In a 3D wing, wing-tip vortices are present and cause a downwash velocity w behind and in front of wing.
 Effective U_\infin is changed, U_\infin,eff: angled toward chord line.
 Difference between U_\infin and U_\infin,eff vectors is downwash velocity.
 Difference between U_\infin and U_\infin,eff angles is downwash angle.
@@ -26,16 +55,27 @@ Components of lift L_up and D_i. Where L_up is vertical lift and D_i is induced 
 Induced drag D_i is orthogonal to downwash velocity.
 Angle between component is downwash angle \alpha_d.
 
-* Formulae
-** Downwash velocity
+** Formulae
+*** Downwash velocity
 w = U_\infin,eff - U_\infin
-** Downwash angle
+*** Downwash angle
 \alpha_d = tan^-1(w/U_\infin)
 Where w is downwash velocity.
-** Induced drag
+*** Induced drag
 C_D,i = (C^2_L)/(\pi AR)
 Where C_L is the lift coefficient (see: [[id:12e0bef5-93ff-41f3-9ba2-22bb42b782a2][Aerofoil coefficients]]).
-** Total drag coefficient
+*** Total drag coefficient
 C_D = C_D0 + (C^2_L)/(\pi AR)
 Where C_D0 is the 2D drag (see: [[id:12e0bef5-93ff-41f3-9ba2-22bb42b782a2][Aerofoil coefficients]]).
 
+** Kutta-Joukowski
+(see: [[id:1ee6f188-9cba-4870-8266-626fe7628cd6][Kutta-Joukowski theorum]])
+
+L = \rho U_\infin \Gamma
+Where for 2D wings, L is orthogonal to U_\infin
+
+3D wings work the same way except L_up is perpendicular to U_\infin.
+L_up = \rho U_\infin \Gamma
+
+Induced drag D_i is perpendicular to w. Using Kutta-Joukowski:
+D_i = \rho w \Gamma
