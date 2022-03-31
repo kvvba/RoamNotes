@@ -55,7 +55,7 @@ The function of the propelling nozzles is to convert the pressure energy into ve
 - Used where annular mixer would be too long to be practical
 - Sometimes used when engine designed for separate jets requires noise suppression for a different application
 
-*** Noise supporession
+*** Noise suppression
 There is a benefit in noise reduction by treatment of the final nozzle. For a turbojet, serrations promote smoother mixing of the nacelle boundary air and the jet efflux, reducing external noise. The serrations can be internal or external.
 A more recent advance has been the application of serrations to the cold nozzle of [[id:5bd17ae4-4895-4162-9f91-416c5c444266][High bypass ratio engines]]. This had the benefit of reducing cabin noise as well as far-field noise.
 
