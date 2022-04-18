@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       102568d2-a06b-416f-9037-1ce6c86164db
+:END:
+#+title: Turbine efficiency
+
+* Isentropic efficiency
+\eta_turb = (Actual work)/(Ideal work)
+Note this is the inverse relationship of actual and ideal to the [[id:841a1d13-5409-4bb8-bd35-5cbdcd423b6a][Compressor efficiency]].
+
+\eta_turb = (T_3 - T_4)/(T_3 - T_4,is)
+
+Where T_3 is turbine inlet temperature in the [[id:872886f1-7923-45c2-a3d2-9dfdf57e6bb1][Brayton cycle]]
+T_4 is the actual turbine exit temperature
+T_4,is is the turbine exit temperature for an [[id:0cff770f-30ce-42f8-aa7a-1199c88fdb56][Isentropic]] expansion

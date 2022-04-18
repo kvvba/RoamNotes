@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       46eacf6c-195d-4f0b-81f9-62bc6f4c2f36
+:END:
+#+title: Irrotational flow
+
+In irrotational flow, fluid particles translate but do not rotate.
+
+An example of irrotational flow is a tornado, which is a nearly irrotational vortex.
+Whereas an example of rotational flow is a rotating tank, the fluid is nearly in solid body rotation.
+
+Irritational flow has no vorticity, rotational flow has vorticity.
+
+* Mathematical definition
+** Cartesian coordinates
+Velocity in 2D: V = (u,v)
+
+\nabla x V = 0
+Where \nabla x represents the curl. The curl of velocity is also known as vorticity.
+
+\nabla x V = ((\partial v)/(\partial x) - (\partial u)/(\partial y))e_z
+Where e_z represents a unit vector in the z direction.
+
+** Cylindrical coordinates
+Velocity in 2D: V = (v_r , v_\theta)
+
+\nabla x V = 0
+Where \nabla x represents the curl. The curl of velocity is also known as vorticity.
+
+\nabla x V = ((1/r) \cdot (\partial(rv_\theta))/(\partial r) + (1/r) \cdot (\partial v_r)/(\partial \theta))e_z
+Where e_z represents a unit vector in the z direction.
+
+
+* Solutions
+Irrotational flows can be solved by using [[id:4615a930-1324-46e2-a2d7-ee818ea1ae67][Velocity potential]] \phi or the [[id:2ff01540-28bc-48a4-a292-c9013669295b][Streamfunction]] \psi.

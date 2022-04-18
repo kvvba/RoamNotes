@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       526ae3b2-15b0-4d4f-b89c-e07d5b8be09d
+:END:
+#+title: Specific thrust
+
+Specific thrust = (net thrust)/(mass flow rate of air entering engine)
+
+See: [[id:6e7e33eb-420b-4517-8993-5d24babea27c][Engine thrust]]

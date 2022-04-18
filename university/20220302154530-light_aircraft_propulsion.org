@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       4ba18236-f287-4165-9455-544acfca9987
+:END:
+#+title: Light aircraft propulsion
+
+- The majority of propulsion units for light aircraft are [[id:28e3da39-b63d-4b08-8636-e3c9f23146c0][reciprocating spark-ignition engines]] using aviation gasoline (AVGAS) driving propellers
+- There have been some diesel engines due to their low [[id:da543acc-5803-4881-bb4e-b475f69a38d8][Specific fuel consumption]], but not widely used
+- The gasoline engines work on the Otto four stroke cycle of:
+  - Induction
+  - Compressions
+  - Expansion
+  - Exhaust
+- The advantages of a piston engine is that they are relatively simple to construct and maintain
+- Disadvantages:
+  - Lack of power, especially at altitude (hence usage of super/turbochargers)
+  - Relatively low airspeed due to propeller limitations
+  - Lower reliability compares to gas turbine

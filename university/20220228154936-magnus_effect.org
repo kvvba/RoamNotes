@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       9f18fe30-abaa-4d2d-af1f-5697f794c3b4
+:END:
+#+title: Magnus effect
+Cylinder can generate lift by [[id:54e6fb44-f9a9-4515-920b-9c3ada22d266][Circulation]]. Positive circulation is created by the rotation of the cylinder, with back spin creating positive lift. Top spin creates negative circulation and hence negative lift. The lift can be calculated by the [[id:1ee6f188-9cba-4870-8266-626fe7628cd6][Kutta-Joukowski theorum]].
+

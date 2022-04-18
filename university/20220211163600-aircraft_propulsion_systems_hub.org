@@ -1,0 +1,66 @@
+:PROPERTIES:
+:ID:       304844ab-62f4-48a6-a79e-cf751ab59d29
+:END:
+#+title: Aircraft Propulsion Systems hub
+
+* Theory
+** Introduction and atmosphere
+- [[id:e89bfa23-2189-4341-b810-6e9802312de9][Gas turbine engine basics]]
+- [[id:fbf46af4-7bac-468c-8341-316eafb0c830][International standard atmosphere]]
+** Non-dimensionals and compressible flow
+- [[id:da9febf0-bb76-41ca-91ba-956019158218][Dimensional analysis]]
+- [[id:c32353cd-f895-4369-be98-658ff8b86af3][Non-dimensional mass flow rate]]
+- [[id:b66fcf27-d26b-4e44-a1c4-fe3a6e777509][Compressible & incompressible flow]]
+- [[id:0e42ba60-18fc-4f17-a227-cf7cab76ca51][Mach number]]
+- [[id:d87f5e46-40b0-4516-bbd2-6f34a497c741][Energy conservation in ducts and nozzles]]
+- [[id:2aaabf68-4c99-46dd-8358-73edb77da674][Bernoulli equation]]
+- [[id:4bc4518b-9f85-4916-b6b6-de492344372f][Stagnation pressure]]
+- [[id:e1eae400-70c7-4e53-83a8-ad642e35553d][Stagnation temperature]]
+- [[id:4124edc3-1987-49c7-92cd-82f17ccfe2a3][Steady flow energy equation (SFEE)]]
+** Q curves and choked flow
+- [[id:97f627c6-3416-4b65-96a8-9c409dc44317][Quasi/semi non-dimensional numbers]]
+- [[id:8e7691a9-82fc-4502-b8d2-8f499ac12f48][Q curves]]
+- [[id:83203801-5c4e-4923-a8be-591387858834][Convergent-divergent flow]]
+** Engine characteristics
+- [[id:6e7e33eb-420b-4517-8993-5d24babea27c][Engine thrust]]
+- [[id:7ba9790c-aa85-443d-b250-07b85b094ebe][Propulsive efficiency]]
+- [[id:9822388d-f72a-4a55-be87-a1c2f505dee8][Thermal efficiency]]
+- [[id:918be29e-cf8e-4ca1-b7df-bb925892a9a5][Overall efficiency]]
+- [[id:da543acc-5803-4881-bb4e-b475f69a38d8][Specific fuel consumption]]
+- [[id:02582153-d969-4dff-970d-69d0a65931a4][Transfer efficiency]]
+- [[id:526ae3b2-15b0-4d4f-b89c-e07d5b8be09d][Specific thrust]]
+- [[id:f96249c2-2cc5-4013-bf22-0f662c8d3550][Bypass ratio]]
+** Aircraft performance
+- [[id:8037d6bc-18fe-4d9f-b178-8161e407e2b5][Aircraft weight]]
+- [[id:cfd9f787-1fa6-4fa8-a614-245fda8b34ad][Thrust at top of climb]]
+- [[id:256d2247-570a-4287-9797-d127858e9bcc][Breguet range equation]]
+** Engine cycles
+- [[id:bb975d06-10f8-41d2-b7cc-b0cb3af6393a][Entropy]]
+- [[id:872886f1-7923-45c2-a3d2-9dfdf57e6bb1][Brayton cycle]]
+- [[id:4b8ea1b7-bc32-4987-93d6-bd9b296d24ca][Cycle efficiency]]
+- [[id:841a1d13-5409-4bb8-bd35-5cbdcd423b6a][Compressor efficiency]]
+- [[id:102568d2-a06b-416f-9037-1ce6c86164db][Turbine efficiency]]
+** Work calculations
+- [[id:0cff770f-30ce-42f8-aa7a-1199c88fdb56][Isentropic efficiency]]
+- [[id:06d06c29-66b3-4919-be38-ff91f884043d][Polytropic efficiency]]
+- [[id:cdf31e29-c1d1-49a7-a742-816785a1f2b3][Gas turbine power output]]
+- [[id:62256ae8-6aba-415a-8d06-05d972c3f8b9][Fuel-air ratio]]
+  
+* Design
+** Light aircraft
+- [[id:4ba18236-f287-4165-9455-544acfca9987][Light aircraft propulsion]]
+- [[id:28e3da39-b63d-4b08-8636-e3c9f23146c0][Aero reciprocating engines]]
+- [[id:aadfa7a9-665c-406f-9641-7cd3d83b1017][Propellers]]
+** Engine architectures
+- [[id:8861753a-0065-447a-8a0b-ec10cccf54f6][Gas turbine engine design]]
+- [[id:c6f633a5-77b8-4196-ac15-7b8641ab386e][Turbojets]]
+- [[id:39a7c24d-df84-493f-a8e1-536b65b66981][Low bypass ratio engines]]
+- [[id:5bd17ae4-4895-4162-9f91-416c5c444266][High bypass ratio engines]]
+** Intakes, reversers, nozzles
+- [[id:afaae5ae-2bb5-4dee-8bf8-49f1635ea5b4][Air intake]]
+- [[id:b3aa54d4-7e14-4b66-8e86-e66af5d81e79][Propelling nozzles]]
+- [[id:3a3559d8-9c54-432f-a8e1-769911e2ccaa][Thrust reversers]]
+** Fans and compressors
+** Combustors
+** Engine airworthiness and certification
+** Ancillary componenets

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       0e42ba60-18fc-4f17-a227-cf7cab76ca51
+:END:
+#+title: Mach number
+
+* Mach number
+Mach number (Ma) = v/a
+Where v is the velocity of the fluid, and a is the speed of sound in the fluid.
+
+* Speed of sound in a fluid
+a = (\gamma Rt)^-0.5
+Where \gamma is the air-ration of specific heats, t is static temperature, and R is the gas constant.
+\gamma = 1.4, R = 287 J/kgK
+

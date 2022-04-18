@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       b1d6e8fe-ce6a-431e-96bd-6a70ec809625
+:END:
+#+title: Explicit scheme
+
+[[id:d20c1d12-c5cb-4518-8446-8b7bd9fedd1c][Temporal discretization]] of the [[id:9144ea7d-bb69-4755-99f5-ceeffe2bb21f][unsteady]] heat conduction equation using the explicit scheme.
+The next time step n+1 is calculated using only values at n, which are known. This is in contrast to the [[id:575f159f-700d-460c-a20a-c69a2c32dfd2][Implicit scheme]], which uses the n and n+1 values.
+T_i^(n+1) = T_i^n + \Delta t RHS^n
+
+Using a central difference (see: [[id:7b412b3c-ecce-47ff-a186-ef2fb10cf387][Finite differences]]) on the example equation:
+T_i^(n+1) = T_i^n + (\Delta t)/((\Delta x)^2) \cdot (T_(i+1)^n - 2T_i^n + T_(i-1)^n)
+
+By definition, in an explicit approach, each difference equation contains only one unknown.
+It is very simply to code and ideal for parallelisation (see: [[id:725c9328-6390-45b6-aaab-2d73693f1ded][HPC basics]]) as each process can update its mesh points based on known old values.
+
+* Advantages and disadvantages
+** Advantages
+- Relatively simple to set up and program
+- Straightforward to parallelise
+** Disadvantages
+- \Delta t must be less than some limit imposed by stability constraints
+- In some cases, \Delta t must be very small to maintain stability
+- This can result in long computer run times to make calculations over a given interval of t

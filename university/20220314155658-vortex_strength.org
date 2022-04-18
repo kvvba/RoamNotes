@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       c0edfc27-d11a-44e4-bf55-091b7e5fd3f3
+:END:
+#+title: Circulation distribution
+
+Circulation distribution for a thin flat plate aerofoil.
+
+\gamma(x) = 2U_0 sin\alpha ((c/x) - 1)^0.5
+
+* Derivation
+Need to find the velocity at point x_0 to calculate [[id:5ed93b04-7d4e-4c12-9c0f-fd4e9bca3b02][Theoretical pressure coefficient]], so need to sum the contributions from all small vorticies + free stream at x = x_0.
+Each small vortex has [[id:54e6fb44-f9a9-4515-920b-9c3ada22d266][Circulation]] \Gamma = \gamma(x)dx
+Where \Gamma = 2\pi K, where K is vortex strength.
+
+K = (\gamma(x)dx)/(2\pi)
+
+An [[id:46eacf6c-195d-4f0b-81f9-62bc6f4c2f36][Irrotational]] vortex has velocity
+v_\theta = -(K/r)e_\theta, v_r = 0
+
+Vorticies at x to left of x_0 act straight down on the point, vorticies to the right act straight up.
+With magnitude (K/r) = ((\gamma(x)dx)/(2\pi))/(|x - x_0|)
+
+So velocity, at x_0 from small vortex at x is
+v = (\gamma(x)dx)/(2\pi(x-x_0))
+u = 0
+
+Hence integrate over x
+
+v(x_0) = \int^c_0 (\gamma(x)dx)/(2\pi(x-x_0))
+
+Superpose vertical velocity from free stream
+v(x_0) = U_0 sin\alpha + \int^c_0 (\gamma(x)dx)/(2\pi(x-x_0))
+
+Know from protential flow theory, wing needs to be a streamline. So total wall-normal velocity has to vanish.
+
+U_0 sin\alpha = - \int^c_0 (\gamma(x)dx)/(2\pi(x-x_0))
+
+Hence
+
+\gamma(x) = 2U_0 sin\alpha ((c/x) - 1)^0.5

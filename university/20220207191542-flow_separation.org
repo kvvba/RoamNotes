@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       e9513ab1-f584-4c25-bc92-ef4fcc3ce52b
+:END:
+#+title: Flow separation
+
+Thin aerofoil theory (see: [[id:84005369-0a9e-48a7-8c69-53bc4422377a][Lift]]) not valid at high angle of attack as flow separation occurs, stalling the aerofoil.
+
+All aerofoils stall at some angle of attack. Aerofoil reaches C_L,max (see: [[id:12e0bef5-93ff-41f3-9ba2-22bb42b782a2][Aerofoil coefficients]]) and then stalls as AOA further increased due to flow separation.
+
+Different aerofoils have different stall behaviour.
+
+* Stall behaviours
+- Trailing edge stall
+  - Partial loss of lift
+  - As AOA increases, stall moves toward leading edge
+  - Pilot has time to react
+  - Typical of relatively thick aerofoils
+- Leading edge stall
+  - Complete loss of lift
+  - Typical of relatively thin aerofoils
+
+* Cause of flow separation
+On the upper aerofoil surface, there is higher pressure at the leading and trailing edges of the aerofoil, and lower pressure in the midsection. Therefore there is an adverse pressure gradient between the midsection and trailing edge.
+
+dp/dx > 0

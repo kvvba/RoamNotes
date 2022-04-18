@@ -1,0 +1,193 @@
+:PROPERTIES:
+:ID:       aadfa7a9-665c-406f-9641-7cd3d83b1017
+:END:
+#+title: Propellers
+
+* Propeller terminology
+** Nomenclature
+Fixed pitch:
+A one-piece propeller with a single fixed blade angle. The pitch must be high enough to offer good cruising performance yet low enought to achieve acceptable take off and climb characteristics.
+
+Controllable pitch:
+A propeller which allows the adjustment of blades to any desired angle during flight.
+
+Constant speed:
+A propeller used with a governor, which automatically provides constant RPM by counteracting the forces acting on the propeller to change the blade angle within a pre-set range.
+
+Full-feathering:
+A propellor which allows blades to be rotated to a high positive angle to stop rotation (windmilling) after an engine is shut down, thereby reducing drag and symmetric control forces on twin-engine applications.
+
+Reversing:
+A propeller with blades that can be rotated to a position less than the normal positive low blade angle setting until a negative blade angle is obtained, producing a rearward thrust to slow down, stop, or move the aircraft backward. Typically only fitted to turbine installations.
+
+Beta control:
+A propeller which allows the manual repositioning of the propeller blade angle beyond the normal low pitch stop. These are used most often in taxiing, where the thrust is manually controlled by adjusting blade angle with the power lever. These types of propellers are installed exclusively on turbine engines.
+
+** Common terms
+Blade: one arm of a propeller from hub to tip.
+
+Hub: centre section of the the propeller which carries the blades and is attached to the engine shaft.
+
+Spinner: a metal cover enclosing the propeller hub, which improves the appearance of the propeller and may also streamline airflow for engine cooling purposes.
+
+Blade tip: the part of the blade furthest from the hub.
+
+Blade shank: the section of the blade nearest the hub.
+
+Blade butt: the portion of a blade inside the hub used to retain the blade.
+
+Blade camber surface: the cambered or most-cambered side of a blade (visible from the front of the aircraft).
+
+Blade face or thrust surface: the flat side of a blade (normally visible from the cockpit of the aircraft).
+
+Blade leading edge: the forward full "cutting" edge of the blade that leads in the direction of rotation.
+
+Blade trailing edge: the continuous edge of the blade that trails the leading edge in the direction of rotation.
+
+Governor: a device, generally mounted on and driven by the engine, which senses and controls engine speed by hydraulically adjusting the blade angle of the propeller.
+
+Prop diameter: the diameter of the circle circumscribed by the blade tips.
+
+Blade station: one of the designated distances along the blade as measured from the centre of the hub.
+
+Blade thickness: the maximum thickness between the cambered surface and the face or thrust surface at a given blade station.
+
+Blade width: the measurement between the leading edge and the trailing edge at a given blade station.
+
+Chord line: a theoretical straight line (perpendicular to blade length) between the leading and trailing edges of the blade.
+
+Blade angle: the angle between the chord line of a propeller blade section and a plane perpendicular to the axis of propeller rotation.
+
+Blade angle settings: low and high angle settings of a controllable-pitch prop - for feather, reverse, latch, and start locks - which are determined by built-in mechanical hard stops.
+
+* Propeller materials
+Wooden propellers have bee used from before WW2 and continue to be used.
+- They are light and break easily if impacted but without damaging the engine crankshaft
+- Laminated construction
+
+Aluminium are now the most popular due to their durability
+- Made from a single forging
+
+Metal propellers are generally limited to M_tip of 0.85 and wooden ones to M_tip of 0.75.
+
+* Propeller design
+** Speed
+There is an optimum [[id:335c0324-aef0-47a3-ace8-31f8ddd1ae4d][angle of attack]] for maximum [[id:84005369-0a9e-48a7-8c69-53bc4422377a][Lift]] drag ratio. The angle where the lift is 0 is the zero lift angle.
+
+Pitch angle may be defined with respect to the chord line, zero lift line, flat under surface of the blade section.
+
+As the forward speed increases, the AoA decreases towards the zero lift point, reducing lift and hence thrust. As the propeller is rotating around the axis, the speed increases towards the blade tip.
+
+A fixed pitch propeller is most efficienct at one forward and one propeller rotational speed.
+
+** Blade twist and pitch
+The blade angle needs to twist about its longitudinal axis to maintain the optimum angle of attack for the differing propeller speeds at the various radii. The aerofoil chord or blade section usually reduced towards the tip of the blade to reduce radial stress.
+
+** Blade geometric pitch
+Geometric pitch = 2\pi r
+
+As pitch varies with radius, industry standard has found from testing that the most accurate measurement of pitch is at the 75% position of the radius. Often data is given at 75%.
+
+** Geometric and effective pitch
+An efficient propeller has a low amount of slip and therefore converts more horsepower into thrust. Ideally, as the aircraft moves forward the advance of the propeller would match the advance of the aircraft. However, there is a slip between the geometric pitch and effective pitch - the lower the slip, the higher the efficiency.
+
+Advance coefficienct:
+J = V_0 / (ND)
+
+Pitch ratio:
+p_r = p/D
+
+Slip:
+Slip = (Np - V_0)/(Np) = 1 - (J)/(p_r)
+
+Where:
+D - propeller diameter
+p - geometric propeller pitch
+N - propeller rotational speed
+V_0 - airspeed
+
+** Momentum or actuator disc theory
+F = 2\rho \cdot A_B u_ab (V_A + u_ab)
+P = 2\rho \cdot A_B u_ab (V_A + u_ab)^2
+
+Where:
+F - thrust
+P - power
+A - disc area
+\rho - fluid density
+V_A - velocuty at A
+u_ab - change in velocity from A to B (propeller induced flow)
+
+** Glauert blade element theory
+The propeller is divided into a number of sections which can be analyses using life and drag parameters. Then, a balance of axial and angular momentum is applied. The outcome is a set of equations which have to be solved by iteration. Thrust and torque can be summed to predict the overall performance of the propeller. There are a number of limitatiosn but it does provide first order predictions.
+
+** Propeller thrust, power, and torque
+In addition to the momentum and glauert theories there are a number of computational methods and software available to design propellers. Despite these sophisticated [[id:a1347854-68de-4ec7-a94f-99d7db3b2a01][computational techniques]], a considerable amount of physical testing is still required. Thrust is a function of the propeller geometry, speed, air density, Reynolds number, and local [[id:0e42ba60-18fc-4f17-a227-cf7cab76ca51][Mach number]]. The performance of a propeller is a function of the thrust coefficienct C_T, the power coefficient C_P and efficiency \eta. Propeller manufacturers produce a set of these coefficients for a particular propeller based on analysis and testing.
+
+Thrust F_N = C_T \rho N^2 D^4
+Torque Q = C_Q \rho N^2 D^5
+Power P = C_P \rho N^3 D^5
+\eta = (TV_0)/(P) = (TV_0)/(2\pi NQ)
+C_P = 2\pi C_Q
+\eta = JC_T/C_P
+
+Where:
+C_T is thrust coefficient
+C_Q is the torque coefficient
+C_P is the power coefficient
+\rho is air density (kg.m^-3)
+N is propeller rotational speed (s^-1)
+D is propeller diameter (m)
+
+** Aircraft effects
+- Residual whirl
+  - The airflow continues to rotate in the same direction as the propeller
+  - This provides a yaw moment which has to be compensated by the application of rudder
+- Gyroscopic effects
+  - A single engine aircraft at take-off rotation will also experience yaw due to propeller gyroscopic forces
+- These effects can cause problems if an aircraft type is fitted with engines that have opposite rotation
+
+** Cessna 150/152
+In an aircraft with a fixed pitch propeller there are only three engine controls:
+- Throttle: engine power and speed control, black knob
+- Mixture: to var AFR (air-fuel ratio), red knob
+- Carburettor heat: preven [[id:28e3da39-b63d-4b08-8636-e3c9f23146c0][carburettor icing]], small black knob
+
+Smaller light aircraft typical airspeeds and engine speeds:
+- Take off 55kts, 2300rpm
+- Climb 75kts, 2300rpm
+- Cruise 90kts, 2100rpm (most efficient condition)
+- Approach 70kts, 1700rpm
+
+** Variable pitch propellers
+Blade pitch can vary from fine pitch (slow speed, high AoA) mid range and then to coarse pitch (high speed).
+
+Propeller speed is set by adjusting the pitch:
+- Indicated by the engine rev counter (tachometer)
+- For take-off and approach pitch is set to fine
+
+The engine power is set using engine throttle but in this case as the speed is constant:
+- Pressure (vacuum) in the induction manifold is an indication of the engine power
+- The lower the pressure, the higher the vacuum, the higher the power. Measured in inches of mercury inHg
+
+If the engine power is altered the pitch angle automatically adjusts to maintain desired speed
+
+Larger ligth aircraft typical airspeeds and engine speeds:
+- Rotate 50-55kts, 23inHg, 2450rpm, pitch find
+- Initial climb 75kts, 23inHg, 2450rpm
+- Climb 75kts, 23inHg, 2600rpm
+- Cruise 125kts, 22inHg, 2300rpm (most efficient condition)
+- Approach 65-70kts, 1700rpm, pitch fine
+
+** Contra-rotating propellers
+Two sets of propellers, one behind the other, spinning in opposite directions. This greatly reduces the amount of residual swirl. Typically one of the propellers is shut off during cruise.
+
+** Propeller integrity
+- Propellers need to be ceritified for safe operation. Typical certification specifications for propellers, EASA CS-P
+- Covers all types, fixed and variable
+- The regulations cover bird impact, lightening strike, the control system operation and indication for variable pitch propellers
+- Specifies the testing required, functional and endurance
+- Hazardous failure effects must not occur at a rate in excess of that defined as Extremely Remote
+  - i.e. less than 1 in 10^7 flight hours
+- This requires identification of critical parts and their removal at a safe life.
+

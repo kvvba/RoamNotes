@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       5a271757-2d3d-4df6-9e53-6bd6f28e8081
+:END:
+#+title: Inviscid flow
+
+- Flow around a body can be divided into inviscid outer flow, and [[id:c964008d-001e-48fe-ad26-206933f613bc][Viscous flow]] in the boundary layers and wakes
+- Inviscid theory works well for the outer flows if pressure gradients are small
+- Inviscid theory will not predict boundary layer growth or separation
+- Usually external inviscid flows are [[id:46eacf6c-195d-4f0b-81f9-62bc6f4c2f36][irrotational]]
+  - But not in [[id:c964008d-001e-48fe-ad26-206933f613bc][Viscous flow]]
+
+* Mathematical definition
+** Cartesian coordinates
+Velocity vector in 2D:
+V = (u,v)
+
+Inviscid flow:
+\mu\nabla^2 V \approx 0
+Where \nabla^2 represents the vector laplacian (in this case of velocity V).
+And \mu represents dynamic viscousity.
+
+\nabla^2 V = ((\partial^2 u)/(\partial x^2) + (\partial^2 u)/(\partial y^2) , (\partial^2 v)/(\partial x^2) + (\partial^2 v)/(\partial y^2))
+
+Viscous term is ignored in inviscid flow. Relation between viscous term and other terms is O(1/Re), so this is good approximation in high velocity regions in high Re number flows. (Not in boundary layers or wakes).
+
+
+* Pressure in inviscid flow
+[[id:04ab74b5-df67-47c1-aa87-33c022c84501][Euler equations]] in 1D neglecting gravity,
+VdV = -(dp)/(\rho)
+
+In 2D,
+V \cdot \nabla V = -\nabla (p/\rho)
+Vector calculus identity,
+V \cdot \nabla V = \nabla(V \cdot V)/(2) - V \times (\nabla \times V)
+\nabla \times V = 0 for [[id:46eacf6c-195d-4f0b-81f9-62bc6f4c2f36][Irrotational flow]] hence:
+V \cdot \nabla V = \nabla (|V|^2)/(2)
+Using 2D Euler:
+\nabla (|V|^2)/(2) = -\nabla (p/\rho)
+
+Which can be rewritten as:
+\nabla((|V|^2)/(2) + (p)/(\rho)) = 0
+
+This is the [[id:2aaabf68-4c99-46dd-8358-73edb77da674][Bernoulli equation]] and can be applied between any two points in irrotational flow.

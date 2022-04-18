@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       04ab74b5-df67-47c1-aa87-33c022c84501
+:END:
+#+title: Euler equations
+
+* General notes
+- Euler equations neglect effects of fluid viscosity.
+- Provide good model for some problems
+  - e.g. lift of aerofoil at low angle of attack
+- Do not provide good model for problems such as growth of boundary layer
+  - Problems which are dependant on viscousity
+- Must be solved simultaneously
+  - Dependant vartiables appear in each equation
+- Analytical solutions difficult to obtain
+- Can be obtained from [[id:917a4eb2-c4c0-4bbf-83d8-ed65ccef18f2][Navier-Stokes equations]] at high Reynolds numbers
+
+  By considering fluid shear stresses on the control volume, forms the [[id:917a4eb2-c4c0-4bbf-83d8-ed65ccef18f2][Navier-Stokes equations]].
+
+Use in conjuction with [[id:ad8a5073-fd5d-4c39-8b28-749060131385][Mass continuity equation]].
+
+* 2-Dimensional, steady form
+- LHS represents advection of fluid
+- RHS represents pressure gradient of the flow
+  
+** X Momentum
+(\partial(\rho u^2))/(\partial x) + (\partial(\rho uv))/(\partial y) = -(\partial p)/(\partial x)
+** Y Momentum
+(\partial(uv))/(\partial x) + (\partial(\rho v^2))/(\partial y) = -(\partial p)/(\partial y)
+

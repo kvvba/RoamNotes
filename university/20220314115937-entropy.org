@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       bb975d06-10f8-41d2-b7cc-b0cb3af6393a
+:END:
+#+title: Entropy
+
+dS = (\delta Q)/T
+
+Entropy is a measure of the order of a system. The higher the entropy, the more disordered the system.
+
+Proceeding in an infinitesimally gradual manner results in the system remaining at constant entropy, this is known as an isentropic process. Isentropic processes produce maximum work output.
+In reality this is not possible, and so the [[id:0cff770f-30ce-42f8-aa7a-1199c88fdb56][Isentropic efficiency]] relates the ideal process to the real process.

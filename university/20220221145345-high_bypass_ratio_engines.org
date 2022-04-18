@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       5bd17ae4-4895-4162-9f91-416c5c444266
+:END:
+#+title: High bypass ratio engines
+
+* Requirements for wide body aircraft
+- Lower specific thrust (higher bypass ratios)
+- Single stage fan for lower noise
+- Higher pressures and temperature for improved thermal efficiency
+- More sophisticated materials for life and weight
+- Improved nacelle aerodynamics
+
+* Three spool vs two spool
+In reality perform very similarly.
+Design point for these engines is altitude cruise, with SPC maximised by choice of cycle TET, overall pressure ratio, and bypass ratio. Resulting takeoff and possibly climb TET will be higher than cruise TET and these will be the turbine lifing points. As BPR increases, lower specific thrust, the decay of net thrust with increasing forward speed, the lapse rate, is more pronounced. The level of thrust and the end of the runway determines takeoff performance. This case must be considered when defining a cycle.
+** Two spool
+*** Pros
+- Build upon well established technologies
+- Uncomplicated architecture
+- Two spools can be developed in isolation
+*** Cons
+- Booster has to run at LP speed
+- High number of stages with high mean radius to produce reasonable pressure ratio
+  - Resulted in high hub tip ratio fan
+- HP compressor has high pressure ratio requiring many variable stages
+** Three spool
+*** Pros
+- Reduces need for variable stages allow IP (intermediate pressure) spool to run at optimum speed
+- Fan can be optimised resulting in lower hub tip ratio
+  - Resulting in higher mass flow for given fan diameter
+- Engine has fewer stages and is shorter & stiffer, reducing in-service deterioration
+*** Cons
+- Increased mechanical complexity

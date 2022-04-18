@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       4124edc3-1987-49c7-92cd-82f17ccfe2a3
+:END:
+#+title: Steady flow energy equation (SFEE)
+
+h_1 + (1/2)v_1^2 = h_2 + (1/2)v_2^2
+Where h [J/kg] is specific enthalpy.
+
+h = c_p T
+Where c_p [J/kgK] is the specific heat capacity at constant pressure.
+
+Assuming no work or heat transfer into or out of the system.

@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       f33283e3-78ab-476c-aefa-75e0e4d0e920
+:END:
+#+title: Camber of 2D aerofoils
+
+A [[id:409d7757-4dbe-4b93-a6e7-38e372b9bb7b][cambered]] aerofoil will produce non-zero [[id:84005369-0a9e-48a7-8c69-53bc4422377a][Lift]] at 0 angle of attack.
+The zero-lift angle of attack is denoted as \alpha_0, it has a small negative value for cambered aerofoils and zero for symmetric aerofoils.
+
+Before stall, the [[id:f58d0440-a6c0-4713-b070-bc20f75c206c][lift coefficient]] is defined for both symmetrical and asymmetrical thin aerofoils:
+C_L = 2\pi(\alpha - \alpha_0)
+
+* Estimating \alpha_0 from camber
+Parabolic camber line of height h and chord length c:
+y_c = 4h \cdot (x/c) \cdot (1 - (x/c))
+
+Therefore:
+C_L = 2\pi\alpha + 4\pi \cdot (h/c) = 2\pi\alpha + 2\pi \cdot (2h/c)
+Where h is small, tan(\beta) = (2h/c)
+Where \beta is the angle from the leading edge to the maximum point of the parabolic aerofoil at x=(c/2), y=h.
+For small angles \beta (thin aerofoils), tan(\beta) \approx \beta
+Hence \beta \approx 2h/c
+
+Hence:
+C_L = 2\pi(\alpha + \beta)
+Where \beta = tan^-1(2h/c) \approx 2h/c
+
+Therefore:
+C_L = 2\pi(sin\alpha + sin\beta)
+(small angles: sin\beta \approx \beta)
+
+Substituting into form C_L=2\pi(\alpha - \alpha_0)
+
+\alpha_0 = -sin(\beta) \approx -\beta = -(2h/c)
+This formula is a good approximation to even non-parabolic camber, because only parabolic part of camber contributes to lift.

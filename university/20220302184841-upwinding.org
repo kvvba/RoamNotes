@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       0023b56a-2aaf-4155-85c3-e14076f7a59c
+:END:
+#+title: Upwinding
+
+When using the [[id:7b412b3c-ecce-47ff-a186-ef2fb10cf387][Finite differences]] method, problems of over and undershoot can occur when convection dominated, corresponding to the Reynolds number for the nonlinear [[id:917a4eb2-c4c0-4bbf-83d8-ed65ccef18f2][Navier-Stokes equations]]. This can cause artificial waves in the solution, the values of which fluctuate corresponding to the mesh points. This can cause the solution to become unstable and diverge.
+
+The central differencing scheme uses equal weighting from left and right. We can use backwards or forward schemes to provide bias toward the upwind direction.
+
+* Upwind scheme
+In the case of flow from left to right:
+(\partial T)/(\partial x) = (T_i - T_(i-1))/(\Delta x)
+This is the first order upwind scheme.
+
+* Hybrid schemes
+Hybrid schemes use a combination of central and upwind differencing.
+
+F = \sigma F_cen + (1 - \sigma)F_upw
+Where \sigma is a user defined variable set throughout the domain. Upwind schemes are advantageous for stability and help to alleviate overshoot and undershoot. Only want enough upwinding to remove erroneous oscillations, \sigma should be close to 1.

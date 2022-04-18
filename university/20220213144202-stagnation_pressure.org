@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       4bc4518b-9f85-4916-b6b6-de492344372f
+:END:
+#+title: Stagnation pressure
+
+Denoted either by p_o or P.
+
+Can be calculated for both [[id:b66fcf27-d26b-4e44-a1c4-fe3a6e777509][Compressible & incompressible flow]].
+
+Stagnation pressure is analagous to [[id:e1eae400-70c7-4e53-83a8-ad642e35553d][Stagnation temperature]].
+
+* Incompressible flow
+Pressure experienced when flow comes to a standstill, a stagnation point.
+
+P = p + (1/2)\rho v^2 + h_g
+Where p is the static pressure.
+
+[[id:2aaabf68-4c99-46dd-8358-73edb77da674][Bernoulli equation]] states P_1 = P_2 if no heat or work is exchanged with surroundings.
+
+* Compressible flow
+State attained by the fluid when it is decelerate to zero speed in a loss-free manner.
+For ideal (loss-free) process:
+
+(P)/(p) = (1 + M^2 \cdot (\gamma - 1)/(2))^(\gamma / (\gamma -1))
+
+Where M is [[id:0e42ba60-18fc-4f17-a227-cf7cab76ca51][Mach number]], and p is static pressure.

@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       b3e24bf2-bc70-4384-ab3b-31626d756d82
+:END:
+#+title: Aerodynamics Hub
+
+* Aerodynamics basics
+- [[id:12e0bef5-93ff-41f3-9ba2-22bb42b782a2][Aerofoil coefficients]]
+- [[id:335c0324-aef0-47a3-ace8-31f8ddd1ae4d][Aerofoil terminology]]
+- [[id:e9513ab1-f584-4c25-bc92-ef4fcc3ce52b][Flow separation]]
+- [[id:36fb8401-5a82-4a8a-a9b8-652a12fd56f1][Aerofoil categories]]
+- [[id:409d7757-4dbe-4b93-a6e7-38e372b9bb7b][Aerofoil camber]]
+- [[id:84005369-0a9e-48a7-8c69-53bc4422377a][Lift]]
+
+* Potential flow
+- [[id:5a271757-2d3d-4df6-9e53-6bd6f28e8081][Inviscid flow]]
+- [[id:c964008d-001e-48fe-ad26-206933f613bc][Viscous flow]]
+- [[id:46eacf6c-195d-4f0b-81f9-62bc6f4c2f36][Irrotational flow]]
+- [[id:4615a930-1324-46e2-a2d7-ee818ea1ae67][Velocity potential]]
+- [[id:2ff01540-28bc-48a4-a292-c9013669295b][Streamfunction]]
+- [[id:5ebe9122-1ae2-42c8-bab1-64150e5a8e77][Sources and sinks]]
+- [[id:54e6fb44-f9a9-4515-920b-9c3ada22d266][Circulation]]
+- [[id:9f18fe30-abaa-4d2d-af1f-5697f794c3b4][Magnus effect]]
+- [[id:1ee6f188-9cba-4870-8266-626fe7628cd6][Kutta-Joukowski theorum]]
+
+* Thin aerofoil theory
+- [[id:b096a87c-7f4d-49ea-afd4-b6376df6447d][Coefficients from measurements]]
+- [[id:2b5b47ae-cc62-4cae-8895-7d444a9511e2][Thin aerofoil theory]]
+- [[id:87f8d869-0a12-4319-90a1-005b18e2d5b7][Incidence flow]]
+- [[id:c0edfc27-d11a-44e4-bf55-091b7e5fd3f3][Circulation distribution]]
+** 2D aerofoil characteristics
+- [[id:5ed93b04-7d4e-4c12-9c0f-fd4e9bca3b02][Theoretical pressure coefficient]]
+- [[id:f58d0440-a6c0-4713-b070-bc20f75c206c][Theoretical lift coefficient]]
+- [[id:2d30ca07-48dc-478b-95b8-8d0a207f779f][Theoretical pitching moment coefficient]]
+- [[id:f33283e3-78ab-476c-aefa-75e0e4d0e920][Camber of 2D aerofoils]]
+- [[id:36fb8401-5a82-4a8a-a9b8-652a12fd56f1][Aerofoil categories]]
+** 3D aerofoils
+- [[id:626f17bb-0f09-4335-81ef-03cfd2f4eb87][Trailing vortices]]
+- [[id:257e9f3a-83d9-4361-a517-68adc880d7ee][Downwash]]
+- [[id:9bfd0909-1c43-48d0-84ed-1c179add56d7][Biot-Savart theorem]]
+
+* Aerofoil characteristics
+
+* Finite span wing
+
+* Boundary layer control
