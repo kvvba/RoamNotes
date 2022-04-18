@@ -1,8 +1,0 @@
-:PROPERTIES:
-:ID:       e8430698-9481-4339-a037-b017fee7e4db
-:END:
-#+title: Graphical processing units
-
-GPUs are very efficient for a limited number of operations (rendering pixels on screen). Graphics rendering is done in a highly parallel way using GPUs.
-
-While CPUs have a wide range of capabilities, GPUs have a far more limited range - but within that range are incredibly efficient. Many of the operations they excell in are very similar to operations performed in CFD codes. Some literature reports a 20x speedup over CPUs. GPUs are 3x more energy efficient than CPUs.

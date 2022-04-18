@@ -1,9 +1,0 @@
-:PROPERTIES:
-:ID:       ad8a5073-fd5d-4c39-8b28-749060131385
-:END:
-#+title: Mass continuity equation
-
-* In 2D
-(\partial\rho u)/(\partial x) + (\partial\rho v)/(\partial y) = 0
-
-This must be satisfied in each control volume.
