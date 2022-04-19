@@ -16,4 +16,8 @@ Hence [[id:257e9f3a-83d9-4361-a517-68adc880d7ee][Downwash]] velocity from one in
 
 w(z^0) = (d\Gamma(z))/(4\pi(z-z^0))
 
-Therefore 
+Therefore integrating over the span:
+
+w(z^0) = \int_-s^s (d\Gamma(z))/(4\pi(z-z^0))
+
+* Downwash for an elliptical wing

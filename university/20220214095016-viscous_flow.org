@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       c964008d-001e-48fe-ad26-206933f613bc
-:END:
-#+title: Viscous flow
-
-Viscous flows occur in boundary layers are where flow separation occurs. Viscous flows are not [[id:46eacf6c-195d-4f0b-81f9-62bc6f4c2f36][irrotational]].

@@ -1,8 +1,0 @@
-:PROPERTIES:
-:ID:       02582153-d969-4dff-970d-69d0a65931a4
-:END:
-#+title: Transfer efficiency
-
-The inefficiency in transferring energy from the core to the bypass, which modifies the [[id:da543acc-5803-4881-bb4e-b475f69a38d8][Specific fuel consumption]] formula.
-
-\eta_trans = V_core / V_bypass

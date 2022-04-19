@@ -1,6 +1,0 @@
-:PROPERTIES:
-:ID:       f822b835-5e6b-414e-a6ea-fea4c2b49a01
-:END:
-#+title: Hybrid parallel memory architecture
-
-Some CFD code uses a combination of [[id:3f6851a8-5322-48f4-943e-d75101cd1190][Shared memory architecture]] and [[id:154bdb9f-4f87-4420-8b9d-c28e50bbd842][Distributed memory architecture]] to gain a performance advantage. They use shared memory parallelization for specific tasks.
