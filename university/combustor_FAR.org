@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       cfbd7595-dc48-4c30-ade4-bf334dcf1750
+:END:
+#+title: Combustor FAR and velocity
+
+Even with a stoichiometric fuel mixture (AFR ~15.0), extinction will occur is the air velocity is too great. The "blow-off" point is 10.67 m/s at this AFR.

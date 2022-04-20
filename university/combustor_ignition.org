@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       36162ffa-6f96-47d0-a06a-e87dc52962b7
+:END:
+#+title: Combustor ignition
+
+The ignition characteristics are influenced by physical features as well as thermodynamic conditions:
+- Igniter immersion
+- Spark rate
+- Spark energy
+- Fuel cone dimensions and pattern
+- Fuel atomisation
+Ignition can vary with aircraft speed and altitude - high power is required for relight at high altitudes and is sometimes needed for starting. Typical power of 2J over 1 microsecond (2MW).
+Under certain flight conditions, for example descending in rain at flight idle, it may be necessary to have constant ignition to prevent a flameout. For these conditions, a lower power output is preferred to give a longer igniter life.

@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       749b6fab-dcdb-4002-a20c-27ec3eefe53a
+:END:
+#+title: Courant number
+
+* Formula
+C = (u \Delta t)/(\Delta x)
+
+* Description
+High Courant number causes an unstable scheme, and conversely a low Courant number creates a stable scheme.
+As mesh is refined or Reynolds number increases, C increases, and therefore a smaller time step is needed.
+Courant number is a local quantity and can be evaluated at every mesh point, and should generally be kept at a value of 1.
+
+When running unsteady calculations it's good practice to contour the Courant number. This can be used to help decide a time step for a flow solution.
+
+* Physical significance
+A Courant number of 1 implies that a fluid particle moves one grid point per timestep, a Courant number of 2 implies a fluid particle moves two grid points per time step, and so on.
+Hence a Courant number C>1 implies that the mesh is being wasted.

@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       917a4eb2-c4c0-4bbf-83d8-ed65ccef18f2
+:END:
+#+title: Navier-Stokes equations
+
+Formed by extending the [[id:04ab74b5-df67-47c1-aa87-33c022c84501][Euler equations]] by considering fluid shear forces on the control volume.
+
+Use NS momentum equations in conjunction with the [[id:ad8a5073-fd5d-4c39-8b28-749060131385][Mass continuity equation]].
+
+Not possible to solve analytically for most applications (currently).
+
+At high Reynolds numbers, [[id:04ab74b5-df67-47c1-aa87-33c022c84501][Euler equations]] are obtained from NS equations.
+
+* Steady Navier-Stokes equations
+- 1st and 2nd terms account for inviscid advection of fluid
+- 3rd term accounts for pressure
+- 4th and 5th terms account for shear forces due to fluid viscosity
+** X-Momentum equation
+(\partial(\rho u^2))/(\partial x) + (\partial\rho vu)/(\partial y) = -(\partial p)/(\partial x) + (\partial\tau_yx)/(\partial y) + (\partial\tau_xx)/(\partial x)
+** Y-Momentum equation
+(\partial(\rho uv))/(\partial x) + (\partial(\rho v^2))/(\partial y) = -(\partial p)/(\partial y) + (\partial\tau_yy)/(\partial y) + (\partial\tau_xy)/(\partial x)
+
+* Unsteady Navier-Stokes equations
+- Time-dependant, add time derivative to steady NS equations
+** X-Momentum equation
+(\partial(\rho u))/(\partial t) + (\partial(\rho u^2))/(\partial x) + (\partial\rho vu)/(\partial y) = -(\partial p)/(\partial x) + (\partial\tau_yx)/(\partial y) + (\partial\tau_xx)/(\partial x)
+** Y-Momentum equation
+(\partial(\rho v))/(\partial t) + (\partial(\rho uv))/(\partial x) + (\partial(\rho v^2))/(\partial y) = -(\partial p)/(\partial y) + (\partial\tau_yy)/(\partial y) + (\partial\tau_xy)/(\partial x)
+** The substantial derivative
+Combines left hand side of the unsteady NS equations.
+*** X-Momentum
+(D\rho u)/(Dt) = (\partial(\rho u))/(\partial t) + (\partial(\rho u^2))/(\partial x) + (\partial\rho vu)/(\partial y)
+*** Y-Momentum
+(D\rho v)/(Dt) = (\partial(\rho v))/(\partial t) + (\partial(\rho uv))/(\partial x) + (\partial(\rho v^2))/(\partial y)
+
+* Newtonian fluid relationships
+\tau_xx = \lambda((\partial u)/(\partial x) + (\partial v)/(\partial y)) + 2\mu((\partial u)/(\partial x))
+\tau_yy = \lambda((\partial u)/(\partial x) + (\partial v)/(\partial y)) + 2\mu((\partial v)/(\partial y))
+\tau_xy = \tau_yx = \mu((\partial v)/(\partial x) + (\partial u)/(\partial y))
+
+Where \lambda = -(2/3)\mu
+And \mu is dynamic viscosity

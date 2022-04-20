@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       da9febf0-bb76-41ca-91ba-956019158218
+:END:
+#+title: Dimensional analysis
+
+Increases efficiency of experiments by reducing number of data points which need to be measured.
+
+* Buckingham Pi theorum
+If there are n variables in a problem and these variables contain m primary dimensions (e.g. M,L,T), the equation relating all the variables will have (n-m) dimensionless groups.
+
+e.g. drag on a sphere
+\Pi_1 = \rho^a V^b D^c F
+(M/L^3)^a (L/t)^b (L)^c (ML/t^2) = M^0 L^0 t^0
+\Pi_1 = (F)/(\rho V^2 D^2)
+n - m = 4 - 3 , so only 1 dimensionless group in this case.
+
+* Plotting
+Plot dimensional groups against each-other to produce curve. Then simple to extract data from the curve if other variables are known. Prevents a chart with many different curves for different values of a variable.

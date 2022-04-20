@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       de4c8033-abc9-4096-bdd8-fae3e612e78e
+:END:
+#+title: Combustion loading
+
+* Residence time
+The time spent in the combustion process. It is a function of the volume of the combustor divided by mass flow rate.
+* Reaction time
+The time taken for the combustion process to take place. It is an inverse function of static pressure and total temperature.
+* Combustion loading factor, \Lambda
+A function of residence time and reaction time.
+
+Combustion loading factor = (Reaction time)/(Residence time)
+
+\Lambda = W / (VP_31^1.8 \cdot 10^(0.00145 (T_31 - 400)))
+Where station 31 is the combustion inlet.

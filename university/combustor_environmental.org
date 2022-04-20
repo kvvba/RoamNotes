@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       76e6caec-b5af-46fe-8544-31e05ba5c83f
+:END:
+#+title: Combustor environmental concerns
+
+Aviation is responsible for a small but growing amount of mankind's emissions. The aviation contribution to human-generated CO_2 is currently 3-5%. Current emissions regulations are made by the international civil aviation organisation (ICAO). There are local concerns over air quality, specifically nitrous oxides and particulates. There are also global concerns such as water vapour, which is an insignificant contribution at lower altitudes but there is a concern on the potential impact at higher altitudes and the influence of contrails. Current understanding of the effect of nitrous oxide emissions from subsonic aircraft is that it will produce ozone, which is a powerful greenhouse gas. Recent results show that high altitude nitrous oxide produces approx. twice as much ozone as at low altitude - increasing the effect on global warming. There are many outstanding issues that the aerospace industry is contributing to and there are many international research programs underway to improve the understanding of these problems. Environmental concerns over aircraft engine emissions will continue to increase as the demand for travel increases.
+
+Nitrous oxide emissions peak at stoichiometric AFR. To reduce fuel burn by improving thermal efficiency, the TET is increased which reduces the CO produced - but at the cost of increasing the production of NO_X.
+
+Land-based gas turbines can address the emissions issues in two ways:
+- A water injection system
+  This significantly reduces nitrous oxide emissions by using demineralised water, which is injected into the combustion chamber, to regulate the flame temperature. This requires a water supply filtered to 20 microns of several litres per minute. This is impractical for aero engines.
+- Dry low emissions combustion
+  Uses the principal of lean pre-mixed combustion. It takes up more space than a conventional combustor, and cannot be connected directly to an axial turbine - and is therefore impractical for an aero engine.
+
+** Emissions landing and take-off cycle (LTO)
+The ICAO determines emissions regulations using the LTO cycle. This considers the engine emissions at airports. It's formulated to be representative of aircraft movements around airports up to 3000ft altitude and 30nm radius. Local airport emissions regulations, however, can be more demanding. The LTO cycle is not necessarily a good indicator of cruise emissions. Compliance is demonstrated by sea-level instrumented engine tests, as in-flight testing is impractical.
+
+Emissions testing
+| Operating mode | Power setting                     | Time in minutes |
+|----------------+-----------------------------------+-----------------|
+| Taxi / idle    | 7% take-off thrust                |            26.0 |
+| Take-off       | 100% standard day take-off thrust |             0.7 |
+| Climb          | 85% take-off thrust               |             2.2 |
+| Approach       | 30% take-off thrust               |             4.0 |
+
+** Emissions index
+The level of emissions is expressed in terms of an emissions index, which is the emissions in grams for each kg of fuel burnt.
+
+EI_poll = (m'_poll)/(m'_fuel) = (g/s)/(kg/s)
+Where "poll" subscript stands for pollution.
+
+The index is high at idle and approach, as the engine mass flow is low.

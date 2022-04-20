@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       63c1ba94-74ef-45e7-941a-f377b3ef5122
+:END:
+#+title: Combustor starting
+
+Engines are equipped with either an air starter or an electric starter generator. Each turn the high pressure spool by a radial driveshaft. The air starter can be powered by a dedicated ground cart, the aircraft's axillary power unit, or by cross-bleeding from another engine. Similarly, the electric starter can be powered by a ground cart or the aircraft's batteries. The engine must be turned fast enough to induce a sufficient mass flow, so that the AFR lies within the ignition envelope.
+
+Even if the fuel flow is sufficient to achieve ignition, it still may be too low to accelerate the engine to self-sustaining idle and the engine will hang. Over-fuelling will also prevent ignition.
+
+Flow into the combustor from the compressor must have a uniform profile.
+
+Although the combustion exit or turbine entry temperatures are used to design the engine, it's not practical to use these as control parameters as the temperatures are too high for reliable instrumentation. There is a relationship between TET and LP turbine entry temperature, TGT, which is a lower temperature and can be used as a parameter to control the engine.

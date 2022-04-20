@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       5f6c0bc6-9605-4ad6-966f-d27b8f3ad1b1
+:END:
+#+title: Modern combustors
+
+The most common type of modern combustor is fully annular. These have a low pressure loss (~5%) and lower weight than can/cannular combustors, and have good light around characteristics with more uniform combustion. They also are shorter and have less surface area. However, they require a large facility for testing using a full-size rig.
+
+Modern combustors feature a diffuser, a diverging passage, reduces the velocity of the compressor exit air flow with minimal pressure loss. Flow is guided from the diffuser to the combustor passages with minimal pressure loss. A dome at the front of the combustor structure provides shelter and means of flame stabilisation for the primary combustion zone. A combustion liner composed of tiles is used, which extend from the dome to the turbine nozzle for control of combustion and dilution air jets, and film cooling. They are cast and bolted to a structural steel casing. The material has a high temperature capability and is similar to the material of the turbine blades, and the casting allows for cooling passages to be incorporated. The inner and outer cases are structural which carry the thrust loads. Fuel injectors provide fuel to the primary combustion zone, usually through the dome. The igniter is in the dome or primary zone. Boroscope access has been a feature on all annular combustors.
+
+** Air spray fuel injectors
+The air spray nozzle carries a proportion of the primary combustion air with the injected fuel. By aerating the spray, local fuel-rich concentrations are avoided. This reduces both carbon formation and exhaust smoke. A flow distributor is often required to compensate for the gravity head across the manifold at low pressure levels, to ensure all spray nozzles spray equal quantities of fuel.
+
+** Wall cooling
+The airflow quantity to each zone is optimised by development testing, to achieve acceptable metal temperatures. This optimisation involves the cooling flow effective feed area for each zone. The resultant porosity, the ratio of feed area to zone wall surface area, is a powerful influence on the effectiveness of the cooling film. Typically, cooling porosity varies along its length. All cooling flow may be typically 30% of total combustor flow.
+
+*** Methods
+- Corrugated strip cooling
+- Machined cooling ring
+- Splash cooling strip
+- Transpiration cooling
+- Cast tiles - used in all modern combustors

@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       5fd0b5d9-05af-441e-8268-2dcbf5a67034
+:END:
+#+title: Combustor zones
+
+* Primary zone
+HP delivery air is reduced in velocity and a portion is swirled, which causes recirculation and high turbulence to allow the flame to stabilise. Full combustion does not occur. For satisfactory burning conditions, some air flow is required through the injector to atomise the fuel and ensure adequate mixing.
+* Secondary zone
+Most of the delivery air is ducted around the combustion chamber. Some enters the secondary zone of the chamber through a series of liner holes. This air completes the reaction process and reduces the mean gas temperature, and dilutes the high concentration of CO and hydrogen.
+* Dilution zone
+The remaining air continues to be ducted around the combustion chamber and enters the dilution zone, so that the fuel-air-ratio achieves the desired value and the temperature at turbine entry is acceptable.
+* Velocities
+Delivery air: 0.3 Mn
+After diffuser: 0.2 Mn
+Primary zone: 0.05 Mn, turbulent
+Air around chamber: 0.1 Mn (for low-loss entry into chamber)
+Exit air: 1.0 Mn

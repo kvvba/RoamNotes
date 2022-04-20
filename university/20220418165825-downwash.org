@@ -1,0 +1,79 @@
+:PROPERTIES:
+:ID:       257e9f3a-83d9-4361-a517-68adc880d7ee
+:END:
+#+title: Downwash
+
+For a 2D wing, there are no [[id:626f17bb-0f09-4335-81ef-03cfd2f4eb87][Trailing vortices]]. [[id:84005369-0a9e-48a7-8c69-53bc4422377a][Lift]] is perpendicular to freestream velocity U_\infin.
+
+In a 3D wing, wing-tip vortices are present and cause a downwash velocity w behind and in front of wing.
+Effective U_\infin is changed, U_\infin,eff: angled toward chord line.
+Difference between U_\infin and U_\infin,eff vectors is downwash velocity.
+Difference between U_\infin and U_\infin,eff angles is downwash angle.
+
+Lift is not perpendicular to the effective free-stream, U_\infin,eff.
+Components of lift L_up and D_i. Where L_up is vertical lift and D_i is induced drag.
+Induced drag D_i is orthogonal to downwash velocity.
+Angle between component is downwash angle \alpha_d.
+
+* Formulae
+** Downwash velocity
+w = U_\infin,eff - U_\infin
+** Downwash angle
+\alpha_d = tan^-1(w/U_\infin)
+Where w is downwash velocity. Angle also denoted by \epsilon.
+** Effective angle of attack
+\alpha_eff = \alpha - C_L/(\pi \cdot AR)
+** Induced drag
+C_D,i = (C^2_L)/(\pi AR)
+Where C_L is the lift coefficient (see: [[id:12e0bef5-93ff-41f3-9ba2-22bb42b782a2][Aerofoil coefficients]]).
+** Total drag coefficient
+C_D = C_D0 + (C^2_L)/(\pi AR)
+Where C_D0 is the 2D drag (see: [[id:12e0bef5-93ff-41f3-9ba2-22bb42b782a2][Aerofoil coefficients]]).
+** [[id:84005369-0a9e-48a7-8c69-53bc4422377a][Lift]] coefficient
+C_L = \alpha_0(\alpha - \epsilon)
+Where \alpha_0 is the 2D zero lift angle (see: [[id:84005369-0a9e-48a7-8c69-53bc4422377a][Lift]]) and \epsilon is downwash angle.
+
+* [[id:1ee6f188-9cba-4870-8266-626fe7628cd6][Kutta-Joukowski theorem]]
+L = \rho U_\infin \Gamma
+Where for 2D wings, L is orthogonal to U_\infin
+
+3D wings work the same way except L_up is perpendicular to U_\infin.
+L_up = \rho U_\infin \Gamma
+
+Induced drag D_i is perpendicular to w. Using Kutta-Joukowski:
+D_i = \rho w \Gamma
+
+* [[id:9bfd0909-1c43-48d0-84ed-1c179add56d7][Biot-Savart theorem]]
+v = ((\Gamma)/(4\pi h)) * (cos\alpha + cos\beta)
+For a spanwise vortex: \alpha = 90\deg, \beta \approx 0\deg, h = z-z^0, and [[id:54e6fb44-f9a9-4515-920b-9c3ada22d266][Circulation]] is d\Gamma(z) (see: [[id:c0edfc27-d11a-44e4-bf55-091b7e5fd3f3][Circulation distribution]]).
+
+Hence [[id:257e9f3a-83d9-4361-a517-68adc880d7ee][Downwash]] velocity from one infintesimal vortex is:
+w(z^0) = (d\Gamma(z))/(4\pi(z-z^0))
+
+Therefore integrating over the span:
+w(z^0) = \int_-s^s (d\Gamma(z))/(4\pi(z-z^0))
+
+** Downwash for an elliptical wing
+Elliptical wing has elliptical loading:
+\Gamma = \Gamma_0 (1-(z/s)^2)^0.5
+d\Gamma = (d\Gamma/dz)dz = -(\Gamma_0/s) \cdot (z dz)/((s^2-z^2)^0.5)
+
+w = \Gamma_0/4s
+
+Hence:
+1. Downwash increases with bound vortex circulation (lift)
+2. Downwash decreases if the span is increased
+
+** Downwash angle for elliptical wing
+\epsilon = C_L/(\pi \cdot AR)
+Substituting into 2D [[id:84005369-0a9e-48a7-8c69-53bc4422377a][Lift]] equation:
+C_L = \alpha_0 (\alpha - C_L/(\pi \cdot AR)) which is equivalent to:
+C_L = \alpha (\alpha_0 / (1 + (\alpha_0/(\pi \cdot AR))))
+
+Hence to get 3D [[id:84005369-0a9e-48a7-8c69-53bc4422377a][Lift]] slope:
+dC_L/d\alpha = (\alpha_0/(1 + (\alpha_0/(\pi \cdot AR)))
+
+Hence:
+1. 3D lift slope is always smaller than 2D lift slope
+2. 3D lift slope increases with increasing aspect ratio AR
+3. The effect of downwash is to decrease effective AoA \alpha_eff

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       fcb16731-3b94-40ab-847b-3f3c437c6631
+:END:
+#+title: Combustion stability
+
+The combustion stability relates to the smooth burning of a flame, and its ability to remain lit over a wide operating range.
+
+* Stability and ignition loops
+As the FAR moves away from stoichiometric, the burning rate reduces and the flame becomes less tolerant to high flame velocities. If the ratio is too rich or too lean, extinction will occur even at 0 imposed air velocity. For any combustion, there is a rich and weak limit, outside which the flame is extinguished. Extinction can occur can occur during descent, with the engine at flight idle - where there is a high air flow and only a small fuel flow, giving a weak mixture.
+The range of AFR between rich and weak is reduced with increasing air velocity. This is a stability loop. The ignition process has weak and rich limits within those of the stable region. The ignition loop lies within the stability loop, as it is more difficult to establish combustion under cold conditions than to maintain normal burning.

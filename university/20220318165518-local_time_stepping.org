@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       9b661dd3-b4e4-4f86-b93b-bb6fe14c01d7
+:END:
+#+title: Local time stepping
+
+In [[id:9144ea7d-bb69-4755-99f5-ceeffe2bb21f][Steady flow]] the time coordinate in the governing equations is 'artificial', we're only interested in the final solution. The transient behaviour of the system therefore may be freely manipulated to accelerate convergence. Therefore, we can set a time step per cell and maximise this time step per cell. The maximum step will depend on the local [[id:749b6fab-dcdb-4002-a20c-27ec3eefe53a][Courant number]].

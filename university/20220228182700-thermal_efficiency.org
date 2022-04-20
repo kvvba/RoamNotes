@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       9822388d-f72a-4a55-be87-a1c2f505dee8
+:END:
+#+title: Thermal efficiency
+
+The efficiency of the engine core, where fuel is converted to supply useful kinetic energy.
+
+* Calculation
+Ratio of power needed for the jet and power available from the fuel.
+
+\eta_th = (power to the jet)/(power available from fuel)
+
+\eta_th = (0.5 m' (V_jet^2 - V_0^2))/(m_f' LCV)
+
+Where LCV is the lower calorific value of the fuel, typically given in MJ/kg.

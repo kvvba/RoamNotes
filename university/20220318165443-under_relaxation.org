@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       9f59b5dd-4631-4d98-b648-08285746785a
+:END:
+#+title: Under-relaxation
+
+To improve stability in [[id:9144ea7d-bb69-4755-99f5-ceeffe2bb21f][Steady flow]] it is common to "under relax" the solution. This controls the amount of "new" solution that is added to the current solution.
+This does not apply to unsteady flows.
+
+T^(n+1) = T^n + \epsilon R^n
+
+Where \epsilon is the under relaxation coefficient (0 < \epsilon < 1)
+An \epsilon of 0 implies the solution is not updated, an \epsilon of 1 means it's fully updated.

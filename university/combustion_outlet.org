@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       b779fdfc-4124-442f-8586-8c3972d60637
+:END:
+#+title: Combustion outlet
+
+Combustor exit temperature is designated T_4. The cooling air discharges into the jet stream through the nozzle guide vanes, slightly reducing the overall temperature, becoming the turbine entry temperature (TET) designated T_41.
+
+The TET is used to calculate turbine work and is one of the major factors used to determine turbine life. For a large civil transport, TET would be around 1850-1950 K. The temperature distribution is also important, although the average temperature may be acceptable there may be hot-spots which are detrimental. This is quantified circumferentially by the outlet traverse distortion factor (OTDF). A large OTDF will result in the turbine blades experiencing temperature cycles.
+
+OTDF = (T_4,peak - T_4,average)/(T_4 - T_3)
+
+Radial variation is defined by the radial traverse distortion factor (RTDF). If this is biased inwards, this raises the material temperature at the blade root - which is the highest radial stress position. It is preferable to be biased outward.
+
+RTDF = (T_4,peak - T_4,average)/(T_4 - T_3)

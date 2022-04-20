@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3248e45c-735b-47b1-8e8b-e1c288140da6
+:END:
+#+title: Combustor development
+
+The combustor provides the heat input in the [[id:872886f1-7923-45c2-a3d2-9dfdf57e6bb1][Brayton cycle]]. Compressor delivery air enters the combustor where fuel is burnt at essentially a constant pressure and delivered at an elevated temperature to the turbine. Typically in a large engine, the input is 140 kg/s, 40 bar, at 900 K - rising to 1950K at the outlet, generating 130MW in a volume of 0.05 m^3. Stoichiometric burning occurs at around 2550K. High energy release is only possible because of the high operating pressures. Generally the flow is complex, unsteady, reactive, and highly turbulent - making system modelling extremely difficult. Modern [[id:a1347854-68de-4ec7-a94f-99d7db3b2a01][CFD]] modelling is employed, but designs are still generally based on experience supported by extensive testing. An aero engine combustor has a very high energy release per unit volume typically 100x greater than a boiler in a large power station. The size envelope of the combustor is limited by the need to fit it between the compressor and the turbine, and for the turbo-machinery shafts to be as short as possible to facilitate low weight and high mechanical stiffness.

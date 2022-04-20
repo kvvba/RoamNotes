@@ -10,14 +10,3 @@ To identify the velocity induced by the vortex with end points A and B at a poin
 v = ((\Gamma)/(4\pi h)) * (cos\alpha + cos\beta)
 Where h is the perpendicular distance from the point P to the vortex line AB.
 
-For a spanwise vortex: \alpha = 90\deg, \beta \approx 0\deg, h = z-z^0, and [[id:54e6fb44-f9a9-4515-920b-9c3ada22d266][Circulation]] is d\Gamma(z) (see: [[id:c0edfc27-d11a-44e4-bf55-091b7e5fd3f3][Circulation distribution]]).
-
-Hence [[id:257e9f3a-83d9-4361-a517-68adc880d7ee][Downwash]] velocity from one infintesimal vortex is:
-
-w(z^0) = (d\Gamma(z))/(4\pi(z-z^0))
-
-Therefore integrating over the span:
-
-w(z^0) = \int_-s^s (d\Gamma(z))/(4\pi(z-z^0))
-
-* Downwash for an elliptical wing

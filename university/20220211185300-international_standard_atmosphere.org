@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       fbf46af4-7bac-468c-8341-316eafb0c830
+:END:
+#+title: International standard atmosphere
+
+Pressure (p), density (\rho), and temperature (T) are dependant on altitude.
+
+* Layers of atmosphere
+- Large boundary layer near ground
+  - Can be kilometres high
+- Troposphere: < 11km (36089 ft)
+  - Temperature varies linearly
+- Tropopause: 11km
+  - Represents approximate flight ceiling for aircraft
+- Stratosphere: > 11km, < 20km (65617 ft)
+  - Temperature fairly constant
+  - -56.5\deg C
+
+* Sea level conditions
+- Temperature (T_sl) = 288.15K
+- Pressure (p_sl) = 101.3kPa
+- Density (\rho_sl) = 1.225 kg/m^3
+  sl - sea level
+
+* Pressure at altitude
+Use ISA table or the formula:
+
+P_H = p_sl [1 - ((kH)/(T_sl))]^((g/RK))
+
+Where H is the altitude, k is the rate of change of temperature with height, and R is the gas constant.
+The ICAO defines k as 6.5 Kelvin per 1000m up to the troposphere.
+k = 6.5e-3 K/m
+
+Note:
+Pressure and temperature decrease linearly with height.
+p = p_sl - \rho gH
+T = T_sl - kH
+
+* ISA table corrections
+ISA+X indicates temperature correction of X Kelvin

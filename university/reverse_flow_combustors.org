@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       0fd6f6e9-0355-479b-af30-9dbd1e95a095
+:END:
+#+title: Reverse flow combustors
+
+Used mainly in small gas turbines, combined with centrifugal compressors.

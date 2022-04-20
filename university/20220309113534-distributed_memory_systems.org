@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       154bdb9f-4f87-4420-8b9d-c28e50bbd842
+:END:
+#+title: Distributed memory architecture
+Typically all of the CPUs in a [[id:725c9328-6390-45b6-aaab-2d73693f1ded][HPC]] are on the same motherboard and share the same memory.
+Today's supercomputers are simply many hundreds or thousands of these motherboards linked by a network, with memory stored on each motherboard. This is known as a *distributed* memory system. The memory is distributed between different motherboards, and each motherboard is called a "node". A fibre optic network is used to network the nodes together for higher speeds compared to copper cables.
+
+Distributed memory architectures are harder to program and involve major re-writing of code.
+
+- Each process has its own copy of arrays
+- We cannot easily access data in another CPU's memory
+- If process 1 modifies an array value it has to be sent over the network to the memory of all other processes
+- Processes do not see latest values in arrays unless data is copied between processes over the network
+  - Sending lots of data over the network slows down our parallel performance
+  - We have to be selective and clever to minimize the data transfer
+
+The speedup of a distributed memory architecture is signficiant for a low number of threads, but experiences diminishing returns with a greater number of threads - ultimately being limited by the speed of data transfer between nodes.

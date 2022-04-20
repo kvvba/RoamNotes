@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       04f10a87-55c5-4d10-9d4e-bd0bb81c9cb7
+:END:
+#+title: Combustor requirements
+
+- Low pressure loss (SFC, turbine cooling, HPC surge)
+- Emissions for ICAO compliance and competition
+- High temperature capability over 2100K
+- Transient performance (5 sec acceleration)
+- Altitude restart up to 30000-35000 ft
+- Life ~40000 hours without repair
+- Minimum cost, weight, and length
+- Ground start to -40\deg C
+- Weak stability to ~250 AFR combustor exist (+ water/hail)
+- Exit temperature traverse to suit the turbine
+- Rumble free (pressure instability)
+- Carbon shedding free (to prevent turbine erosion)
+

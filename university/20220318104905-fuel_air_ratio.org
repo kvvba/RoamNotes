@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       62256ae8-6aba-415a-8d06-05d972c3f8b9
+:END:
+#+title: Fuel-air ratio
+
+Use fuel-air ratio (FAR) charts to relate combustion inlet temperature, temperature rise across the combustory, and fuel-air ratio.
+
+* Definitions
+** FAR
+Fuel-air ratio.
+FAR = m'_f/m'_air
+Where m'_f is fuel mass flow rate and m'_air is air mass flow rate.
+
+** FHV
+The fuel heating value. The amount of heat released during combustion of specified amount of fuel (1kg).
+Typically given in MJ/kg.

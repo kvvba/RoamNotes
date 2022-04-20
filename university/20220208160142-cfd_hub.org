@@ -1,0 +1,53 @@
+:PROPERTIES:
+:ID:       a1347854-68de-4ec7-a94f-99d7db3b2a01
+:END:
+#+title: CFD hub
+
+* Background
+- [[id:e9e1facf-6331-4052-a337-e9f14d5c06e5][CFD strength and weaknesses]]
+- [[id:501f6284-468d-4b33-a967-5cd02933dae7][CFD process]]
+
+* Theory
+- [[id:9586f42a-7341-40f2-bd54-d514e965851a][CFD conventions]]
+** Fundamental equations
+- [[id:ad8a5073-fd5d-4c39-8b28-749060131385][Mass continuity equation]]
+- [[id:04ab74b5-df67-47c1-aa87-33c022c84501][Euler equations]]
+- [[id:917a4eb2-c4c0-4bbf-83d8-ed65ccef18f2][Navier-Stokes equations]]
+** Meshing
+- [[id:bd467448-61c5-4dfb-bdbb-2ea516628a0f][Meshing]]
+- [[id:20e08c09-6934-401e-8f27-3375b09b314c][Mesh independence]]
+** Discretization
+- [[id:a1b71fda-3289-4304-9ee1-46c274781c76][Discretization techniques]]
+- [[id:7b412b3c-ecce-47ff-a186-ef2fb10cf387][Finite differences]]
+- [[id:0023b56a-2aaf-4155-85c3-e14076f7a59c][Upwinding]]
+** Boundaries
+- [[id:438274de-8894-4ba7-9f51-715e206bf46a][Boundary conditions]]
+- [[id:90cde5d8-c57e-4a5a-b8f9-d45ebb90e413][Dirichlet]]
+- [[id:0dca3e3a-7634-455c-914f-1e54ddd964e0][Neumann]]
+** High Performance Computing
+- [[id:56f918ca-8d08-4e59-96ef-3e1171c3094a][Languages of CFD]]
+- [[id:725c9328-6390-45b6-aaab-2d73693f1ded][HPC basics]]
+- [[id:e8430698-9481-4339-a037-b017fee7e4db][Graphical processing units]]
+*** Memory architectures
+- [[id:3f6851a8-5322-48f4-943e-d75101cd1190][Shared memory architecture]]
+- [[id:154bdb9f-4f87-4420-8b9d-c28e50bbd842][Distributed memory architecture]]
+- [[id:f822b835-5e6b-414e-a6ea-fea4c2b49a01][Hybrid parallel memory architecture]]
+** Explicit and implicit methods
+- [[id:9144ea7d-bb69-4755-99f5-ceeffe2bb21f][Steady and unsteady flow]]
+- [[id:d20c1d12-c5cb-4518-8446-8b7bd9fedd1c][Temporal discretization]]
+- [[id:b1d6e8fe-ce6a-431e-96bd-6a70ec809625][Explicit scheme]]
+- [[id:575f159f-700d-460c-a20a-c69a2c32dfd2][Implicit scheme]]
+** Stability & convergence acceleration
+- [[id:9dc87607-4812-4d90-b9a4-047dd32f15d4][Modified equation analysis]]
+- [[id:749b6fab-dcdb-4002-a20c-27ec3eefe53a][Courant number]]
+- [[id:a476d1c7-c504-46f0-b590-f1d9bb1c7d85][Runge-Kutta method]]
+*** [[id:01642bd1-dc9b-409c-8c2c-629d360f1711][Stability improvement and convergence acceleration for steady flows]]
+- [[id:9f59b5dd-4631-4d98-b648-08285746785a][Under-relaxation]]
+- [[id:518a9824-39c6-4518-8ce1-265801a13db9][Smoothing]]
+- [[id:9b661dd3-b4e4-4f86-b93b-bb6fe14c01d7][Local time stepping]]
+- [[id:a7d7763c-2bd2-4bea-ab95-08de63774596][Mesh sequencing]]
+- [[id:e3f4f157-9728-4e7b-a2f7-963794f07f06][Multigrid]]
+** Turbulence
+** Turbulence modelling
+** Eddy resolving methods
+** Hybrid RANS-LES

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       501f6284-468d-4b33-a967-5cd02933dae7
+:END:
+#+title: CFD process
+
+1. CAD
+2. CAD clean up
+3. Surface meshing
+4. Volume meshing
+5. CFD code
+6. Post processing

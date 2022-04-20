@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       5e7f7fb4-f0dd-4958-b77d-904746962bad
+:END:
+#+title: Combustion efficiency
+
+In most gas turbine engines, combustion efficiency is close to 99%.

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       5c235d11-ffc5-474e-aa2b-a6b706f4ce9b
+:END:
+#+title: Combustor fuel
+
+Aero gas turbine fuel is mostly kerosene. Many additives such as benzene and toluene are used to improve the properties, e.g. lubricity and resistance to gelling. Alternative fuels have been considered but kerosene's major advantage is that it has a high power to density ratio.
+
