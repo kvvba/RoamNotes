@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       e68eade6-677d-43ec-960e-dac6286511d4
+:END:
+#+title: Numerical errors
+
+- Discretisation errors
+  - (also see: [[id:a1b71fda-3289-4304-9ee1-46c274781c76][Discretization techniques]])
+  - Difference between the exact and numerical (discretised) solution
+- Convergence errors
+  - (also see: [[id:01642bd1-dc9b-409c-8c2c-629d360f1711][Stability improvement and convergence acceleration for steady flows]])
+  - Difference between the exact and iterative solutions of discretised equations
+- Round off errors
+  - Computers can hold numbers only to finite number of significant figures

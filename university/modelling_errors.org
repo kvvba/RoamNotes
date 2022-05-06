@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       d2175b22-bd20-4003-bb06-996e301bba07
+:END:
+#+title: Modelling errors
+
+- Time averaging of equations
+  - (see also: [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]])
+  - Resolution reduced, information lost
+  - Information introduced from outside (e.g. [[id:e43e1cea-99a7-47c1-99c1-5741791b2461][Reynolds stress]])
+- Physical phenomena not full represented
+  - (see also: [[id:c69e13c0-095c-4ca7-ab97-73aecd403f17][Turbulent flow modelling approaches]])
+  - Turbulence contains many different scales
+  - Not resolving all scales in turbulence models
+  - Not able to model chemical reactions, e.g. in combustion
+- Turbulence model and selecting
+  - No a priori criterion
+  - Expertise and knowledge of the CFD user

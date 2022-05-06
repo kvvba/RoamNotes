@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       c885e66d-c5f2-4c4d-bf1f-b86a411e3d76
+:END:
+#+title: User errors
+
+Incorrect use of CFD and related codes
+
+- Oversimplification of problem
+- Poor grid generation
+- Incorrect boundary conditions
+- Inadequate solver parameters (e.g. timestep)
+- Acceptance of non-converged solutions
+- Post processing errors
+
+Causes:
+- Lack of experience
+- Lack of attention to detail or other mistake
+- Lack of resources
+- Poor project management

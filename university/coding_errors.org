@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       42d4d94d-0a66-4d56-8b8f-01200fd6f8d9
+:END:
+#+title: Coding errors
+
+- Bugs in program
+- Responsibility of the programmer
+- Discovered by verifying sub programs
+- Solved by:
+  - Reviewing lines of code
+  - Performing validation studies

@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       b37e0f8d-939c-44a4-a219-3cc806a222ba
+:END:
+#+title: Application errors
+
+- Geometry model errors
+  - Geometry incorrectly defined
+  - Errors in measurement of geometry
+  - Important features missed
+- Grid generation
+  - Highly skewed elements
+  - Large expansion ratios
+  - Inadequate resolution
+- Boundary conditions
+  - Inappropriate boundary conditions (e.g. steady for LES)
+  - Influence of boundary conditions (i.e. too close)
+  - Do not represent physical reality
