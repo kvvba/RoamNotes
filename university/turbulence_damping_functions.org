@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       c10a3e7e-d03c-4e1f-82cd-bcfb440f0ae8
+:END:
+#+title: Turbulence damping functions
+
+Some turbulence models require near-wall damping functions to produce accurate near-wall solutions.
+
+The standard [[id:8ac1d8d9-9fad-42a0-ac17-ef6ea006599f][k-epsilon model]] will only produce accurate near wall solutions if damping functions are included.
+
+Standard definition of [[id:341e55e9-c2df-4daf-a31e-fac9337e1638][Eddy viscosity]] in the [[id:8ac1d8d9-9fad-42a0-ac17-ef6ea006599f][k-epsilon model]]:
+\mu_T = \rho C_\mu (k^2/\epsilon)
+
+Modified close to the wall by the damping function f_\mu
+
+f_\mu = (-3.4)/[(1+(R_t/50))^2]
+
+Note the extra terms are also included in the epsilon equations. Note also that there are many different variants.

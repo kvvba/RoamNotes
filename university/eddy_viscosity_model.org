@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       341e55e9-c2df-4daf-a31e-fac9337e1638
+:END:
+#+title: Eddy viscosity model
+
+The simplest turbulence model for closure of the [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]] assumes that [[id:e43e1cea-99a7-47c1-99c1-5741791b2461][Reynolds stress]] can be modelled similarly to viscous stress. It uses the Bousinesq approximation.
+
+In simple shear:
+-\rho\oline{u'v'} = \mu_T((\partial \oline{u})/(\partial y))
+
+\mu_T is the turbulence viscosity/eddy viscosity. It is a hypothetical property of the flow and varies with position.
+
+At high Re, \mu_T >> \mu
+
+* Advantages and disadvantages
+** Advantages
+- Easy to implement
+- Extra viscosity improves stability
+- Theoretical basis in simple flows
+** Disadvantages
+- Little foundation in complex flows
+- Turbulence modelling reduced to a single scalar \mu_T
+
+* Types of eddy viscosity models
+- [[id:59f4c0f0-aa08-48a1-9c19-a62e780206b1][Mixing length model]]
+- [[id:3cef5865-53ef-4172-ade7-6cf131e29090][Spalart-Allmaras model]]
+- [[id:8ac1d8d9-9fad-42a0-ac17-ef6ea006599f][k-epsilon model]]
+- [[id:1b39f326-0fe2-4af4-a9ac-b54a20564a6e][k-omega model]]

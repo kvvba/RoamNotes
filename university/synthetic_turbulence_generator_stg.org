@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       db019dbc-aa82-4cbf-ba1d-ec2fd36519e5
+:END:
+#+title: Synthetic turbulence generator (STG)
+
+Uses turbulent energy spectra to generate turbulence at the boundary between [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]] and [[id:ed6d4951-4845-4989-8415-824d8bca1d10][Large eddy simulation (LES)]] zones in [[id:a9df2e1a-d174-4f0b-b582-df041d654c22][Embedded LES]], to create the required turbulent content for LES.

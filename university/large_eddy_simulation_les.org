@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       ed6d4951-4845-4989-8415-824d8bca1d10
+:END:
+#+title: Large eddy simulation (LES)
+
+Large scale turbulence resolved, smallest scales of turbulence are modelled.
+
+Requires sufficient mesh resolution to capture smaller scales of turbulence. Any eddies smaller than a given mesh resolution will not be captured by that mesh - these are called sub-grid scales and are accounted for by modelling. Small scales are filtered out by the mesh.
+
+Filter width \Delta is the smallest scale eddy the mesh can resolve.
+
+* Filtered [[id:917a4eb2-c4c0-4bbf-83d8-ed65ccef18f2][Navier-Stokes equations]]:
+\rho((\partial u)/(\partial t)) + \rho((\partial uu)/(\partial x)) + \rho((\partial vu)/(\partial y)) = RHS
+
+Decomposing velocity into an average part \oline{u} and a sub-grid part u'
+u_i = \oline{u} + u'
+
+\rho((\partial \oline{u})/(\partial t)) + \rho((\partial \oline{u}^2)/(\partial x)) + \rho((\partial \oline{u}\oline{v})/(\partial y)) = RHS - SGS Stresses
+
+Where SGS Stresses are the sub-grid-scale stresses, representing the smaller eddies.
+SGS stresses are modelled using [[id:d6ce0500-0fd1-40fb-8b51-8f8ce1cfe0e9][Sub-grid-scale models (SGS models)]].
+
+* Key LES problem
+To resolve boundary layer, fine turbulence must be resolved close to the wall.
+Therefore, requires sufficiently small filter width for [[id:edb88f7a-ab59-41c7-a56a-fd8f4045aa1f][Law of the wall]] profile.
+LES cost \prop RE^{2.5*}.
+
+To overcome computational cost, [[id:6c45dc70-7e68-4a12-b98e-27bea5368cbc][Hybrid RANS-LES]] model can be used.
+
+* Boundary conditions
+- Boundary conditions need careful thought
+- Should be unsteady
+- Have realistic turbulence (i.e. from a precursor simulation)
+- Non realistic turbulence (e.g. random fluctuations) tends to get damped out

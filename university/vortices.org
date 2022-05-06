@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       6cb2f926-6c0f-4f85-97f6-683e49cedc4e
+:END:
+#+title: Vortices
+
+The maximum size of vortices is related to the flow system size.
+In a pipe flow, the largest eddy is the diameter of the pipe.
+
+Energy cascade passes turbulent kinetic energy through progressively smaller vortex structures.
+
+The length scale of the smallest vortex is such that Re \approx 1.
+As viscous and inertial forces are equal when Re = 1, these smaller vortices are quickly destroyed - dissipating turbulent kinetic energy into heat.
+
+To solve for smallest turbulence scale, mesh will need to have 3 mesh points across smallest eddy.

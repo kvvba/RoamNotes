@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       a7243ebf-569e-41cd-a90a-ed77985a9c68
+:END:
+#+title: Classification of RANS turbulence models
+
+Based on time-averaged [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS]] equations
+- Zero equation model: [[id:59f4c0f0-aa08-48a1-9c19-a62e780206b1][Mixing length model]]
+- One equation mode: [[id:3cef5865-53ef-4172-ade7-6cf131e29090][Spalart-Allmaras model]]
+- Two equation model: [[id:8ac1d8d9-9fad-42a0-ac17-ef6ea006599f][k-epsilon model]], [[id:1b39f326-0fe2-4af4-a9ac-b54a20564a6e][k-omega model]]
+- Reynolds stress model (6 differential equations)

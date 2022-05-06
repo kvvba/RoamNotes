@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       8123d739-956e-43ef-8722-2640c20ff625
+:END:
+#+title: Unsteady RANS (URANS)
+
+Also referred to as a transient simulation. Variation on the [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]].
+
+Some of the time-varying turbulence is calculated, and the rest is modelled. Low frequency turbulence is modelled, mesh is not fine enough to resolve high frequency turbulence so it is modelled and superimposed.
+
+Able to model unsteady flow, and is therefore expected to be more accurate than the steady [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]] when unsteady structures are present e.g. vortex shedding.

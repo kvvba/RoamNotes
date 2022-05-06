@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       09bf99d7-e7ec-46d2-90f8-763ef2a9fd14
+:END:
+#+title: Direct numerical simulation (DNS)
+
+Resolves entire range of turbulent scales.

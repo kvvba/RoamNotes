@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       3cef5865-53ef-4172-ade7-6cf131e29090
+:END:
+#+title: Spalart-Allmaras model
+
+Differential transport equation for turbulent viscosity. It is a one equation [[id:341e55e9-c2df-4daf-a31e-fac9337e1638][Eddy viscosity model]].
+The equation is solved for each time step and used to calculate eddy viscosity and hence [[id:e43e1cea-99a7-47c1-99c1-5741791b2461][Reynolds stress]]es.
+
+(\partial \oline{u}v_T)/(\partial x) + (\partial \oline{v}\nu_T)/(\partial y) = C_1 S \nu_T + Diffusion term[C_2, \sigma] - Destruction term[C_3]
+
+C_1 S \nu_T is the production term
+LHS is the advection of turbulence
+Diffusion term is redistribution due to pressure fluctuations
+Destruction term is damping caused by viscosity
+
+* Calibration
+2D mixing layer: \tau_max = 0.01(\Delta U)^2
+Wake: \tau_max = 0.06(\Delta U)^2
+Calibration suggests:
+0.6 < \sigma < 1
+0.1375 < C_1 < 0.1275
+0.6 < C_2 < 0.7

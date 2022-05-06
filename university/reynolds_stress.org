@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       e43e1cea-99a7-47c1-99c1-5741791b2461
+:END:
+#+title: Reynolds stress
+
+Reynolds stress arises from the averaging of the nonlinear term in the [[id:917a4eb2-c4c0-4bbf-83d8-ed65ccef18f2][Navier-Stokes equations]] in forming the [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]].
+
+They are
+\rho\oline{u'u'} and \rho\oline{u'v'} in 2 dimensions.
+
+To solve the [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]], values of Reynolds stress are required for closure.

@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       59f4c0f0-aa08-48a1-9c19-a62e780206b1
+:END:
+#+title: Mixing length model
+
+The mixing length model is a zero equation [[id:341e55e9-c2df-4daf-a31e-fac9337e1638][Eddy viscosity model]].
+
+Mixing length is the maximum length that a fluid "packet" can travel vertically without interaction, i.e. momentum is conversed over a distance l.
+
+Fluid packet is transported from y to y+l by [[id:14e9937f-54c1-49ca-8a4f-d6536dcd26c5][Turbulent velocity fluctuation]] v'.
+It carries the momentum at y to y+l.
+
+The result is a fluctuation in x velocity as:
+\oline{u'} \approx \oline{u}(y) - \oline{u}(y+l) = -l((d\oline{u})/(dy))
+
+We also assume \oline{v'}=\oline{u'} and hence [[id:e43e1cea-99a7-47c1-99c1-5741791b2461][Reynolds stress]] is:
+\rho\oline{u'v'} = -\rho l^2 ((d\oline{u})/(dy))^2
+
+Hence
+-\rho\oline{u'v'} = \mu_T ((d\oline{u})/(dy)) = \rho l^2 ((d\oline{u})/dy)^2
+
+And so:
+\mu_T = \rho l^2 ((d\oline{u})/dy)
+
+* Measured mixing lengths
+Mixing length l_m proportional to width of layer \delta
+** Mixing layer
+l_m = 0.071\delta
+** Jet
+l_m = 0.098\delta (plane)
+l_m = 0.080\delta (round)
+** Wake
+l_m = 0.180\delta
+
+* Near-wall region
+l = \kappa y
+Where y is the distance from the wall and \kappa is the von Karman constant
+\kappa = 0.4
+
+The dominant shear stress at the wall will be due to turbulent shear:
+\tau_w = \mu_T ((du)/(dy))
+
+Hence:
+u = (1/\kappa) \cdot (\tau_w/\rho)^0.5 ln(y) + c
+Giving log law velocity distribution. This equation holds well except very near the wall in the laminar sub layer where viscous forces dominate. In the laminar sub-layer the velocity distribution is linear, as with Couette flow.

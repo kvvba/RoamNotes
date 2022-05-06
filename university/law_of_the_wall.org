@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       edb88f7a-ab59-41c7-a56a-fd8f4045aa1f
+:END:
+#+title: Law of the wall
+
+Turbulence models need to be able to accurately reproduce boundary layer profiles. Using dimensional analysis it's possible to collapse any turbulent velocity profile onto a single curve. This curve is known as the law of the wall, and turbulence models are calibrated to reproduce it.
+
+* Definition
+u+ = f(y+)
+u+ = u/(\tau_w / \rho)^0.5
+y+ = (y(\tau_w \rho)^0.5)/\mu
+
+u_\tau is the friction velocity
+u_\tau = (\tau_w/\rho)^0.5
+
+y+ can also be written:
+y+ = (\rho (\tau_w/\rho)^0.5 y)/\mu
+
+This can be written in terms of friction velocity u_\tau
+u+ = u/u_\tau
+y+ = (\rho u_\tau y)/(\mu)
+
+* Boundary layer regions
+Approximations meet at y+ = 10
+** Viscous sub-layer
+Extends to approximately y+ = 5.5
+[[id:341e55e9-c2df-4daf-a31e-fac9337e1638][Eddy viscosity]] \mu_T = 0 in the laminar sub-layer region.
+Hence:
+u+ = y+
+
+** Buffer layer
+Neither approximation accurately model velocity profile.
+
+** Fully developed region
+u+ = (1/\kappa) ln(y+) + c
+
+Where \kappa = 0.4 and c = 5.5
+Obtained from measurements, cannot be derived mathematically.
+
+* Skin friction
+The [[id:f8682b5f-004d-4adc-bd74-e106b0b3c189][skin friction]] in a boundary layer may be estimated as:
+
+c_f = 0.0576Re_x^{-(1/5)}

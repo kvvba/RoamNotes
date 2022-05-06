@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       c69e13c0-095c-4ca7-ab97-73aecd403f17
+:END:
+#+title: Turbulent flow modelling approaches
+
+In order of increasing fidelity:
+1. [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]]
+   - All of the turbulence is modelled
+2. [[id:8123d739-956e-43ef-8722-2640c20ff625][Unsteady RANS (URANS)]]
+   - Resolves largest scale flow structures, models small structures
+3. [[id:ed6d4951-4845-4989-8415-824d8bca1d10][Large eddy simulation (LES)]]
+   - Greater range of scales resolved, only smallest scales modelled
+4. [[id:09bf99d7-e7ec-46d2-90f8-763ef2a9fd14][Direct numerical simulation (DNS)]]
+   - Entire range of turbulent scales resolved, nothing is modelled
+5. [[id:6c45dc70-7e68-4a12-b98e-27bea5368cbc][Hybrid RANS-LES]]
+   - Combines RANS and LES, computationally efficient

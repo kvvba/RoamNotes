@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       9ef2efbc-b063-44b7-850a-4db9da7111d3
+:END:
+#+title: Reynolds stress models
+
+Transport equations solved for [[id:e43e1cea-99a7-47c1-99c1-5741791b2461][Reynolds stress]] directly.
+
+In three dimensions, there are 6 [[id:e43e1cea-99a7-47c1-99c1-5741791b2461][Reynolds stress]]es and hence 6 differential transport equations to solve:
+\rho\oline{u'u'}, \rho\oline{u'v'}, \rho\oline{v'v'}, \rho\oline{v'w'}, \rho\oline{w'w'}, \rho\oline{u'w'}

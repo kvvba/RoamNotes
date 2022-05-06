@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       507c5286-9a95-4097-beb2-c5d4e66d58fc
+:END:
+#+title: Turbulence intensity
+
+Useful parameter for quantifying turbulence levels, often expressed as a percentage.
+Typical engineering values of 1%-20%
+Can be measured experimentally.
+
+T_i = ((\oline{u'^2})^{0.5})/(\oline{u}) = U_eddy / \oline{u}
+
+Where u' is the [[id:14e9937f-54c1-49ca-8a4f-d6536dcd26c5][Turbulent velocity fluctuation]].

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       a9df2e1a-d174-4f0b-b582-df041d654c22
+:END:
+#+title: Embedded LES
+
+This is a zonal approach. The user tags/defines regions as being [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]] or [[id:ed6d4951-4845-4989-8415-824d8bca1d10][Large eddy simulation (LES)]]. Location of the interface between the two models is very precisely defined at the start of the simulation.
+
+Problem at the interface between RANS and LES, as RANS is steady and LES is highly unsteady. Therefore, may not be enough turbulent content at the interface to feed into LES from RANS. To counteract this, a [[id:db019dbc-aa82-4cbf-ba1d-ec2fd36519e5][Synthetic turbulence generator (STG)]] is used.
+
+Can use a steady flow for the [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]] inlet, but this isn't appropriate for the [[id:ed6d4951-4845-4989-8415-824d8bca1d10][Large eddy simulation (LES)]] model as in reality there is an unsteady flow entering the domain (see: [[id:ed6d4951-4845-4989-8415-824d8bca1d10][Large eddy simulation (LES)]]).

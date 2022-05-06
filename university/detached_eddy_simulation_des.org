@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       62601e83-ac19-470d-81b8-f056d3f674fd
+:END:
+#+title: Detached eddy simulation (DES)
+
+Can be based on [[id:3cef5865-53ef-4172-ade7-6cf131e29090][Spalart-Allmaras model]] or [[id:1b39f326-0fe2-4af4-a9ac-b54a20564a6e][k-omega model]].
+
+Location of the [[id:6c45dc70-7e68-4a12-b98e-27bea5368cbc][Hybrid RANS-LES]] interface is controlled by the grid. A finer grid means switching to [[id:ed6d4951-4845-4989-8415-824d8bca1d10][Large eddy simulation (LES)]] from [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]] more quickly. A coarser grid conversely increases the size of the RANS zone.
+
+* Variants
+Maximum cell dimension:
+\Delta_max = max{\Delta x, \Delta y, \Delta z}
+** [[id:3cef5865-53ef-4172-ade7-6cf131e29090][Spalart-Allmaras model]] based
+(D v^{^})/(Dt) = Production + Diffusion + Destruction
+Where destruction term is replaced by d^{~ }= min(d, C_dest \Delta_max)
+Where d^{~} is the wall distance.
+** [[id:1b39f326-0fe2-4af4-a9ac-b54a20564a6e][k-omega model]] (SST) based
+(D v^{^})/(Dt) = Production + Diffusion + Destruction
+Where destruction term is replaced by L_DES = min(L_MEN, C_des \Delta_max)
+Where L_DES is a length scale.

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       d6ce0500-0fd1-40fb-8b51-8f8ce1cfe0e9
+:END:
+#+title: Sub-grid-scale models (SGS models)
+
+SGS models are used to model the sub-grid-scale stresses which represent the smallest size eddies in [[id:ed6d4951-4845-4989-8415-824d8bca1d10][Large eddy simulation (LES)]].
+
+There are many SGS models.
+
+* The Smagorinsky model
+A function of filter width.
+
+SGS Stress = -2(C_s \Delta)^2|\oline{S}|S_ij
+Smagorinsky constant C_s ~ 0.2
+\Delta = filter width (usually mesh cell size)
+S = strain tensor

@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       bc2b8c3e-de65-4cc8-bc45-37f43cf96c21
+:END:
+#+title: Wall function
+
+Very fine meshes necessary to capture near-wall velocity gradient. This is not always possible in industrial setting. Therefore, wall functions are used, to solve the equations of the [[id:edb88f7a-ab59-41c7-a56a-fd8f4045aa1f][Law of the wall]].
+
+u+ = (1/\kappa) ln(y+) + c
+u = u_\tau [(1/\kappa) ln((u_\tau y)/\nu) + c]
+Solve for friction velocity and hence obtain an "accurate" wall shear, by evaluating the first node in the turbulent portion of boundary layer.
+This value of wall shear is used directly in turbulence models.
+
+* 1/7th power law velocity distribution
+A cruder turbulent velocity profile approximation takes the form:
+u = U(y/\delta)^n
+Where:
+n = 1/7
+\delta is boundary layer thickness
+U is free-stream velocity
+
+In fully developed pipe/channel flow:
+U is maximum velocity
+\delta is pipe radius or half channel width

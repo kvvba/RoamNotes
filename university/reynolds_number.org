@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       a29c4f89-fd8b-46b2-863b-5cc2cd01851a
+:END:
+#+title: Reynolds number
+
+Re = (\rho UL)/\mu = (UL)/\nu
+
+Where:
+\rho is fluid density
+U is fluid velocity
+L is characteristic length
+\mu is dynamic viscosity
+\nu is kinematic viscosity

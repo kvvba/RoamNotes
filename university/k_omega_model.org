@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       1b39f326-0fe2-4af4-a9ac-b54a20564a6e
+:END:
+#+title: k-omega model
+
+The k-\omega model is a two equation [[id:341e55e9-c2df-4daf-a31e-fac9337e1638][Eddy viscosity model]] of turbulent flow.
+The equations are solved for each time step and used to calculate eddy viscosity and hence [[id:e43e1cea-99a7-47c1-99c1-5741791b2461][Reynolds stress]]es.
+
+(\partial k)/(\partial t) + (\partial \oline{u} k)/(\partial x) + (\partial \oline{v} k)/(\partial y) = S\nu_T k + Diffusion term[\sigma] - Destruction term[C_1]
+(\partial \omega)/(\partial t) + (\partial \oline{u} \omega)/(\partial x) + (\partial \oline{v} \omega)/(\partial y) = S\nu_T \omega + Diffusion term[\sigma] - Destruction term[C_1]
+
+Where LHS represents advection, and S\nu_T k and S\nu_T \omega represent production.
+
+\omega is the specific dissipation, and is a variable which determines the scale of turbulence. It has units of 1/T and can also be interpreted as the frequency of turbulent eddies.
+
+k is the kinetic energy in the turbulence, as in the [[id:8ac1d8d9-9fad-42a0-ac17-ef6ea006599f][k-epsilon model]].
+
+* Eddy viscosity
+\mu_T = \rho (k/\omega)

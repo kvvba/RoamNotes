@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       f8682b5f-004d-4adc-bd74-e106b0b3c189
+:END:
+#+title: Skin friction
+
+Skin friction is defined as:
+
+c_f = \tau_w/(0.5\rho U_\infin^2)

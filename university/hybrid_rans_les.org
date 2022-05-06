@@ -1,0 +1,47 @@
+:PROPERTIES:
+:ID:       6c45dc70-7e68-4a12-b98e-27bea5368cbc
+:END:
+#+title: Hybrid RANS-LES
+
+[[id:ed6d4951-4845-4989-8415-824d8bca1d10][Large eddy simulation (LES)]] model used at y+>100, and [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]] used at y^{+}<100 (see: [[id:edb88f7a-ab59-41c7-a56a-fd8f4045aa1f][Law of the wall]]), gaining the benefits of both.
+
+Highly unsteady flow in the LES region and steady RANS close to the wall can sometimes cause issues because the transient LES content can penetrate into the RANS zone and contaminate the RANS solution.
+
+Hybrid RANS-LES generally uses fewer mesh points than [[id:ed6d4951-4845-4989-8415-824d8bca1d10][Large eddy simulation (LES)]].
+
+* Comparison to [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]]
+** Accuracy improvements over [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]]
+- Reduce uncertainty in CFD simulations related to RANS
+- Flows with large separation zones as [[id:ed6d4951-4845-4989-8415-824d8bca1d10][Large eddy simulation (LES)]] less computationally expensive in modelling the flow due to large flow structures
+  - Stalled airfoils
+  - Flow past buildings
+  - Flows with swirling instabilities
+
+** Additional information required compared to [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]]
+- Acoustics
+  - Information on acoustic spectrum not reliable from [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]]
+  - Vortex cavitation
+    - Low pressure inside vortex causes cavitation
+    - Resolution of vortex required
+  - Fluid-Structure Interaction (FSI)
+    - Unsteady forces determine frequency response of solid
+
+* Model scenarios
+** Flow detaches at corner
+- Use [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]] over surface of the aerofoil
+- Switch to [[id:ed6d4951-4845-4989-8415-824d8bca1d10][Large eddy simulation (LES)]] where flow detaches to capture important flow physics
+- This is a zonal model (see: [[id:a9df2e1a-d174-4f0b-b582-df041d654c22][Embedded LES]])
+- Boundary layer in [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]] is essential
+- Free shear layers in [[id:ed6d4951-4845-4989-8415-824d8bca1d10][Large eddy simulation (LES)]]
+** Flow separates and reattaches
+- Use RANS over initial attached flow
+- Switch to LES for separation and reattachment
+- Flow should remain in [[id:ed6d4951-4845-4989-8415-824d8bca1d10][Large eddy simulation (LES)]] downstream of step
+- Recover to [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]] on coarse grids
+** Flow is wall bounded
+- RANS close to wall
+- LES elsewhere
+* Hybrid RANS-LES variants
+- [[id:62601e83-ac19-470d-81b8-f056d3f674fd][Detached eddy simulation (DES)]]
+- [[id:215a6a61-a14e-40b2-b24f-c20b295463ab][Menter scale adaptive simulation (SAS)]]
+- [[id:a9df2e1a-d174-4f0b-b582-df041d654c22][Embedded LES]]

@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       5756548b-007f-44a6-8a69-65c43cbc292e
+:END:
+#+title: Turbulence basics
+
+* Turbulence is ..
+- Random, 3D, time dependent eddying motion with many scales
+- The natural state at high [[id:a29c4f89-fd8b-46b2-863b-5cc2cd01851a][Reynolds number]]s
+- An efficient transporter and mixer
+- A major source of energy loss
+- A significant influence on drag
+- Transported by the flow
+- Produced due to velocity gradients in the mean flow
+- Dissipated by viscosity (see: [[id:6cb2f926-6c0f-4f85-97f6-683e49cedc4e][Vortices]])
+- Re-distributed by pressure fluctuations
+
+* Laminar vs turbulent flow
+Laminar flow:
+- Smooth
+- No mixing of fluid
+- Momentum transfer by viscous forces
+- Thicker boundary layers
+	
+Turbulent flow:
+- Chaotic
+- Mixing of fluid
+- Momentum transfer mainly by net effect of intermingling
+- Thinner boundary layers
+
+Regime is determined by [[id:a29c4f89-fd8b-46b2-863b-5cc2cd01851a][Reynolds number]].
+"Low" Re => laminar flow
+"High" Re => turbulent flow

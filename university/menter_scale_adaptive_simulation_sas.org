@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       215a6a61-a14e-40b2-b24f-c20b295463ab
+:END:
+#+title: Menter scale adaptive simulation (SAS)
+
+More advanced model than [[id:62601e83-ac19-470d-81b8-f056d3f674fd][Detached eddy simulation (DES)]]. It detects unsteadiness in flow and automatically switches to [[id:ed6d4951-4845-4989-8415-824d8bca1d10][Large eddy simulation (LES)]] mode, based on local flow unsteadiness and local mesh refinement. This means RANS is not restricted to the near-wall region.

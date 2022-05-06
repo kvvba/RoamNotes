@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       be1fab88-52ca-46d0-a785-e4c96451a113
+:END:
+#+title: Turbulence energy
+
+Turbulence energy produced by mean flow, creating large eddies of low frequency. The turbulence energy is passed to the small high frequency eddies by energy cascade (see: [[id:6cb2f926-6c0f-4f85-97f6-683e49cedc4e][Vortices]]) where it is dissipated by viscosity.
+
+Production + Transport by flow => [[id:14e9937f-54c1-49ca-8a4f-d6536dcd26c5][Turbulent velocity fluctuations]] => Redistribution by pressure fluctuations => Dissipation by viscosity
+
+This is a continuous process.

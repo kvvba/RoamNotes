@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       14e9937f-54c1-49ca-8a4f-d6536dcd26c5
+:END:
+#+title: Turbulent velocity fluctuations
+
+Fluid velocity can be decomposed into mean (u bar) and fluctuating (u') components.
+
+Instantaneous velocities:
+u = \oline{u} + u'
+v = \oline{v} + v'
+w = \oline{w} + w'
+
+Time averaging u, v, w at a point gives \oline{u}, \oline{v}, \oline{w}
+
+Velocity fluctuations u', v', w' are caused by [[id:6cb2f926-6c0f-4f85-97f6-683e49cedc4e][Vortices]]. The largest vortices produce the greatest difference in u', v', w'.
+
+In smaller vortices, viscous damping makes the turbulence mode isotropic (u' = v' = w').
+
+Local eddy speed is approximately the RMS of the velocity fluctuations.
+U_eddy = (\oline{u'^2})^{0.5}
+[[id:a29c4f89-fd8b-46b2-863b-5cc2cd01851a][Reynolds number]] of the turbulence can be calculated using U_eddy.
