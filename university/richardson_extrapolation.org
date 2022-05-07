@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       a52e293f-ac9a-4e2f-92d9-eaf0e3b87efe
+:END:
+#+title: Richardson extrapolation
+
+(d\phi/dx)|_i = ((\phi_{i+1} - \phi_{i-1})/(2\Delta x)) + ((2(\Delta x)^2)/3!) \cdot ((\partial^3 \phi)/(\partial x^3))|_i + HOT
+
+Using Richardson extrapolation, we can combine two approximations to eliminate the leading truncation error term (see: [[id:e68eade6-677d-43ec-960e-dac6286511d4][Numerical errors]]). Removing this error gives us a higher-order approximation. It can also be used to estimate the value of this leading error.
+
+LHS: [[id:7b412b3c-ecce-47ff-a186-ef2fb10cf387][Finite difference]] approximation for the first derivative of \phi w.r.t. x
+1st term: [[id:7b412b3c-ecce-47ff-a186-ef2fb10cf387][Central difference]] representation for LHS, 2nd order
+2nd term: Leading error truncation term (see: [[id:9dc87607-4812-4d90-b9a4-047dd32f15d4][Modified equation analysis]])

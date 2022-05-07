@@ -81,6 +81,7 @@
 ** CFD errors
 - [[id:b41607a5-ab5f-443f-9178-5fa9d466ef4a][Sources of CFD error]]
   - [[id:e68eade6-677d-43ec-960e-dac6286511d4][Numerical errors]]
+    - [[id:a52e293f-ac9a-4e2f-92d9-eaf0e3b87efe][Richardson extrapolation]]
   - [[id:d2175b22-bd20-4003-bb06-996e301bba07][Modelling errors]]
   - [[id:c885e66d-c5f2-4c4d-bf1f-b86a411e3d76][User errors]]
   - [[id:b37e0f8d-939c-44a4-a219-3cc806a222ba][Application errors]]
