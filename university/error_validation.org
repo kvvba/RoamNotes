@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       52fd31c0-c0e5-440b-8c3c-9c2a7aded285
+:END:
+#+title: Error validation
+
+Minimise [[id:d2175b22-bd20-4003-bb06-996e301bba07][Modelling errors]] by comparison to experiment.
+
+- Validate models with available experimental measurements
+- If measurements are not available, validate with open literature cases for similar flows
+- May also use [[id:09bf99d7-e7ec-46d2-90f8-763ef2a9fd14][Direct numerical simulation (DNS)]] for validation
+- Assess modelling approach by considering different models
+- If application is new, be careful
+
+* Avoiding numerical errors
+** Uncertainties
+- Careful selection of test case
+- Check of consistency of experimental data
+- Check of sensitivity of assumptions made
+- Communication with experimentalists
+- Communication with other CFD groups, who have relevant experience
+** Reducing user errors
+- Training of users
+- Project discipline, both management and project engineer
+- Specialised workshops
+- Comparison of numerical results from different users
+** Avoiding software errors
+- Selection of high quality CFD software
+- Compliance with software engineering and coding guidelines for new developments
+- Testing of software with test suite by software developers (NASA tests)
+- Testing of new version of CFD package for applications

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       5f819774-59b9-4733-abaa-0b14645a5db2
+:END:
+#+title: Capillary number (Ca)
+
+Ca = (\mu U)/(\sigma)
+Where:
+\mu is dynamics viscosity
+U is velocity
+\sigma is surface tension

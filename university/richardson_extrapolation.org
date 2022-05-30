@@ -10,3 +10,7 @@
 2nd term: Leading error truncation term (see: [[id:9dc87607-4812-4d90-b9a4-047dd32f15d4][Modified equation analysis]])
 
 Using Richardson extrapolation, we can combine two approximations to eliminate the leading truncation error term (see: [[id:e68eade6-677d-43ec-960e-dac6286511d4][Numerical errors]]). Removing this error gives us a higher-order approximation. It can also be used to estimate the value of this leading error.
+
+This is achieved by using two different meshes and applying that:
+f_exact = f_num + c(\Delta x)^p
+Where p is the order of convergence and is typically 2.

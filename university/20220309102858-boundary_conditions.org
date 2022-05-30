@@ -3,11 +3,29 @@
 :END:
 #+title: Boundary conditions
 
+* Boundary condition types
 There are two main types of boundary condition in CFD:
 - [[id:90cde5d8-c57e-4a5a-b8f9-d45ebb90e413][Dirichlet]], also known as "type 1"
   Sets a boundary as having a known value.
 - [[id:0dca3e3a-7634-455c-914f-1e54ddd964e0][Neumann]], also known as "type 2, natural, or flux"
   Sets the gradient of a known variable across a boundary.
+
+** Application of boundary conditions
+- Constant value
+  - Appropriate for velocity inlet boundary condition
+  - Velocity may be known for experiments
+  - Setting of 0 velocity appropriate for stationary no-slip wall
+- Setting derivative of variable at boundary appropriate if no change is expected
+  - e.g. Fully developed pipe flow
+    - No change in pipe streamwise velocity expected
+- Setting second derivative to 0 equivalent to performing extrapolation
+  - Appropriate if variable is expected to change
+    - e.g. pressure varies linearly in viscous pipe flow so more appropriate to use this as outlet boundary condition for pressure
+- Period boundaries appropriate where flow expected to repeat
+  - e.g. linear cascade containing many blades could be run on a single blade using period boundaries above and below blade
+- Symmetry boundaries are appropriate where plane of symmetry expected in a flow
+  - e.g. half a pipe could be modelled as plane of symmetry expected along centre of pipe
+  - Important not to use this boundary condition where flow expected across boundary
 
 * Recirculation
   Avoid placing boundaries in recirculation regions.

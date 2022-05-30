@@ -13,3 +13,16 @@
   - Difference between the exact and iterative solutions of discretised equations
 - Round off errors
   - Computers can hold numbers only to finite number of significant figures
+
+* Truncation errors (see: [[id:9dc87607-4812-4d90-b9a4-047dd32f15d4][Modified equation analysis]])
+- Dispersion error
+  - Causes fluctuations to occur in the solution, as well as phase errors
+  - Pure [[id:077ef527-d71a-469e-b74e-43d565737784][Central difference]] schemes will give rise to dispersion errors
+  - Reduced by using more diffusive schemes such as [[id:0023b56a-2aaf-4155-85c3-e14076f7a59c][Upwinding]]
+- Diffusion error
+  - Will help suppress dispersion errors and hence is good for stability
+  - However will damp out flow unsteadiness and smooth out gradients in variables
+  - Disadvantageous for unsteady simulations and especially eddy resolving simulations
+  - Numerical diffusion errors minimized by using higher order schemes
+
+Minimise these errors with [[id:c00c1817-43ae-4a7a-a044-bdee4901b95f][Error verification]].

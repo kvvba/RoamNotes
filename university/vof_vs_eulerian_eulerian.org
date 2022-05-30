@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       1f3c5737-67b5-4bbb-b42f-4196cf28a0b6
+:END:
+#+title: VOF vs. Eulerian-Eulerian
+
+Comparison between [[id:d2151249-9dc9-417b-b910-311c761b59fa][Eulerian-Eulerian model]] and the [[id:d793a2ea-40c2-4040-90ea-0b029aa8f51e][Volume of fluid (VOF)]] model.
+
++--------------------------+------------------------+
+|VOF                       |Eulerian-Eulerian       |
++--------------------------+------------------------+
+|Fluids must be immiscible |Interpenetration        |
++--------------------------+------------------------+
+|Single set of momentum and|A set of momnetum and   |
+|continuity equations      |continuity equations for|
+|                          |each phase              |
++--------------------------+------------------------+
+|Interface reconstruction  |Correlations for each   |
+|                          |phase                   |
++--------------------------+------------------------+
+|Interface length scale >  |Can be used where       |
+|grid length scale         |interface is smaller    |
+|                          |than mesh               |
++--------------------------+------------------------+

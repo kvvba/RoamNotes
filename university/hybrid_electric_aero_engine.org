@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       56f72a93-f91a-4e43-b7d6-8153f1347b19
+:END:
+#+title: Hybrid electric aero engine
+
+- Gas turbine power distribution electrically driven fans to increase propulsion efficiency
+- Unlikely that power system alone is sufficient improvement
+  - Distributed power and lift augmentation

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       faa9df07-1716-41ef-a278-62fc980cc061
+:END:
+#+title: Turbine blade cooling effectiveness
+
+Measure of the cooling efficiency which can be used to either keep the turbine blade cooler, or to limit the amount of cooling air required.

@@ -5,6 +5,8 @@
 
 Also referred to as a transient simulation. Variation on the [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]].
 
-Some of the time-varying turbulence is calculated, and the rest is modelled. Low frequency turbulence is modelled, mesh is not fine enough to resolve high frequency turbulence so it is modelled and superimposed.
+Some of the time-varying turbulence is calculated, and the rest is modelled. Low frequency turbulence is calculated, mesh is not fine enough to resolve high frequency turbulence so it is modelled and superimposed.
 
 Able to model unsteady flow, and is therefore expected to be more accurate than the steady [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]] when unsteady structures are present e.g. vortex shedding.
+
+It is however more computationally expensive than the [[id:ca2a74bf-52f8-4b77-a304-5cbe431143d5][RANS model]] as it is time dependent and [[id:01642bd1-dc9b-409c-8c2c-629d360f1711][convergence acceleration]] techniques cannot be used. URANS must be marched in physical time with an appropriate time-step. The simulation time must be representative for the system.

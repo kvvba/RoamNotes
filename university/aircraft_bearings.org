@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       677fd02d-4fda-4f0d-89e4-52535c662949
+:END:
+#+title: Aircraft bearings
+
+Oil in jet engines is used for lubricating and cooling bearings. Only around 2% of oil is used for lubrication, the other 98% is used for cooling bearings.
+
+Driveshaft supported by bearings along its length at various points.
+
+Typical oil flow rate of 10 L/minute.
+
+* Oil degradation
+Important that oil is removed as fast as possible from the bearing chamber, i.e. no stagnant regions. If oil is left in for too long it becomes too hot and degrades and causes potential fire risk (solid residue).
+The higher the temperature the blacker and more brittle the coke deposit, this can lead to inflight shutdown and loss of engine performance.
+
+* Oil leakage
+Oil interacting with rotating shaft and air can lead to loss and heating up of the oil to higher temperatures. It is very important that oil does not leak out of the chamber (hence the delta P). It if did, it could reach very hot engine components and potentially cause a fire. A breach of oil would be catastrophic for the engine.
+
+* Simplified oil path
+*Oil reservoir* => Air-oil separator => Air overboard
+                                     => Scavenge pump => *Oil reservoir*
+                => FOHE => Bearing chamber => Air-oil separator => Air overboard
+                                                                => Scavenge pump => *Oil reservoir*
+                                           => Scavenge pump => *Oil reservoir*
+

@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       6c7ab2ea-2df4-4c06-aa60-babb45b20415
+:END:
+#+title: Delta wings
+
+* Characteristics
+- The swept-back wing reduces the effective [[id:0e42ba60-18fc-4f17-a227-cf7cab76ca51][Mach number]] in high-speed flight
+- Wave drag reduced at supersonic speeds
+- [[id:84005369-0a9e-48a7-8c69-53bc4422377a][Lift]] to drag ratio reduced at subsonic speeds
+- Delta wings have no 2D chord
+- Flow separates at the sharp leading edge
+- Leads to roll-up of vortices
+  - These look similar to [[id:626f17bb-0f09-4335-81ef-03cfd2f4eb87][trailing vortices]]
+- Vortices above wing due to wing shape
+  - Low pressure above wing => lift
+
+** Delta wing stall
+- Large stall angle (~35\deg)
+  - Delta wing planes land at high angle of attack
+- Delta wings are sensitive to leading-edge stall due to sharp form
+  - Could improve this by adding a leading-edge [[id:bfc20280-a02c-4607-9b3a-11994dfd52b0][slat]]
+  - Can also passively improve it by rounding edges
+    - Rounded leading edge also increases [[id:84005369-0a9e-48a7-8c69-53bc4422377a][lift]] to drag ratio
+- Stall can occur because of vortex breakdown instability
+  - As all lift comes from the two roll-up vortices
+
+* Types of delta wings
+- Simple delta
+- Cropped delta
+- Notched delta
+- Double delta

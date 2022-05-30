@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       5063329d-233b-4d7a-8754-5a8213c57e73
+:END:
+#+title: Safety actions process
+
+The holder of a [[id:11ff32bd-8325-451b-a3b6-70daad59eb42][Type certificate]] has to report to the regulating authority any failure, malfunction, defect, or other occurrence related to the production covered by the type certificate and has resulted or may result in an unsafe condition.
+
+These reports shall be made not later than 72 hours after the identification of the possible unsafe condition, unless there are exceptional circumstances.
+
+The holder of the type certificate shall propose the appropriate corrective action or required inspections, or both, and submit details of these proposals to the agency for approval.
+
+An [[id:2cd19836-6a46-4276-8623-7c6a0d7726be][Airworthiness directive]] is then issued or adopted by the regulating authority that mandates actions to restore an aircraft or engine to an acceptable level of safety.

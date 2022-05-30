@@ -15,3 +15,5 @@
 - Turbulence model and selecting
   - No a priori criterion
   - Expertise and knowledge of the CFD user
+
+Minimise modelling errors with [[id:52fd31c0-c0e5-440b-8c3c-9c2a7aded285][Error validation]].

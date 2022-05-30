@@ -3,7 +3,9 @@
 :END:
 #+title: Under-relaxation
 
-To improve stability in [[id:9144ea7d-bb69-4755-99f5-ceeffe2bb21f][Steady flow]] it is common to "under relax" the solution. This controls the amount of "new" solution that is added to the current solution.
+Also known as residual averaging.
+
+To improve stability in [[id:9144ea7d-bb69-4755-99f5-ceeffe2bb21f][Steady flow]] it is common to "under relax" the solution. This controls the amount of "new" solution that is added to the current solution. This is achieved by spatially averaging the residuals, R.
 This does not apply to unsteady flows.
 
 T^(n+1) = T^n + \epsilon R^n

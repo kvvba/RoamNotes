@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       535bfbdd-d465-49bc-8662-a9046e92d635
+:END:
+#+title: Riblets
+
+Micro-grooves aligned to the local flow, which are placed over the aircraft surface. The turbulence [[id:f8682b5f-004d-4adc-bd74-e106b0b3c189][Skin friction]] drag can be reduced by these passive boundary-layer devices by up to 10% if they are applied correctly. Since the skin-friction drag component of long-haul aircraft is about 50% of the total drag, the net drag reduction by riblets could be up to 4% if they are applied to 80% of the aircraft surface.

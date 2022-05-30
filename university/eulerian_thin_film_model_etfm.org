@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       b5be96b0-2425-4b76-8c11-412925c94613
+:END:
+#+title: Eulerian thin film model (ETFM)
+
+- An Eulerian [[id:d2c3d66b-ecdc-45dc-8ba2-323bb1a9cf94][Multiphase flow model]] for liquid films
+- This model uses depth averaged equation to model the flow of film on a wall
+- It is suitable for representing very thin liquid flows on wall surfaces
+- It uses coarse grids, giving significantly reduced computation cost compared to a [[id:d793a2ea-40c2-4040-90ea-0b029aa8f51e][Volume of fluid (VOF)]] model
+- The ETFM needs coupling with other methods to model two-phase flow away from the walls
+- [[id:b3461fb1-cdf8-496c-972e-e174a608db47][DPM]]-ETFM coupling is now common in commercial CFD codes
+- [[id:d793a2ea-40c2-4040-90ea-0b029aa8f51e][VOF]]-ETFM coupling is less common but is starting to be more widely applied in recent releases of commercial software

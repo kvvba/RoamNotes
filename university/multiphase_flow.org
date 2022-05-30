@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       ca34c0a7-00ba-4840-b48b-7bf7b013738e
+:END:
+#+title: Multiphase flow
+
+* Definition
+A multiphase flow is any flow in which more than one phase is present:
+- Gas-liquid flows
+- Gas-solid flows
+- Liquid-solid flows
+- 3 phase equivalents
+
+Also important to consider a liquid-liquid flow with two different liquids as a multiphase flow.
+
+* Motivation
+- Many practical engineering applications contain multiphase flow
+  (see: [[id:8e5de456-5304-450f-88ca-455e0fbfa208][Industrial applications of multiphase CFD]])
+- Interaction between phases changes flow physics
+
+* Why use CFD?
+- Often difficult, expensive, and time consuming to conduct experiments
+- Often allows a range of parameters to be investigated
+- Extra insight - looking inside complex components, take measurements which are not available experimentally

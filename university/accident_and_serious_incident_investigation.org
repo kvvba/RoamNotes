@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       79bb1f11-70b9-4588-a0e7-441940fb3f84
+:END:
+#+title: Accident and serious incident investigation
+
+The causes of an aircraft accident or serious incident must be identified in order to prevent repeated occurrences. The identification of causal factors is best accomplished through a formal investigation. Annex 13 states that the primary objective of the investigation of an [[id:1b40fd94-2b00-46e1-891d-b0e46b44c77c][Aircraft accident]] or [[id:81dcfca6-fe44-47d8-8392-d3ef7cd789ee][Aircraft incident]] is prevention, but can result in prosecution.

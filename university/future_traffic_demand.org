@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       b3bcab9e-05e7-47f0-916e-111b0e849e28
+:END:
+#+title: Future traffic demand
+
+- The continued growth in traffic demand is generally agreed by all sections of the industry
+- The major drivers are:
+  - Travel for pleasure
+    - Growth in GDP
+    - Wealthy and fit 60/70 year olds
+  - Global trade
+    - Emerging nations
+    - Distribution of natural resources
+    - Low cost centres of manufacture
+- Major considerations have been point-to-point or hub-and-spoke
+  - Point to point benefits from speed and economies of twin-engine aircraft

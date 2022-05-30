@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       bfc20280-a02c-4607-9b3a-11994dfd52b0
+:END:
+#+title: Slats
+
+Slats are leading-edge [[id:1423bd92-09fc-4182-9227-72b60c0325e5][High-lift devices]] for boundary layer control of an aerofoil. Also known as a Leading Edge Device (LED).
+
+Without the device, the velocity increases (pressure reduces) rapidly over the leading edge - creating a strong adverse pressure gradient. This leads to a leading-edge separation at high angles of attack.
+
+With slats, velocity over the upper aerofoil surface is reduced (increase in static pressure) due to the vortex effect - reducing severity of the pressure gradient and helping flow remain attached (see: [[id:e9513ab1-f584-4c25-bc92-ef4fcc3ce52b][Flow separation]]) over the aerofoil.
+
+C_Lmax is increased but, unlike with [[id:2a45ad33-4a20-4a3a-9259-f9f69df1df21][Trailing edge flaps]], there is no change in the zero-lift angle.
+
+Slats are represented by a vortex (see: [[id:54e6fb44-f9a9-4515-920b-9c3ada22d266][Circulation]]).
+
+* Types of slats
+- LE slat
+- LE droop
+- Kruger flap

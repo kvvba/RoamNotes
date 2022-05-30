@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       2f8c734d-b0f7-4ae9-95ab-4b1fc5b68189
+:END:
+#+title: Laminar flow control
+
+Since the [[id:f8682b5f-004d-4adc-bd74-e106b0b3c189][Skin friction]] drag of laminar flow is much smaller than that of the turbulent flow, it is beneficial to maintain the laminar boundary layer as far back as possible over an aerofoil. However, transition to turbulence will take place sooner or later because of the high [[id:a29c4f89-fd8b-46b2-863b-5cc2cd01851a][Reynolds number]] flow.
+
+Several strategies to deal with this:
+1. Natural laminar flow (NLF): design the aerofoil section and/or attachments so that flow will remain naturally laminar
+2. Laminar flow control (LFC): applying [[id:d5db2076-be6e-455d-8267-3e8dad5e2503][Wall suction]] around the aerofoil, which will make the velocity profile more robust against transition
+3. Hybrid laminar flow control (HFLC): combination of these two techniques
+
+* Foreign particles
+Laminar flow control (LFC) and hybrid laminar flow control (HLFC) require [[id:d5db2076-be6e-455d-8267-3e8dad5e2503][Wall suction]] surface (perforations or slots) and duct/pump system. It is, therefore, important that the suction surface is free from particles as much as possible in order for the laminar flow control to work. Depending on the flight altitude, there are different "foreign" particles. We must be particularly careful that insects do not impact upon the suction surface during take-off.

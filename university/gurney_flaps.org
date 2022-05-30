@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       958524f5-51c0-4c71-b7d8-e99f2c1a2988
+:END:
+#+title: Gurney flaps
+
+Gurney flaps enhance the (negative) [[id:84005369-0a9e-48a7-8c69-53bc4422377a][Lift]] by creating a recirculating region in the wake of the flap.
+This is similar to certain types of [[id:2a45ad33-4a20-4a3a-9259-f9f69df1df21][Trailing edge flaps]], but Gurney flaps were originally developed for racing cars.
+
+Increase in C_L is proportional to the height of the flap, however the effect is diminished with further increases in height. Drag is usually increased with increase in C_L.

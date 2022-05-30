@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       11ff32bd-8325-451b-a3b6-70daad59eb42
+:END:
+#+title: Type certificates
+
+A type certificate signifies that the aircraft, engine, or propeller will be manufactured according to an approved design, and that the design is compliant with [[id:32aeafe9-18d1-4ef6-9b53-b07c3568b23a][Airworthiness]] regulations.
+
+Type certificates are issued for a particular mark of aircraft i.e. it covers all A380s or all Trent 900 engines.
+
+The applicant must be an approved Design Authority (DOA) and the manufacturer must be an approved production authority (POA) - not necessarily the same organisations.
+
+* The application
+- Application for a Type Certificate is made well in advance of the required certification date. Typically three years for an engine, even longer for the whole aeroplane
+- It establishes with the Certifying Authorities:
+  - The regulations that will be satisfied at the time of certification plus any special provisions, which are the minimum to be achieved.
+  - The method of compliance
+- On successful completion of all testing, Compliance Statements are submitted and then a Type Certificate granted - Type Approval
+- There is usually separate certificates for the aircraft and engine.
+- The aircraft is normally certified after the engine, as the aircraft certification flight tests are carried out using certified engines, as opposed to development engines.
+
+* Content
+- Type certificates include:
+  - The type design, what is being certified
+  - The operating limitations. Speeds, temps, etc
+  - The type-certificate data sheet for [[id:32aeafe9-18d1-4ef6-9b53-b07c3568b23a][Airworthiness]] and emissions
+  - The applicable type-certification basis (what where the applicable regulations at time of application)
+  - Any environmental protection requirements
+  - Any other conditions of limitations prescribed for the product
+

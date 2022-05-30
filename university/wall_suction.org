@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       d5db2076-be6e-455d-8267-3e8dad5e2503
+:END:
+#+title: Wall suction
+
+Wall suction can be applied around an aerofoil to implement [[id:2f8c734d-b0f7-4ae9-95ab-4b1fc5b68189][Laminar flow control]]. This makes the velocity profile more robust against transition using perforations/slots and a duct/pump system.

@@ -11,3 +11,5 @@ In terms of errors - solution contains both high and low frequency errors.
 High frequency errors tend to be reduced much faster than low frequency errors (low frequency error tends to slow down convergence).
 
 Transferring to a coarse grid, the low frequency errors become high frequency and are more readily damped.
+
+The process of sending a correction back to a fine mesh is called prolongation.

@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       11e9d725-b4fb-4142-9d17-42ced61d1dc3
+:END:
+#+title: Hydrogen aero fuel
+
+* Pros and cons
+** Pros
+- Perceived as being environmentally friendly, only water emissions
+- Available after fossil fuels become too expensive
+- Gas turbines can be developed to burn hydrogen
+- Good energy density by mass
+** Cons
+- Poor energy density by volume
+- The effect of water vapour in stratosphere and ice clouds formed from contrails could be a problem
+- Infrastructure to produce and store would be major undertaking
+- Handling of cryogenic liquids
+- Relocation of fuel tanks from wing to (larger) fuselage
+- The scale of investment required in a world-wide hydrogen infrastructure
+- The certifying authorities and travelling public may be resistant to its introduction
+* Hydrogen production methods
+- Green hydrogen is made using clean electricity from surplus renewable energy sources, such as solar or wind power, to electrolyse water. Electrolysers use an electrochemical reaction to split water into its components of hydrogen and oxygen, emitting no CO_2 in the production process is expensive.
+- Blue hydrogen is produced mainly from natural gas, using a process called steam reforming, which brings together natural gas and heated water in the form of steam. The output is hydrogen - but also CO_2 as a by-product. This means carbon capture and storage (CCS) is essential to trap and store this carbon.
+- Grey hydrogen is the most common form of hydrogen production. Grey hydrogen is created from natural gas, or methane, using steam methane reformation but without capturing the greenhouse gases made in the process.
+- Black and brown hydrogen uses black coal or lignite (brown coal) in the hydrogen-making process, these black and brown hydrogens are the absolute opposite of green hydrogen in the hydrogen spectrum and the most environmentally damaging.
+* Recently announced studies
+** LH_2 turboprop
+- A turboprop design (up to 100 passengers) using a turboprop engine powered by hydrogen combustion in modified gas-turbine engines
+- Capable of travelling more than 1000 nautical miles, making it a perfect option for short-haul
+** LH_2 turbofan
+- A turbofan design (120-200 passengers) with a range of 2000+ nautical miles, capable of operating trans-continental and powered by a modified gas-turbine engine running on hydrogen through combustion
+- The liquid hydrogen will be stored and distributed via tanks located behind the rear pressure bulkhead
+** LH_2 turbofan blended-wing body (BWB)
+- A blended-wing body, up to 200 passengers, with a range similar to that of the turbofan concept
+- The exceptionally wide fuselage opens up multiple options for hydrogen storage and distribution, and for cabin layout

@@ -38,8 +38,16 @@
 - [[id:257e9f3a-83d9-4361-a517-68adc880d7ee][Downwash]]
 - [[id:9bfd0909-1c43-48d0-84ed-1c179add56d7][Biot-Savart theorem]]
 
-* Aerofoil characteristics
-
-* Finite span wing
-
 * Boundary layer control
+- [[id:cf31a8dc-b4b6-4afa-8e5d-6db83e5a7bbf][Stall speed]]
+- [[id:1423bd92-09fc-4182-9227-72b60c0325e5][High-lift devices]]
+  - [[id:2a45ad33-4a20-4a3a-9259-f9f69df1df21][Trailing edge flaps]]
+  - [[id:bfc20280-a02c-4607-9b3a-11994dfd52b0][Slats]]
+  - [[id:958524f5-51c0-4c71-b7d8-e99f2c1a2988][Gurney flaps]]
+  - [[id:2ea5b5d3-48e4-4643-9a99-d6fff2ef198b][Winglets]]
+  - [[id:8e341be3-36e7-4350-a657-e84e274ec1df][Vortex generators]]
+  - [[id:4f1e6a48-779b-4363-9b6f-51b955cddd2f][Micro-vortex generators]]
+- [[id:6c7ab2ea-2df4-4c06-aa60-babb45b20415][Delta wings]]
+- [[id:2f8c734d-b0f7-4ae9-95ab-4b1fc5b68189][Laminar flow control]]
+  - [[id:d5db2076-be6e-455d-8267-3e8dad5e2503][Wall suction]]
+- [[id:535bfbdd-d465-49bc-8662-a9046e92d635][Riblets]]

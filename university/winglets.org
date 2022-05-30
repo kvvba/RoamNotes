@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       2ea5b5d3-48e4-4643-9a99-d6fff2ef198b
+:END:
+#+title: Winglets
+
+Winglets are [[id:1423bd92-09fc-4182-9227-72b60c0325e5][High-lift devices]] which reduce the effects of [[id:626f17bb-0f09-4335-81ef-03cfd2f4eb87][Trailing vortices]].
+
+For any finite-span wing there are [[id:626f17bb-0f09-4335-81ef-03cfd2f4eb87][Trailing vortices]] from the wing tips, producing [[id:257e9f3a-83d9-4361-a517-68adc880d7ee][Downwash]] downstream. This leads to a reduction of effective angle of attack, adding an extra (induced) drag. Induced drag coefficient of a finite-span wing is given:
+
+C_Dt = C_L^2/(\pi \cdot AR)
+
+Suggesting that C_Dt can be reduced by increasing the aspect ratio AR of the wings or reducing the lift coefficient C_L. Using winglets at the tip of the wings is one way of achieving this. Winglets are also known as wing-tip devices.
+
+Winglets can reduce the induced drag of finite-span wings by manipulating the flow at the wing tips, in such a way as to:
+- Move the [[id:626f17bb-0f09-4335-81ef-03cfd2f4eb87][Trailing vortices]] further away from the wings, thereby reducing [[id:257e9f3a-83d9-4361-a517-68adc880d7ee][Downwash]] strength
+- Create a thrust (winglet thrust) over the winglets by the side-wash, a flow around the wing tips from lower to upper wing suface
+- Diffuse the [[id:626f17bb-0f09-4335-81ef-03cfd2f4eb87][Trailing vortices]], reducing their vorticity
+
+* Winglet inspiration
+R.T. Whitcomb, an engineer at NASA Langley Research Center, further developed the concept of
+winglets and pioneered the design of the modern winglet as a mean to reduce cruise drag and
+improve aircraft performance. Whitcomb was inspired by an article in Science Magazine on the flight
+characteristics of soaring birds and their use of tip feathers to control flight.
+
+* Winglet types
+- Whitcomb winglet
+- A310 tip fence
+- Tip sails
+- Vortex diffuser

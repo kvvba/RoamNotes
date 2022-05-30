@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       776b2f36-9f74-4cf3-887d-e3dfee5d813c
+:END:
+#+title: Two stage HP turbine
+

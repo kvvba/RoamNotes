@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       075ccf23-7d4f-4bb6-a516-78541991eece
+:END:
+#+title: Annulus diagrams
+
+Aspect ratio = chord / blade height
+
+Axial gaps give space for the gas to expand and to dampen damaging resonances.
+
+Angle of the diverging passage is known as the hade angle. The greater the angle, the shorter the turbine arrangement - however this increases the probability of disturbance of the gas boundary layer, setting up secondary flows and loss of efficiency.
+
+The hub-tip ratio influences the aerofoil form, to maintain the correct angle of attack.

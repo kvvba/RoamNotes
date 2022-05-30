@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       38632930-2914-4abf-94a9-593aaa7f0f86
+:END:
+#+title: Turbine efficiency loss mechanisms
+
+Losses in [[id:102568d2-a06b-416f-9037-1ce6c86164db][Turbine efficiency]].
+
+* Flow phenomena
+- Overtip leakage, flow bypasses the working section
+- Combustion temperature profile from root to tip, the traverse, should be as uniform as possible
+  - Usable turbine entry temperature is determined by the traverse temperature
+  - Poor traverse can cause loss of power and efficiency
+- Mixing of cooling air in the gas path, disturbing main gas flow
+- Secondary flow from nozzle guide vane and HP turbine blade
+- Amount of cooling air for the blade and vane

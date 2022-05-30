@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       cba2f7e3-cffd-4041-a82e-0f66bc3fcef9
+:END:
+#+title: Turbine operation
+
+A turbine is composed of a series of rotors and stators (nozzle guide vanes).
+
+- Nozzle guide vanes (NGV)
+  - Accelerates gas and turns it to optimum angle for rotor blades
+  - Operate in a choked condition (see: [[id:83203801-5c4e-4923-a8be-591387858834][Convergent-divergent flow]]) using converging passage
+  - They swirl the air in the direction required by the rotor blade
+  - The effective flow area sets the compressor working line, hence surge margin and max efficiency point (see: [[id:102568d2-a06b-416f-9037-1ce6c86164db][Turbine efficiency]])
+  - Controls engine internal air pressures and hence bearing loads
+  - It has a complex cooling system
+- Rotor blades
+  - Utilise the kinetic energy of the air to generate power
+  - They are highly stressed due to the large centrifugal forces and temperatures
+  - They are invariably cooled for high pressure stages, later stages may be uncooled

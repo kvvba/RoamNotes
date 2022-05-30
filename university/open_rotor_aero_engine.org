@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       d3d9acd3-d211-4af0-95db-1e62d98d1e33
+:END:
+#+title: Open rotor aero engine
+
+- Potentially better fuel burn
+- 0.78 Mn < 0.8-.83 Mn currently
+- Less quiet
+- New certification basis
+- Is there a viable business case?
+
+- Pusher configuration mounted on the fuselage
+- Tractor configuration mounted on the wings

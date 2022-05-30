@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       29714690-47a1-460c-9248-26e8188d0a0e
+:END:
+#+title: Eulerian-Mixture (Algebraic Slip Model (ASM))
+
+An Eulerian [[id:d2c3d66b-ecdc-45dc-8ba2-323bb1a9cf94][Multiphase flow modelling]] technique. The Mixture/ASM model allows two phases to be interpenetrating.
+
+- Both fluids share a single set of momentum and continuity equations
+- [[id:7293783c-3bd1-4117-81bf-1aebc764ff58][Volume fraction]] equation is solved for secondary phase
+- Phases can move at different velocities due to the inclusion of an algebraic expression for relative velocities of phases
+- Valid for low [[id:7293783c-3bd1-4117-81bf-1aebc764ff58][Volume fraction]] flows
+- Applications such as bubble flows

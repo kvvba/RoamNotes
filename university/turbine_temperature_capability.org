@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       3d21b934-30b3-4f2b-ac80-2cec84c124d6
+:END:
+#+title: Turbine temperature capability
+
+In order of decreasing temperature capability:
+1. New material, advanced cooling and thermal barrier coating
+2. Single crystal material, advanced cooling and thermal barrier coating (TBC)
+3. Single crystal material, advanced cooling
+4. Single crystal material, simple cooling
+5. Directionally solidified material, simple coating
+6. Directionally solidified material, uncooled

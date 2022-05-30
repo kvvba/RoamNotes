@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       660c7b48-8b5f-42bc-8e83-188817e0a04b
+:END:
+#+title: Radical innovation
+
+- Creative thinking which challenges paradigms
+- Higher risk but required for the long term
+- Goes beyond competitive positioning
+- Potential to significantly impact the way the world operates
+- Less common
+- Options for future aircraft:
+  - Significant aircraft architecture change
+    - Greater propulsion system integration
+  - Alternative fuels
+  - Personal transport
+- As opposed to [[id:4a20ca48-99b0-4bde-a059-12650d8575c4][Incremental innovation]]

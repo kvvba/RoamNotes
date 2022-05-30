@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       d2c3d66b-ecdc-45dc-8ba2-323bb1a9cf94
+:END:
+#+title: Multiphase flow modelling
+
+* Separated/stratified vs. dispersed
+Can have separated/stratified flows and dispersed flows.
+In separated/stratified flows, there are layers of water and air - the air shears over the interface between the two. In dispersed flow, the flow is bubbly (see: [[id:3a7a32ba-c1ba-4f60-a8ee-04a30fb550c4][Liquid-gas flow types]]).
+
+* Challenges
+- Differing length and time scales
+- Level of resolution required
+- Transient phenomena, can't use steady approach
+- High level of computational expense
+
+* Modelling approaches
+** Dispersed flows
+*** Eulerian
+Watch the flow go past, all phases are continuous. Frame of reference stationary.
+Models:
+- [[id:29714690-47a1-460c-9248-26e8188d0a0e][Eulerian-Mixture (Algebraic Slip Model (ASM))]]
+- [[id:d2151249-9dc9-417b-b910-311c761b59fa][Eulerian-Eulerian model]]
+- [[id:b5be96b0-2425-4b76-8c11-412925c94613][Eulerian thin film model (ETFM)]]
+*** Lagrangian
+Move with the flow. One continuous phase, all other phases are discrete.
+Models:
+- [[id:b3461fb1-cdf8-496c-972e-e174a608db47][Discrete Phase Model (DPM)]]
+** Separated flows
+*** Volume of Fluid (VOF)
+For separated flows, the Eulerian [[id:d793a2ea-40c2-4040-90ea-0b029aa8f51e][Volume of fluid (VOF)]] method is used.

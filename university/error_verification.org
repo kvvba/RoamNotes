@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       c00c1817-43ae-4a7a-a044-bdee4901b95f
+:END:
+#+title: Error verification
+
+Minimise [[id:e68eade6-677d-43ec-960e-dac6286511d4][Numerical errors]] by comparison to analytical solution.
+
+- Define target values
+- Examine mesh density
+- Examine scheme order
+- Examine residual cut-off
+- Examine time-step (if unsteady)
+
+* Avoiding numerical errors
+** Grid refinement study
+- Generate 3 grids for each application
+- Start with coarsest grid sufficient to resolve relevant details
+- Next mesh halves mesh spacings
+- Solution eventually becomes independent of the mesh
+- See: [[id:20e08c09-6934-401e-8f27-3375b09b314c][Mesh independence]]
+** Spatial discretisation
+- The order of discretisation schemes may also be varied to assess error
+- It may be possible to run on coarser meshes with higher-order schemes
+- However, higher order schemes are more expensive and require more storage
+- See: [[id:a1b71fda-3289-4304-9ee1-46c274781c76][Discretization techniques]]
+** Temporal discretisation
+- At least second order is recommended for time discretisation
+- Time discretisation errors can be reduced by smaller time steps
+- For a given numerical scheme, the solution should be computed with different time steps (at least 3) and the target variables should be reported
+- See: [[id:d20c1d12-c5cb-4518-8446-8b7bd9fedd1c][Temporal discretization]]
+** Residuals
+- CFD codes iterate to solve systems of simultaneous equations
+- The lower the residuals the more exact the solution is
+- Checks should be made to ensure that sufficient convergence has been achieved
+- Converge solution down to 1 \times 10^-3 and plot key results
+- Further converge down to 1 \times 10^-4 and plot key results
+- There should not be significant difference (within acceptable range)

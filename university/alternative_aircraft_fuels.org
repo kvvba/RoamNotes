@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       bb55070e-f931-42bb-96fa-60eb73b945f2
+:END:
+#+title: Alternative aircraft fuels
+
+- Many options have been reviewed:
+  - Bio-diesel
+  - Fischer-Tropsch kerosene
+  - Bio-methane
+  - Alcohols
+  - Nuclear
+  - LH2 (liquid hydrogen)
+    
+- Rejected options:
+  - Alcohol extenders
+    - Safety (flash point and toxicity)
+    - Energy density
+    - Emissions
+  - Methane
+    - Quality/quantity of supply
+  - Nuclear
+    - Safety
+      
+- Potential options under active study:
+  - Fischer-Tropsch kerosene
+    - Converting CO and hydrogen into liquid hydrocarbons
+    - CO and hydrogen produced from coal, natural gas, or biomass in gasification
+    - Fischer-Tropsch process converts these into synthetic lubricant and fuel
+  - Bio-fuels
+    - Demanding on land use, conflicts with food production
+  - [[id:11e9d725-b4fb-4142-9d17-42ced61d1dc3][Hydrogen aero fuel]] (liquid)

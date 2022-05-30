@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       0f9f4ab7-a7c7-42bd-8ed3-e70ec2b923f5
+:END:
+#+title: Multistage turbine
+
+If more power is required, more stages are needed (see: [[id:93a756b9-2143-4404-b04a-06653449cec8][Single stage turbines]]).
+
+* High pressure
+Used to drive multi stage compressors with larger pressure ratios.
+
+Second stage blade is usually the more difficult design due to higher AN^2 (annulus area \times blade speed), as it rotates at same speed as first stage resulting in a larger blade. Rotating mass of the second stage is much higher and can be the limiting factor. Hence unshrouded blades to reduce rotating mass (see: [[id:dc6c0144-5ac7-4800-855a-842f80cf4aae][Turbine tip sealing]]) in this case (as opposed to shrouded blades as in [[id:93a756b9-2143-4404-b04a-06653449cec8][Single stage turbines]]).
+
+Can also have shrouded blades when rotation is slower, reducing over-tip leakage.
+
+* Low pressure
+- [[id:5bd17ae4-4895-4162-9f91-416c5c444266][High bypass ratio engine's]] fan rotates comparatively slowly
+- As turbine rotates at the same speed, to maintain efficiency the individual stage loading needs to be reduced
+  - Requires more blade rows and higher mean radius
+  - Multistage LP turbine can be up to 5 or 6 stages
+- Used in direct drive for fans
+- Speed determined by the fan
+- Disc size relative to blade height is smaller, due to lower speed

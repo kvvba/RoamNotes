@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       dc6c0144-5ac7-4800-855a-842f80cf4aae
+:END:
+#+title: Turbine tip sealing
+
+The efficiency of a shrouded blade is less sensitive to tip clearance effects. The decision between shrouded and shroudless turbine blades depends not only on engine architecture and turbine duty but also on previous company experience and design style.
+
+* Tip clearance control
+** Active
+- Active tip clearance is achieved by directing cooling air onto the outside of the casing to maintain tip clearance, using air bled from compression system
+- Cooling air depends on engine condition
+- Cooling causes lining to shrink to match the rotor
+** Passive
+- Passive tip clearance is achieved by selecting the casing materials for their coefficient of thermal expansion, and sizing them to control the rate of expansion/contraction
+
+* Blade shrouding
+** Shrouded
+- Shrouded blades typically have passive tip clearance control
+- The abradable liner is profiled to maintain a close running clearance, even with the axial excursion of the turbine relative to the casing during engine transience
+- The abradable lining is protected from the hot gas stream as cooling air can be directed over the tip of the blade, leading to greater durability of the linings
+- The shrouded blade with fins running near the abradable liner has the ability to provide hade
+  - Resulting in a shorter turbine
+- Lining protected from hot gas stream but heavier blades limit the speed
+** Unshrouded
+- Unshrouded blades require active tip clearance control, requiring a parallel annulus
+- Requires parallel annulus
+- Lining exposed to hot gas stream, requires sophisticated abradable lining material for satisfactory service life
+- Advantage is that it can be lighter, turbine can run faster for given value of disc stress
+- Style of blade chosen depends on design application and design style

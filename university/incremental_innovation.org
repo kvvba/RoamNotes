@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       4a20ca48-99b0-4bde-a059-12650d8575c4
+:END:
+#+title: Incremental innovation
+
+- Most common form of innovation
+- Responsive to problems, opportunities or trends
+- Maintains or enhances competitive position
+- Lower risk
+- Similar aircraft architecture and better propulsion systems
+- The assured option
+- As opposed to [[id:660c7b48-8b5f-42bc-8e83-188817e0a04b][Radical innovation]]

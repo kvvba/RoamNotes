@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       2b49b953-3d70-4e6a-8ec7-35c1bda95886
+:END:
+#+title: Turbulent flow modelling method coupling
+
+[[id:b3461fb1-cdf8-496c-972e-e174a608db47][DPM]]-[[id:b5be96b0-2425-4b76-8c11-412925c94613][ETFM]]
+Dispersed spray modelled with DPM, which impinges on a surface and forms an ETFM film.
+
+[[id:d793a2ea-40c2-4040-90ea-0b029aa8f51e][VOF]]-[[id:b5be96b0-2425-4b76-8c11-412925c94613][ETFM]]
+A VOF pool of liquid turns into a ETFM film in areas where the film is below cell resolution.
+
+[[id:d793a2ea-40c2-4040-90ea-0b029aa8f51e][VOF]]-[[id:b3461fb1-cdf8-496c-972e-e174a608db47][DPM]]
+As the VOF film breaks up, the droplets formed transition to the DPM model provided they meet certain criteria.
+Advantageous to couple these two models to save on computational cost. Capturing the dispersed phase using VOF would be far too expensive, requiring extremely fine meshes. In the coupled approach, where the mesh is fine enough VOF can be used, alternatively DPM. An example would be jet breakup - VOF for primary break up and DPM representation of droplets.

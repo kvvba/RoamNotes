@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       1b40fd94-2b00-46e1-891d-b0e46b44c77c
+:END:
+#+title: Aircraft accident
+
+An accident is defined as an incident where:
+- Anyone is killed or seriously injured
+- The aircraft incurs damage or structural failure
+- The aircraft is missing or completely inaccessible

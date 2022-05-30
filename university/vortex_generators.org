@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       8e341be3-36e7-4350-a657-e84e274ec1df
+:END:
+#+title: Vortex generators
+
+(see also: [[id:4f1e6a48-779b-4363-9b6f-51b955cddd2f][Micro-vortex generators]])
+
+Vortex generators are [[id:1423bd92-09fc-4182-9227-72b60c0325e5][High-lift devices]] used for [[id:e9513ab1-f584-4c25-bc92-ef4fcc3ce52b][Flow separation]] control of an aircraft. They consist of thin plates/blocks of different geometry places over the flow surface at an angle of attack, in such a way that stream-wise vortices can be created in the wake. These vortices energize the boundary layer near separation. As a result, the flow separation can be delayed to a larger angle of attack, thereby increasing maximum lift of an aircraft. Typically, the size of vortex generators is of the order of the local boundary layer thickness.
+
+They are arranged equidistant along the span of the wing, on the upper surface. They are not necessarily arranged in a straight line.
+
+* Internal surfaces
+Vortex generators can delay [[id:e9513ab1-f584-4c25-bc92-ef4fcc3ce52b][Flow separation]] within ducts. In order to reduce the total weight of aircraft components, the duct length needs to be minimised where possible. If the flow within the pipe separates, the flow rate through the pipe is reduced with an increased pressure drop - leading to poor aerodynamic performance and/or combustion performance.
+
+* Vortex generator types
+- Forwards wedge
+- Counter-rotating vanes (n=0 joined vanes)
+- Backwards wedge
+- Single vane

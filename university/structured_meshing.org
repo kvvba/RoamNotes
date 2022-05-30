@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       2d6dd17b-3b64-4081-a9d2-d609a69055c8
+:END:
+#+title: Structured meshing
+
+Regular, structured grid using squares or distorted squares. Easy to loop over and reference neighbouring nodes.
+Structured code is becoming fahsionable again due to its computational efficiency for very large simulations.
+
+Three-dimensional structured meshes are comprised of hexahedra, typically cubes.
+
+* Advantages
+- Computationally efficient
+- Low memory usage
+- Can give better convergence
+- Good for high-order CFD
+- Low cell counts achievable with careful design
+- Easier to program
+- Easier to parallelise
+- Easy to control cell count
+- Easy to refine areas of interest
+- Advantageous near to walls
+- High-aspect ratio cells to capture boundary layers and shear layers
+
+* Disadvantages
+- Hard to automate
+- Difficult to mesh complex geometry
+
+* Types of structured meshes
+** Cartesian mesh
+- Can be non-uniform
+  - Cell size changes
+** Curvilinear mesh
+- Structured but wrapped to a curve geometry
+** Chimera/overset mesh
+- Interpolation between multiple structured meshes
+- Stitched together
+- Better for complex geometry

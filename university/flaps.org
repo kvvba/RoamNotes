@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       2a45ad33-4a20-4a3a-9259-f9f69df1df21
+:END:
+#+title: Trailing edge flaps
+
+Flaps are one type of [[id:1423bd92-09fc-4182-9227-72b60c0325e5][High-lift device]] used to decrease [[id:cf31a8dc-b4b6-4afa-8e5d-6db83e5a7bbf][Stall speed]].
+
+The trailing edge flap effectively increases the camber of an aerofoil, creating a negative zero-lift angle. As a result, the lift curve is shifted to the left - increasing lift at a given angle of attack.
+
+The trailing edge flap does not change the lift slope.
+
+The maximum lift is increased with a trailing edge flap, but the maximum lift angle is slightly reduced.
+
+* Vane
+The vane device acts like a vortex (see: [[id:54e6fb44-f9a9-4515-920b-9c3ada22d266][Circulation]]) placed at the trailing edge of an aerofoil. It increases the velocity at the upper surface of an aerofoil, reducing the pressure near the trailing edge. This helps maintain flow attachment (i.e. prevents [[id:e9513ab1-f584-4c25-bc92-ef4fcc3ce52b][Flow separation]]) to the main aerofoil with an increase in lift.
+
+* Flap types
+- Plain flap
+- Split flap
+- Zap flap
+- Single slotted flap
+- Fowler flap
+- Double slotted flap
+- Nose flap

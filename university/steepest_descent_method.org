@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       95d03287-8619-48a5-957f-0aaadb708ae1
+:END:
+#+title: Steepest descent method
+
+[[id:2e4bd6c1-028a-41af-a1b3-ee9175cce437][CFD optimisation]] method for 2 design variables. Third dimension comes from objective function.
+
+Steepest descent slides down the direction of highest slope. The highest slope is perpendicular to contour lines.
+
+When looking at a surface, to find a slope a location and direction is needed. Once a direction is picked, only thing left to worry about is how far down to go.
+
+* Method
+1. Pick a starting point
+2. Pick a search direction (negative of gradient operator \nabla at that point)
+3. Search along that direction (1D search)
+   - Need a 1D search algorithm e.g. [[id:829cf625-66aa-44ca-b0e8-403c947c1eaf][Binary search algorithm]] to find d*
+4. Change direction to steepest descent (based on gradient operator)
+5. Repeat until exit criteria met

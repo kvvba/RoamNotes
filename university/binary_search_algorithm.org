@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       829cf625-66aa-44ca-b0e8-403c947c1eaf
+:END:
+#+title: Binary search algorithm
+
+A [[id:2e4bd6c1-028a-41af-a1b3-ee9175cce437][CFD optimisation]] technique for 1 design variable. It is therefore a 2D problem once the objective function is added.
+
+* Pros and cons
+- Simple to describe
+- Simple to implement
+- Robust
+- More efficient algorithms, but less robust
+
+* Algorithm
+1. Step forward to find approximate minimum in big steps until f(x) starts to increase
+2. Cut \Delta x in half (binary search)
+3. Step forward until f(x) increases
+4. Cut \Delta x in half

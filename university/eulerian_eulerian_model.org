@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       d2151249-9dc9-417b-b910-311c761b59fa
+:END:
+#+title: Eulerian-Eulerian model
+
+An Eulerian [[id:d2c3d66b-ecdc-45dc-8ba2-323bb1a9cf94][Multiphase flow modelling]] technique. It is one of the most complex and computationally expensive multiphase models. More complex than [[id:29714690-47a1-460c-9248-26e8188d0a0e][Eulerian-Mixture (Algebraic Slip Model (ASM))]] at approx. double the cost.
+
+- Each phase has its own set of continuity and momentum equations
+- Phase coupling is achieved through pressure and interphase exchange coefficients
+- These correlations/models can be changed to model different regimes
+  - e.g. bubble flow, granular flow, slurry flows, sedimentation, bubble columns, vertical risers, fluidized beds
+
+Size and shape of particles ...
+- Do not appear in the transport equations
+- Information lost in the averaging process
+- Determine the characteristics of the flow
+- Appear in the drag and lift force definitions
+
+* Pros and cons
+
++--------------------------+------------------------+
+|Advantages                |Disadvantages           |
++--------------------------+------------------------+
+|Phases are mixed below    |Can be expensive        |
+|scales of resolution      |                        |
++--------------------------+------------------------+
+|Covers full range of      |Modelling particles with|
+|volume fractions (0 to 1) |a size distribution is  |
+|                          |complex                 |
++--------------------------+------------------------+
+|Mean quantities obtained  |Particle interactions   |
+|directly: Volume fraction,|not simulated           |
+|Velocity, Pressure, Etc   |                        |
++--------------------------+------------------------+
+|Turbulence can be computed|                        |
+|in each phase for marginal|                        |
+|cost                      |                        |
++--------------------------+------------------------+
+

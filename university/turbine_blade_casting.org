@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       0bb73ad2-dfa8-4338-8400-198f1093ec89
+:END:
+#+title: Turbine blade casting
+
+* Materials
+
+| Material              | Density g/cm3 | Melt point \deg C | Cost £/kg | Chemistry                             |
+|-----------------------+---------------+----------------+-----------+---------------------------------------|
+| Nimonic 105           |          7.99 |           1350 |        23 | Ni, Co, Cr, Mo, Ti                    |
+| Convention. cast      |          8.56 |           1270 |        13 | Ni, Co, W, Cr, Al, Ta                 |
+| Direction. solidified |          8.56 |           1270 |        16 | Ni, Co, W, Cr, Al, Ta                 |
+| Single crystal        |          8.52 |           1320 |        70 | Ni, Co, Ta, Cr, W, Al, Re, Ti, Mo, Hf |
+| SiC/SiC composite     |          2.50 |           1500 |     20000 | Si C O                                |
+
+** Conventional
+Many grain boundaries, creates sites for oxidation to occur.
+** Directionally solidified
+Eliminates many grain boundaries, provides improved strength in radial direction.
+** Single crystal
+Eliminates all grain boundaries, currently preferred process.
+
+* Process for single crystal
+** Lost-wax casting
+Internal passages cast in hard ceramic. This is then encased in a wax impression, produced in a steel die, which gives the external profile of the blade. A multitude of these waxes can be added together and then coated in a very fine ceramic, which is built up in multiple layers to produce the basic casting mould. The wax can then be melted out leaving the internal and external features in only ceramic. The material is then poured into the mould in a furnace. The filled mould is gradually withdrawn from the furnace, and the material freezes progressively. The crystal, which has been seeded in the bottom, can grow up through the spiral and form the blade as the mould is withdrawn. The ceramic casing can then be broken to reveal the cast blades.
+** Machining
+The casting can be encapsulated in a low melting point casting metal for machining, known as Wood's metal or Lipowitz alloy. (Commercially known as Cerrobend, Bendalloy, or Pewtalloy). More modern methods are to use flexible tooling.

@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       edc1334d-4a8e-42ff-abd7-6fbd35aa5895
+:END:
+#+title: Angular momentum
+
+L = m V_\theta r
+
+Where:
+L is angular momentum
+m is mass
+V_\theta is tangential velocity
+r is radius
+
+In the absence of friction and external torque, angular momentum is conserved.
+Applies to rotating solids and fluids

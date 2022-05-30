@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       81dcfca6-fe44-47d8-8392-d3ef7cd789ee
+:END:
+#+title: Aircraft incident
+
+An aircraft incident is defined as an occurrence, other than an [[id:1b40fd94-2b00-46e1-891d-b0e46b44c77c][Aircraft accident]], associated with the operation of an aircraft which affects or could affect the safety of operation.
+
+A serious incident is an occurrence involving circumstances indicating that an [[id:1b40fd94-2b00-46e1-891d-b0e46b44c77c][Aircraft accident]] nearly occurred.
+For example:
+- Controlled flight into terrain only marginally avoided
+- Gross failures to achieve predicted performance during take-off or initial climb
+- Fuel quantity requiring the declaration of an emergency by the pilot
+- Aircraft structural failures or engine disintegration not classified as an [[id:1b40fd94-2b00-46e1-891d-b0e46b44c77c][Aircraft accident]]

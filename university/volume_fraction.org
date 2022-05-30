@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7293783c-3bd1-4117-81bf-1aebc764ff58
+:END:
+#+title: Volume fraction
+
+Volume fraction = (Volume of phase)/(Volume of control volume)
+\alpha often used to denote volume fraction

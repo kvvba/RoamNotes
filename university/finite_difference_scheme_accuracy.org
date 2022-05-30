@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       2b495e24-ecec-4c1d-b694-fc81763bb3ae
+:END:
+#+title: Finite difference scheme accuracy
+
+- Higher order [[id:7b412b3c-ecce-47ff-a186-ef2fb10cf387][Finite differences]] schemes are less dissipative
+  - Hence more unstable
+  - Hence better for eddy resolving methods
+    - Turbulence is not damped out
+  - More prone to dispersion errors, some diffusive scheme is required e.g. [[id:0023b56a-2aaf-4155-85c3-e14076f7a59c][Upwinding]]
+- Higher order schemes need larger number of points, having a greater stencil size
+  - More data stored
+  - More computationally expensive
+- Treatment of boundary conditions can be a challenge with higher order schemes
+- Partitioning meshes for parallel computation more difficult with higher order schemes
+  - More data needs to be sent across boundaries
+  - Reduces parallel scalability

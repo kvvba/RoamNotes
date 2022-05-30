@@ -7,6 +7,8 @@ When using the [[id:7b412b3c-ecce-47ff-a186-ef2fb10cf387][Finite differences]] m
 
 The central differencing scheme uses equal weighting from left and right. We can use backwards or forward schemes to provide bias toward the upwind direction.
 
+Upwind schemes are diffusive and hence beneficial to providing stability in CFD simulations to minimize dispersion errors.
+
 * Upwind scheme
 In the case of flow from left to right:
 (\partial T)/(\partial x) = (T_i - T_(i-1))/(\Delta x)

@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       d793a2ea-40c2-4040-90ea-0b029aa8f51e
+:END:
+#+title: Volume of fluid (VOF)
+
+* Definition
+Eulerian VOF is an Eulerian [[id:d2c3d66b-ecdc-45dc-8ba2-323bb1a9cf94][Multiphase flow model]] used for separated / free-surface flows of immiscible fluids. It can be applied anywhere where there is a clearly defined interface between two fluids.
+
+VOF captures the interface between phases by defining the [[id:7293783c-3bd1-4117-81bf-1aebc764ff58][Volume fraction]] \alpha in each of the computational cells. In liquid, the volume fraction is 1, and in gas the volume fraction is 0. On the interface, the volume fraction is between these values. As the interface moves, the volume fraction associated with the cells changes.
+
+The velocity field is shared by the two phases, and both phases share a single set of momentum equations.
+
+* Interface reconstruction
+Interface reconstruction schemes are necessary to accurately capture the interface shape and surface tension effects (e.g. donor-acceptor scheme or piecewise-linear scheme).
+
+* Surface tension
+In interfacial flows modelled using VOF, surface tension may play a significant part in defining the interface shape. There are models available which include surface tension, such as the Continuum Surface Force (CSF) model of Brackbill.
+
+In general the [[id:5f819774-59b9-4733-abaa-0b14645a5db2][Capillary number (Ca)]] or [[id:3111a3a0-0ebb-4810-8cfa-0558c42e2f7c][Weber number (We)]] can be used to determine whether surface tension effects are important.
+
+* Turbulence damping
+- Turbulent eddies pass from gas phase into liquid phase
+- Additional damping needed to model this accurately
+- Often difficult to decide what is an appropriate value
+
+Source term added to [[id:1b39f326-0fe2-4af4-a9ac-b54a20564a6e][k-omega]] equation - only active at the interface:
+S_i = A_i \Delta n \beta \rho_i ((6B\mu_i)/(\beta \rho_i \Delta n^2))^2
+Where A_i = 2.0 \alpha_i |\nabla \alpha_i|
+
+Where:
+A_i is the interfacial area density for phase i
+\Delta n is the cell height normal to interface
+\beta is the k-\omega model closure coefficient of destruction
+B_i is the damping factor
+\mu_i is the viscosity of phase i
+\rho_i is the density of phase i
+\alpha_i is the [[id:7293783c-3bd1-4117-81bf-1aebc764ff58][Volume fraction]] of phase i
+and |\nabla \alpha_i| is the magnitude of gradient of [[id:7293783c-3bd1-4117-81bf-1aebc764ff58][Volume fraction]]

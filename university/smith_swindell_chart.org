@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       3cca7776-16a8-4ed0-ac47-3dc13a6048c9
+:END:
+#+title: Smith/Swindell chart
+
+Efficiency as a function of work coefficient (\Delta H/U^2) and flow coefficient (V_a/U).
+(see: [[id:8686fa8a-b99f-4d46-a1be-d447529fd8f0][Turbine velocity triangles]])
+
+Smith/Swindell chart shows efficiency curves as a relation of these two. Increasing efficiency toward the origin.
+
+High efficiency achieved by:
+- Low work per stage
+- Low V_a/U flow coefficient
+- High rotor speed U improves both of these

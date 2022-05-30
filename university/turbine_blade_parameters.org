@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       2554ec82-a2ae-48a9-8312-613836f3b354
+:END:
+#+title: Turbine blade parameters
+
+- Life requirement 35000 hours (> 6 years at 14 hours/day)
+- Poor leading-edge shape ~0.5% efficiency
+- Poor suction surface shape ~5 thou = 1% efficiency
+- Roughness 60\mu ins -> 30 \mu ins = 0.5% efficiency
+- Trailing edge thickness 10 thou = 1% efficiency
+- Cooling air, 700\deg C and only 4% total engine flow
+- Cooling hole size 19 thou -> 13 thou
+- Centrifugal force - 1 heavy truck
+- Gas temperature 1600\deg C (1873 K) +/- 15\deg C means x0.5 or x2 on life

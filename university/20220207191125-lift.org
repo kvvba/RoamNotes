@@ -29,9 +29,10 @@ C_L = 2\pi\alpha for symmetric aerofoil
 C_L = 2\pi(\alpha - \alpha_0) for cambered aerofoil
 Where \alpha_0 is the angle where the aerofoil produces no lift, the zero lift angle
 Only applicable at small angle of attack \alpha
-** Lift slope
+** Lift slope, a
 *** 2D
-\alpha_0 = dC_L/d\alpha
+a = dC_L/d\alpha
 *** 3D elliptical wing
 Derived from [[id:257e9f3a-83d9-4361-a517-68adc880d7ee][Downwash]] angle using [[id:9bfd0909-1c43-48d0-84ed-1c179add56d7][Biot-Savart theorem]].
-dC_L/d\alpha = (\alpha_0/(1 + (\alpha_0/(\pi \cdot AR)))
+a = dC_L/d\alpha = (a_0/(1 + (a_0/(\pi \cdot AR)))
+C_L = a(\alpha - \alpha_0)

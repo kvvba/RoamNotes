@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       1b8796c8-cf1b-440e-9720-b274d7994a73
+:END:
+#+title: Supersonic business jets
+
+- Number of billionaires in the world is growing
+- Private jets operate usually on a corporate basis to transport individuals or groups of 8-10 passengers
+- Often the aircraft needs to reposition for next job, this is non-revenue flight
+- If repositioning can be done supersonically, crew time saved and aircraft utilisation increased
+- However aircraft must be able to fly supersonically over land
+  - Currently not allowed
+- Unlikely to be environmentally friendly aircraft

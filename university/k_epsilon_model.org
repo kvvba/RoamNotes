@@ -18,8 +18,10 @@ For accurate near-wall solutions, [[id:c10a3e7e-d03c-4e1f-82cd-bcfb440f0ae8][Tur
 ** Transport equation for k
 (\partial \oline{u}k)/(\partial x) + (\partial \oline{v} k)/(\partial y) = S \nu_T k + Diffusion term[\sigma] - Destruction term[C_1]
 
-LHS represents advection
+LHS represents advection (transport of turbulence k by mixing)
 S\nu_T k represents production
+Diffusion term relates to diffusion of turbulence through pressure fluctuations
+Destruction term relates to destruction of turbulence by viscosity
 
 ** Transport equation for \epsilon
 (\partial \oline{u} \epsilon)/(\partial x) + (\partial \oline{v} \epsilon)/(\partial y) = C_1 S \nu_T \epsilon + Diffusion term[\sigma] - Destruction term[C_2]

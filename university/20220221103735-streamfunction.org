@@ -14,8 +14,8 @@ Q_ab = \psi_a - \psi_b
 Streamfunction is an alternative to [[id:4615a930-1324-46e2-a2d7-ee818ea1ae67][Velocity potential]] for solving [[id:46eacf6c-195d-4f0b-81f9-62bc6f4c2f36][Irrotational flow]].
 
 Velocities obtained from:
-u = (\partial \psi)/(\partial y)
-v = -(\partial \psi)/(\partial x)
+u = (\partial \psi)/(\partial y) flow in x direction
+v = -(\partial \psi)/(\partial x) flow in y direction
 
 The streamfunction automatically satisfies the [[id:ad8a5073-fd5d-4c39-8b28-749060131385][Mass continuity equation]].
 
@@ -39,6 +39,7 @@ u = U_0, v = 0
 Hence:
 
 \psi = U_0 y
+\psi = U_0 r sin(\theta)
 
 * Sources and sinks
 Velocity from [[id:5ebe9122-1ae2-42c8-bab1-64150e5a8e77][Sources and sinks]] in cylindrical coordinates:
@@ -66,6 +67,8 @@ A doublet is a superposition of [[id:5ebe9122-1ae2-42c8-bab1-64150e5a8e77][a sou
 Where \lambda is the doublet strength.
 
 ** Streamfunction over a static cylinder
+\psi = U_0 r sin\theta - (\lambda sin\theta)/r
+
 Superposing a doublet and uniform flow gives the flow over a cylinder
 No flow into the cylinder, so the cylinder surface needs to be a streamline.
 Hence \psi = 0 at r = a, where a is the radius of the cylinder.
@@ -79,6 +82,12 @@ Hence streamfunction becomes:
 
 This satisfies both the surface boundary conditional and [[id:46eacf6c-195d-4f0b-81f9-62bc6f4c2f36][irrotationality]] as \nabla^2 \psi = 0.
 
+** Streamfunction of a rotating cylinder
+\psi = \psi = U_0 r sin\theta - (\lambda sin\theta)/r - K ln(r/a)
+
+At r=a, \psi=0
+\psi = U_0 r sin\theta (1- (a^2)/(r^2)) + K ln (r/a)
+
 * Irrotational vortex
 ** Velocity in cylindrical coordinates
 v_r = 0
@@ -87,4 +96,7 @@ v_\theta = K/r
 v_r = (1/r) \cdot (\partial \psi)/(\partial \theta)
 v_\theta = -(\partial \psi)/(\partial r)
 ** Streamfunction
+*** Polar
 \psi = -K ln(r/a)
+*** Cartesian
+\psi = -K ln(((x^2 + y^2)^0.5)/a)

@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       30ca5371-baad-4d97-b4f6-d783dc13c9d4
+:END:
+#+title: Euler turbomachinery equation
+
+The Euler equation applies to all types of turbomachinery.
+
+For a turbine, the Euler equations will give a negative value, for a compressor it will give a positive value.
+
+The power input/output is given entirely by the change of [[id:edc1334d-4a8e-42ff-abd7-6fbd35aa5895][Angular momentum]]. Changes in radius will also influence the power input/output.
+
+w = \omega (V_2\theta r_2 - V_1\theta r_1)
+
+Where
+w is specific work
+\omega is rotational speed
+V is the tangential velocity
+r is the radius
+
+This can be related to [[id:e1eae400-70c7-4e53-83a8-ad642e35553d][Stagnation temperature]] change (and hence [[id:4bc4518b-9f85-4916-b6b6-de492344372f][Stagnation pressure]] change)
+
+w = \omega (V_2\theta r_2 - V_1\theta r_1) = c_p (T_2 - T_1)

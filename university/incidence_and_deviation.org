@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       ecfd3220-8199-494e-9f8b-8c4ee915b376
+:END:
+#+title: Incidence and deviation
+
+In relation to [[id:990ea0cc-711e-4b8f-8739-5bdacd80ffa6][Velocity triangles]].
+
+Incidence = flow angle inlet - metal angle inlet
+Deviation = flow angle outlet - metal angle outlet
+
+Where both flow and metal angles are relative to the axis.
+Metal angle is the physical angle of the inlet/outlet of the blade.
+
+Ideally the deviation would be zero but in reality this is generally not the case.

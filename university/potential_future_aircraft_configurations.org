@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       2c0508a2-8da9-4ebb-aaf4-0c5c9f4fe048
+:END:
+#+title: Potential future aircraft configurations
+
+- Economic simple flying bus
+- Pro-active green (PAG)
+  - High aspect ratio wings
+  - Large, high-efficiency engines
+- Value of speed - High
+- Value of speed - Low
+- Blended wing body
+  - Improvement in aerodynamic efficiency
+  - Issues of evacuation times and comfort of passengers at the extremities during turbulence
+  - In passenger configuration or cargo

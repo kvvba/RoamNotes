@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       1423bd92-09fc-4182-9227-72b60c0325e5
+:END:
+#+title: High-lift devices
+
+High-lift devices can be used to increase C_Lmax of an aeroplane (see: [[id:12e0bef5-93ff-41f3-9ba2-22bb42b782a2][Aerofoil coefficients]]), to decrease [[id:cf31a8dc-b4b6-4afa-8e5d-6db83e5a7bbf][Stall speed]].
+
+The [[id:bfc20280-a02c-4607-9b3a-11994dfd52b0][leading edge device]] can be combined with the [[id:2a45ad33-4a20-4a3a-9259-f9f69df1df21][trailing edge device]] to further increase C_Lmax.
+
+* High-lift devices during flight
+During cruise, no boundary-layer control devices are used.
+During take-off, some of the high-lift devices are deployed.
+At landing, all the devices are used with gaps between the [[id:bfc20280-a02c-4607-9b3a-11994dfd52b0][slat]] and leading edge and between different elements of the [[id:2a45ad33-4a20-4a3a-9259-f9f69df1df21][trailing edge flap]].
+
+* Types of high-lift devices
+- [[id:2a45ad33-4a20-4a3a-9259-f9f69df1df21][Trailing edge flaps]]
+- [[id:bfc20280-a02c-4607-9b3a-11994dfd52b0][Slats]]
+- [[id:958524f5-51c0-4c71-b7d8-e99f2c1a2988][Gurney flaps]]
+- [[id:2ea5b5d3-48e4-4643-9a99-d6fff2ef198b][Winglets]]
+- [[id:8e341be3-36e7-4350-a657-e84e274ec1df][Vortex generators]]
+- [[id:4f1e6a48-779b-4363-9b6f-51b955cddd2f][Micro-vortex generators]]

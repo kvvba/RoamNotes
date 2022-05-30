@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       0fba362c-c152-48f5-9f0e-b4374f66d113
+:END:
+#+title: Wind tunnel testing
+
+Much of aerodynamic validation data comes from wind tunnels. To properly model forces in wind tunnels, aerodynamicists use similarity parameters. Important ones are [[id:a29c4f89-fd8b-46b2-863b-5cc2cd01851a][Reynolds number]] and [[id:0e42ba60-18fc-4f17-a227-cf7cab76ca51][Mach number]]. If using a small scale model in a wind tunnel and flow is incompressible (see: [[id:b66fcf27-d26b-4e44-a1c4-fe3a6e777509][Compressible & incompressible flow]]), the Reynolds numbers should match. Flow are generally considered to be incompressible below a Mach number of 0.1. A key issue is that if a small scale is used, typically the velocity of flow will be increased to match the Reynolds number from the real case. This increase in velocity can change the flow from incompressible to compressible. Hence there are very large wind tunnels to avoid this issue or alternative fluids are used. Such wind tunnels are very expensive to build and maintain.

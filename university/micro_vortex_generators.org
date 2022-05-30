@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       4f1e6a48-779b-4363-9b6f-51b955cddd2f
+:END:
+#+title: Micro-vortex generators
+
+Micro-vortex generators are [[id:1423bd92-09fc-4182-9227-72b60c0325e5][high-lift devices]], which are smaller versions of [[id:8e341be3-36e7-4350-a657-e84e274ec1df][Vortex generators]]. As they have a lower profile compared to conventional [[id:8e341be3-36e7-4350-a657-e84e274ec1df][Vortex generators]], they have less profile drag.
+
+Low-profile VGs are retracted in cruise and stowed inside the [[id:2a45ad33-4a20-4a3a-9259-f9f69df1df21][trailing edge flap]] well. They are deployed for high lift, being exposed to the air at the height of the boundary layer thickness to energise the boundary layer - preventing [[id:e9513ab1-f584-4c25-bc92-ef4fcc3ce52b][Flow separation]] and providing extra lift.
+
+* Micro-vortex generator types
+- Counter-rotating
+- Co-rotating
+- Wishbone
+- Doublet

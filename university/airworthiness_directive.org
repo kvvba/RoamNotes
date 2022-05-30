@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       2cd19836-6a46-4276-8623-7c6a0d7726be
+:END:
+#+title: Airworthiness directive
+
+Following the [[id:5063329d-233b-4d7a-8754-5a8213c57e73][Safety actions process]] an [[id:32aeafe9-18d1-4ef6-9b53-b07c3568b23a][Airworthiness]] directive (AD) is issued.
+
+An airworthiness directive shall contain at least the following information:
+- An identification of the unsafe condition
+- An identification of the affected aircraft
+- The actions required
+- The compliance time for the required actions
+- The date of entry into force
+
+There are three possible outcomes:
+- Short term mitigation
+  - Operational restriction or grounding
+  - Maintenance and/or inspection action
+  - Withdrawals or replacements
+- Long term solutions
+  - Modification - the preferred solution
+  - To be accomplished in a given time scale
+- Any further actions mandated by the regulator

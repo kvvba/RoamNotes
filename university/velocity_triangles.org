@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       990ea0cc-711e-4b8f-8739-5bdacd80ffa6
+:END:
+#+title: Velocity triangles
+
+Check lecture notes for illustrations.
+Used in conjunction with [[id:30ca5371-baad-4d97-b4f6-d783dc13c9d4][Euler turbomachinery equation]].
+Inlet and outlet angles of the blade are generally not the same as the angles of the flow (see: [[id:ecfd3220-8199-494e-9f8b-8c4ee915b376][Incidence and deviation]]).
+
+Steps to draw velocity triangles:
+1. Draw the flow that you know
+2. Draw the blade speed
+3. Close the triangle
+4. Check that the key rule applies:
+   v_abs = u + w_rel
+
+* Angles
+\alpha - absolute flow angle, angle between absolute flow velocity v_abs and axis
+\beta - relative flow angle, angle between relative flow velocity w_rel and axis
+
+Angles are positive in the direction of rotation.
+
+* Trig relationships
+From basic trigonometry the following relationships apply for any station in a turbomachine:
+V^2 = V_\theta^2 + V_x^2
+V_x = V cos\alpha
+V_\theta = V sin\alpha
+V_\theta = V_x tan\alpha
+
+W^2 = W_\theta^2 + W_x^2
+W_x = W cos\beta
+W_\theta = W sin\beta
+W_\theta = W_x tan\beta

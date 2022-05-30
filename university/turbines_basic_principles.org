@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       f6be877a-ce40-41fe-9a3e-5156a2f6af17
+:END:
+#+title: Turbines basic principles
+
+- Turbines are a fundamental part of the [[id:872886f1-7923-45c2-a3d2-9dfdf57e6bb1][Brayton cycle]] and are the source of power for the rest of the engine
+- Energy has been added to the air during compression and the combustor has converted chemical energy into heat, raising its temperature
+- The role of the turbines is to extract that energy from the air and turn it into power to drive primarily the compress, but also the accessories, fuel pumps, and generators
+- The air is expanded through the turbine, converting pressure and temperature energy into kinetic energy
+- They are required to work at very high speed and high temperatures often above the melting point of the materials
+- It is imperative that the turbine extracts this energy with the maximum efficiency (see: [[id:102568d2-a06b-416f-9037-1ce6c86164db][Turbine efficiency]])
+- The most challenging is the design of the high-pressure turbine

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       f88077a7-616e-4ab2-8c52-c061b7755c33
+:END:
+#+title: Water contamination in fuel
+
+All jet fuel can contain a small amount of dissolved water (like water vapour in air). It only causes problems if it separates out (as temperature drops the jet fuel's capacity to hold water diminishes). Fuel icing can cause catastrophic failure.
+
+Sources of water contamination:
+- Airport fuel system
+  - Leaks in underground tanks, leaks in seals, hatches etc during rain/snow
+- Aircraft fuel system
+  - Through filler caps, condensation in partially filled tanks
+
+Fuel is regularly tested and examined.

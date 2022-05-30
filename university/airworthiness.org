@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       32aeafe9-18d1-4ef6-9b53-b07c3568b23a
+:END:
+#+title: Airworthiness
+
+A measure of an aircraft's suitability for safe flight.

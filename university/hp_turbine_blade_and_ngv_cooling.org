@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       f98de38d-3fce-4d11-ad4f-11b85f0a2cf5
+:END:
+#+title: HP turbine blade and NGV cooling
+
+Main gas flow exits the compressor through a diffuser, and flows through a combustor. Some of this air travels on the outside of the chamber, a proportion of which will eventually mix with the main gas stream for the combustion process and cooling the combustor walls.
+
+Cooling air for the nozzle guide vanes is fed into them from both the outer and inner annuli. Air provides a blanket around the vane, film cooling.
+
+Turbine blade cooling is taken off the HP compressor delivery, and travels between the rotating and static parts, into swirl nozzles in front of the turbine disc. A swirl nozzle resembles a small nozzle guide vane, in that it is choked and swirls the air in the direction to match the rotor. This reduces the dynamic temperature rise as the air enters the disc cooling feed passages. The air is directed to the root of the turbine blade, for example through holes in the disc rim - however there are other configurations.
+
+Turbine blade cooling is achieved by cooling air flowing through internal passages. There are several passes through the blade, cooling each section progressively. Turbulators are cast into the blade, to encourage turbulence of the cooling air to increase thermal conductivity. Some air is exhausted into the gas path, some is exhausted through the tip of the blade. Hole sizes are small to limit amount of cooling air and ensure even distribution - but are not so small that they can be blocked by sand or dust. A small amount of leakage air may be used to cool the inner shroud.

@@ -9,7 +9,7 @@ p_\infin + (\rho/2)U_0^2 = p + (\rho/2)|V|^2
 Velocity |V| can be calculated from [[id:2ff01540-28bc-48a4-a292-c9013669295b][Streamfunction]] \psi.
 
 * Derivation
-Streamfunction for a rotating circular cylinder:
+Streamfunction for a rotating circular cylinder at r=a:
 \psi = U_0 r sin\theta (1 - a^2/r^2) + K ln(r/a)
 From streamfunction of stationary cylinder and irrotational vortex.
 

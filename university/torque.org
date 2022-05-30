@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       b60bbf67-be5d-4c11-bdee-c632e74955b0
+:END:
+#+title: Torque
+
+Torque is the rate of change of [[id:edc1334d-4a8e-42ff-abd7-6fbd35aa5895][Angular momentum]].
+
+T = dL/dt
+
+Where
+T is torque
+L is angular momentum
+t is time

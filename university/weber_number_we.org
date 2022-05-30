@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       3111a3a0-0ebb-4810-8cfa-0558c42e2f7c
+:END:
+#+title: Weber number (We)
+
+We = (\rho U^2 L)/(\sigma)
+
+Where:
+\rho is density
+U is velocity
+L is length scale
+\sigma is surface tension

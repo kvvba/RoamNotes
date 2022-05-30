@@ -40,12 +40,18 @@
 - [[id:4b8ea1b7-bc32-4987-93d6-bd9b296d24ca][Cycle efficiency]]
 - [[id:841a1d13-5409-4bb8-bd35-5cbdcd423b6a][Compressor efficiency]]
 - [[id:102568d2-a06b-416f-9037-1ce6c86164db][Turbine efficiency]]
-** Work calculations
+** Cycle calculations at design point
 - [[id:0cff770f-30ce-42f8-aa7a-1199c88fdb56][Isentropic efficiency]]
 - [[id:06d06c29-66b3-4919-be38-ff91f884043d][Polytropic efficiency]]
 - [[id:cdf31e29-c1d1-49a7-a742-816785a1f2b3][Gas turbine power output]]
 - [[id:62256ae8-6aba-415a-8d06-05d972c3f8b9][Fuel-air ratio]]
-  
+** Euler work equations
+- [[id:edc1334d-4a8e-42ff-abd7-6fbd35aa5895][Angular momentum]]
+- [[id:b60bbf67-be5d-4c11-bdee-c632e74955b0][Torque]]
+- [[id:30ca5371-baad-4d97-b4f6-d783dc13c9d4][Euler turbomachinery equation]]
+- [[id:990ea0cc-711e-4b8f-8739-5bdacd80ffa6][Velocity triangles]]
+- [[id:ecfd3220-8199-494e-9f8b-8c4ee915b376][Incidence and deviation]]
+
 * Design
 ** Light aircraft
 - [[id:4ba18236-f287-4165-9455-544acfca9987][Light aircraft propulsion]]
@@ -60,7 +66,6 @@
 - [[id:afaae5ae-2bb5-4dee-8bf8-49f1635ea5b4][Air intake]]
 - [[id:b3aa54d4-7e14-4b66-8e86-e66af5d81e79][Propelling nozzles]]
 - [[id:3a3559d8-9c54-432f-a8e1-769911e2ccaa][Thrust reversers]]
-** Fans and compressors
 ** Combustors
 - [[id:3248e45c-735b-47b1-8e8b-e1c288140da6][Combustor development]]
 - [[id:5f6c0bc6-9605-4ad6-966f-d27b8f3ad1b1][Modern combustors]]
@@ -77,4 +82,48 @@
 - [[id:b779fdfc-4124-442f-8586-8c3972d60637][Combustion outlet]]
 - [[id:76e6caec-b5af-46fe-8544-31e05ba5c83f][Combustor environmental concerns]]
 ** Engine airworthiness and certification
-** Ancillary componenets
+- [[id:32aeafe9-18d1-4ef6-9b53-b07c3568b23a][Airworthiness]]
+- [[id:11ff32bd-8325-451b-a3b6-70daad59eb42][Type certificates]]
+- [[id:c3a2a0cb-1cd6-4286-af26-6ce78ea10447][Engine testing for type approval]]
+- [[id:1b40fd94-2b00-46e1-891d-b0e46b44c77c][Aircraft accident]]
+- [[id:81dcfca6-fe44-47d8-8392-d3ef7cd789ee][Aircraft incident]]
+- [[id:79bb1f11-70b9-4588-a0e7-441940fb3f84][Accident and serious incident investigation]]
+- [[id:5063329d-233b-4d7a-8754-5a8213c57e73][Safety actions process]]
+- [[id:2cd19836-6a46-4276-8623-7c6a0d7726be][Airworthiness directive]]
+** Ancillary components
+- [[id:e71e5e6d-7432-417a-8e9b-5d8fb4a221cf][Auxiliary power unit]]
+- [[id:4e80092f-7b7a-41df-8018-87c1c8a066fa][Aircraft external gearbox]]
+- [[id:677fd02d-4fda-4f0d-89e4-52535c662949][Aircraft bearings]]
+- [[id:f88077a7-616e-4ab2-8c52-c061b7755c33][Water contamination in fuel]]
+** Turbines
+- [[id:f6be877a-ce40-41fe-9a3e-5156a2f6af17][Turbines basic principles]]
+- [[id:cba2f7e3-cffd-4041-a82e-0f66bc3fcef9][Turbine operation]]
+- [[id:93a756b9-2143-4404-b04a-06653449cec8][Single stage turbines]]
+- [[id:0f9f4ab7-a7c7-42bd-8ed3-e70ec2b923f5][Multistage turbine]]
+- [[id:2554ec82-a2ae-48a9-8312-613836f3b354][Turbine blade parameters]]
+- [[id:8686fa8a-b99f-4d46-a1be-d447529fd8f0][Turbine velocity triangles]]
+- [[id:462efcc0-00b7-4b78-b62c-5d0f59cdfefc][Nozzle guide vane throat area]]
+- [[id:3cca7776-16a8-4ed0-ac47-3dc13a6048c9][Smith/Swindell chart]]
+- [[id:075ccf23-7d4f-4bb6-a516-78541991eece][Annulus diagrams]]
+- [[id:3a030663-0ab3-4cf9-9a27-ec4b03fa845a][Co-rotating turbine]]
+- [[id:f7e74026-223b-406b-8bbf-2b088f80183f][Contra-rotating turbine]]
+- [[id:38632930-2914-4abf-94a9-593aaa7f0f86][Turbine efficiency loss mechanisms]]
+- [[id:dc6c0144-5ac7-4800-855a-842f80cf4aae][Turbine tip sealing]]
+- [[id:f98de38d-3fce-4d11-ad4f-11b85f0a2cf5][HP turbine blade and NGV cooling]]
+- [[id:faa9df07-1716-41ef-a278-62fc980cc061][Turbine blade cooling effectiveness]]
+- [[id:f6d902c1-9b22-4cff-80e8-eb45a106bc90][Turbine material selection]]
+- [[id:0bb73ad2-dfa8-4338-8400-198f1093ec89][Turbine blade casting]]
+- [[id:3d21b934-30b3-4f2b-ac80-2cec84c124d6][Turbine temperature capability]]
+** Future development
+- [[id:6d63d2cb-7ebb-4786-9b44-b360383d02c8][Planning horizons]]
+- [[id:b3bcab9e-05e7-47f0-916e-111b0e849e28][Future traffic demand]]
+- [[id:77f4d8ea-8544-45d5-aca7-924d75e7f521][Aircraft traffic issues]]
+- [[id:4a20ca48-99b0-4bde-a059-12650d8575c4][Incremental innovation]]
+- [[id:660c7b48-8b5f-42bc-8e83-188817e0a04b][Radical innovation]]
+- [[id:2c0508a2-8da9-4ebb-aaf4-0c5c9f4fe048][Potential future aircraft configurations]]
+- [[id:a897d2a9-a340-4a6d-a2e7-e401549d65e4][Fuel burn]]
+- [[id:d3d9acd3-d211-4af0-95db-1e62d98d1e33][Open rotor aero engine]]
+- [[id:56f72a93-f91a-4e43-b7d6-8153f1347b19][Hybrid electric aero engine]]
+- [[id:1b8796c8-cf1b-440e-9720-b274d7994a73][Supersonic business jets]]
+- [[id:bb55070e-f931-42bb-96fa-60eb73b945f2][Alternative aircraft fuels]]
+- [[id:11e9d725-b4fb-4142-9d17-42ced61d1dc3][Hydrogen aero fuel]]

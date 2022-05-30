@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       93a756b9-2143-4404-b04a-06653449cec8
+:END:
+#+title: Single stage turbines
+
+Used to drive multi stage compressors. Shrouded blades (see: [[id:dc6c0144-5ac7-4800-855a-842f80cf4aae][Turbine tip sealing]]).
+- Large disc holds turbine blades
+- Blades significantly more robust and heavier than compressor blades
+- Turbine blades rotate at same speed as compressor blades
+- This induces high centrifugal forces within disc
+  - Requires large bore section to keep bore hoop stress within material limits
+- Rotor blades fixed onto disc usually using fur tree roots
+- Important to maintain good seals on top and in front of turbine to prevent gas bypassing the working section of the turbine, and to maximise efficiency
+- Single stage turbine limited in amount of work it can do to maintain maximum efficiency, so they are limited to driving compression ratios in the order of 6-8:1

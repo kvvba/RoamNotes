@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       8e5de456-5304-450f-88ca-455e0fbfa208
+:END:
+#+title: Industrial applications of multiphase CFD
+
+Chemical processes:
+- Transport of oil and gas
+- Slurry flows
+- Fluidised beds
+- Chemical reactors
+- Bubble column separators
+Aerospace and automotive:
+- Oil systems
+- Cooling
+- Lubrication
+- Combustion
+- Water management (automotive)
+- De-icing (see: [[id:28e3da39-b63d-4b08-8636-e3c9f23146c0][Aero reciprocating engines]])
+3D printing / molten metal
+Marine
+- Wave interaction

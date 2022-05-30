@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       8686fa8a-b99f-4d46-a1be-d447529fd8f0
+:END:
+#+title: Turbine velocity triangles
+
+* Nozzle guide vane
+Exit velocity from nozzle guide vane is v_{1}\alpha_1
+This can be resolved into tangential velocity v_{\omega1} and axial velocity v_a
+
+Blade velocity is denoted U
+
+Relative exit velocity from nozzle guide vane is v_r1
+v_{1}\alpha_1 = v_r1 + U
+
+* Turbine blade
+Exit velocity from turbine blade is v_{2}\alpha_2
+Can be resolved into tangential velocity v_\omega2 and axial velocity v_a
+Relative exit velocity is v_r2
+v_{2}\alpha_2 = v_r2 + U
+
+* Reduction in whirl
+v_\omega1 - v_\omega2
+
+* Absolute flow angle
+\alpha is the absolute flow angle relative to the axis. Angles positive in direction of rotation.
+
+* Work
+The work extracted and hence the reduction in enthalpy is given by the Euler work equation for unit mass
+
+\Delta H = U(V_\omega1 - V_\omega2)
+\Delta H = UV_a (tan \alpha_1 - tan \alpha_2)
+
+Ideal \Delta t = U(V_\omega1 - V_\omega_2)/C_P
+
+(T_2/T_1)^(\gamma/\gamma-1) = P_2/P_1
+

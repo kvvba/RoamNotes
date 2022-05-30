@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       6f865a8b-b1fb-4760-b7d9-dca0e7745cb4
+:END:
+#+title: Smoothed particle hydrodynamics (SPH)
+
+- SPH is a meshless [[id:d2c3d66b-ecdc-45dc-8ba2-323bb1a9cf94][Multiphase flow modelling]] approach
+- Conservation of mass is guaranteed, due to the representation of a fluids by particles
+- Conservation of momentum is satisfied due to the symmetry condition in the momentum equations
+- Interface is naturally represented by particles of different phases, no interface tracking needed
+- SPH allows for complex geometries, large deformations, moving boundaries and free-surface simulations
+- Thermal effects included using energy equations
+- modelling of gases, liquids, and solids with same SPH model equations

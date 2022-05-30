@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       2e4bd6c1-028a-41af-a1b3-ee9175cce437
+:END:
+#+title: CFD optimisation
+
+Optimisation algorithms in CFD are used to minimize or maximise objective functions. The key point about CFD optimisation algorithms is to find an optimum value using the minimum number of points or simulations, this is because the cost of each simulation may be prohibitive and we do not know what the design space looks like.
+
+- Key thing about CFD optimisation is we don't know what the design space looks like
+- We want minimum value of objective function in design space with minimum number of calculations
+- Hence need efficient algorithms
+- Most practical problems have more than one design variable
+- Engineering problems can have hundreds of design variables
+
+The number of dimensions in design space is the number of design variables + 1 (one objective function).
+
+Methods:
+- [[id:829cf625-66aa-44ca-b0e8-403c947c1eaf][Binary search algorithm]]
+- [[id:95d03287-8619-48a5-957f-0aaadb708ae1][Steepest descent method]]

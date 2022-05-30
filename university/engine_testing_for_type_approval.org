@@ -1,0 +1,149 @@
+:PROPERTIES:
+:ID:       c3a2a0cb-1cd6-4286-af26-6ce78ea10447
+:END:
+#+title: Engine testing for type approval
+
+- During engine validation there may be up to 9 engines in the programme to perform a variety of tests, in addition to a number of rig tests
+- Some tests are aimed at demonstrating commercial acceptability of the engine or validating mathematical models
+- For type approval there are two types of tests:
+  - Those to demonstrate acceptability during normal operation
+  - Those to demonstrate continued safe operation in abnormal operation such as fan blade off and large bird strike
+    
+* Typical engine certification compliance:
+Normal operating conditions not necessarily full engine tests, can be by rig test or calculation.
+** Normal operating conditions
+- Pressure loads
+- Vibration surveys
+- Fuel pressure/temperature
+- Contaminated fuel
+- Compressor/fan & turbine shafts
+- Rotor integrity
+- Inclination & gyroscopic load effects
+- Engine functioning (including acceleration)
+- Low temperature starting
+- Engine bleed (including bleed air contamination)
+- Bird strike & ingestion
+- Ingestion of rain & hail
+- Ice forming conditions
+- Relighting in flight
+- Excess operating conditions
+- Automatic control & failure indicating systems
+- Emissions
+- Endurance
+** Abnormal conditions
+- Large bird strike
+- Over-speed & over-temperature
+- Compressor & turbine blade failure
+- Turbine rotor over-temperature
+- Fire resistance
+- Continued rotation
+
+* Abnormal events
+- Despite rigorous design analysis and testing, parts and systems can fail even when properly maintained
+  - The environment was not understood
+  - Quality failure in manufacture or assembly
+- Question is continually asked: "what if it does fail?"
+- Preliminary Failure Modes and Effects Analysis (FMEA) early in the design process ensure the following criteria are met:
+
+| Probability failure per flight hr | Definition           | Allowable effect |
+|-----------------------------------+----------------------+------------------|
+| > 10^-3                            | Frequent             | Minor            |
+| 10^-3 to 10^-5                      | Reasonably probable  | Minor            |
+| 10^-5 to 10^-7                      | Remote               | Major            |
+| 10^-7 to 10^-9                      | Extremely remote     | Hazardous        |
+| < 10^-9                            | Extremely improbable | Catastrophic     |
+
+
+- Regulating authorities require a quantified level of risk
+- Risk = probability of failure \times consequence
+- Reduce probability of failure:
+  - Design codes
+  - Quality control
+  - Safe life policy
+    - Some failures cannot be practically contained or protected by duplicated systems
+    - The component has a declared life and must be removed at or before that life is achieved and are known as Life Limited Parts (LLP)
+- Reduce consequence:
+  - Design such that any failure would be safe and the aircraft can continue to be controllable and land safely:
+    - Redundant systems
+    - Redundant structures
+    - Containment for high energy debris - protective casings for fan or turbine blade failure
+
+* Safe life - Life Limited Parts (LLP)
+- LLPs are those parts whose failure, shown by Engineering Failure Analysis, is likely to have hazardous effects
+- They have declared lives of X thousand cycles
+- They require special controls to achieve and acceptably low probability of failure
+  - Control of source and method of manufacture
+  - Traceability back to source
+  - Unique component serial number
+- Verification of components at engine build
+- Controlled repair and overhaul techniques
+- In-service life management recording of service history
+- *Must be removed at or before declared life is reached*
+- Mandatory inspections when removed from the engine
+- Lives of LLP parts can be demonstrated by cyclic rig test or substantiated material databases
+- Any failure of LLP must not result in catastrophic event (loss of aircraft or passengers)
+
+* The 150 hour type test
+- Key test for engine certification is the 150 hour type approval test, done at the end of the testing on one engine with all production parts
+- This determines the final production bill of materials
+- The test comprises 25 six-hour stages
+  - Includes stages with hot oil, effects of air bleed and oil pressure
+  - Time weighted mean maximum shaft speeds and gas temperatures aggregated over the complete test
+
+* Engine documentation
+- Engine type certification
+  - Engine Type Certificate Data Sheet (ETCDS)
+- Installation instructions
+  - Engine limitations and tolerances for each engine/airframe interface
+- Engine operating instructions
+  - Normal and emergency conditions
+  - Incorporated into aircraft flight manual
+- Maintenance instructions
+  - On and off-wing maintenance
+  - Lists life limitations
+- Overhauls manual
+  - Complete strip, repair, and rebuild of engine and its modules
+
+* Modifications
+- The design may be modified after the type test subject to validating the changes to the same level of integrity
+- Changed product rule
+  - Normally, a change will be approved against the same certification rules as the original engine certification
+  - This means that equivalent compliance must be shown
+  - A type test becomes a modification test
+- However some changes may be so fundamental that the agency will insist that the changed product complies with the latest certification rules, if they have been changed since the original type approval
+- Change need to be recorded in the aircraft or engine log book
+
+* Certificates of airworthiness
+- Any aircraft has to be registered and safe in order to fly within a contracting state airspace, the usual method is the by the issue of a certificate of airworthiness
+- This certificate is issued by a competent authority of the state for a specific aircraft declaring it is fit to fly
+- To facilitate the import and export of aircraft, the state of registry recognises an airworthiness certificate issued by another contracting state, subject to its airworthiness requirements being equal or to or above the ICAO minimum
+- Any aircraft requiring registration has to have:
+  - An approved design which complies with appropriate airworthiness requirements and has a type certificate
+  - Been inspected during construction ensuring compliance with the approved design, both airframe and engines
+  - Been flight tested, as necessary, to determine compliance with approved design
+  - A flight manual
+- Registration is granted for an individual aircraft, e.g. G-XLEA
+- Prior to 2008 in addition to a regular C of A check, every three years there had to be a certificate of maintenance review
+- Since 2008, each aircraft now has a non-expiring certificate of airworthiness which remains in force by the annual issue of an ARC (Airworthiness Review Certificate) issued by an approved company
+- Existing aircraft can be cross validated between countries enabling inter-country flights
+
+* Permits to fly
+- Permits to fly may be issued to aircraft that do not meet the International Civil Aviation Organisation (ICAO) certification standards required for the issue of a certificate of airworthiness, subject to satisfying certain requirements:
+  1. Development
+  2. Showing compliance with regulations of certification specifications
+  3. Design organisations or production organisations crew training
+  4. Production flight testing of new production aircraft
+  5. Flying aircraft under production between production facilities
+  6. Flying the aircraft for customer acceptance
+  7. Delivering or exporting the aircraft
+  8. Flying the aircraft for ICAO acceptance
+  9. Market survey, including customer's crew training
+  10. Exhibition and air show
+  11. Vintage aircraft
+  12. Orphaned aircraft
+      etc.
+
+* Experimental certification
+- It was extremely difficult due to bureaucracy to achieve approval for private experimental aircraft - depressing innovation
+- However since November 2015 the CAA and Royal Aeronautical Society have formulated a means whereby experimental aircraft can receive a permit to fly with reduced bureaucracy
+- This means an individual or small group can becomes their own design authority subject to certain conditions

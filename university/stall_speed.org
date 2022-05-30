@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       cf31a8dc-b4b6-4afa-8e5d-6db83e5a7bbf
+:END:
+#+title: Stall speed
+
+* Definition
+The slowest speed at which an aeroplane can fly is the stall speed, which is important for a safe take-off and landing.
+
+* Formula
+As [[id:84005369-0a9e-48a7-8c69-53bc4422377a][Lift]] is given by:
+
+L = 0.5\rho U_\infin^2 AC_L
+
+We know that L = W and C_L = C_Lmax just before aircraft stall, hence:
+
+U_\infin = ((2W)/(\rho AC_Lmax))^{1/2}
+
+Where W is weight, C_L is the [[id:12e0bef5-93ff-41f3-9ba2-22bb42b782a2][lift coefficient]], and A is the area of the lifting surface.
+
+* Reducing stall speed
+Reducing aircraft weight, increasing the lifting surface, or increasing C_Lmax will reduce the stall speed.
+These are difficult to achieve once aircraft design is finalised.
+
+[[id:1423bd92-09fc-4182-9227-72b60c0325e5][High-lift devices]] can be used to increase C_Lmax, individually or in combination.

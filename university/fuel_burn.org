@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       a897d2a9-a340-4a6d-a2e7-e401549d65e4
+:END:
+#+title: Fuel burn
+
+- Large, long range, high speed aircraft remain a challenge from a CO_2 perspective but shorter range operations still dominate overall fuel burn
+- Short range operations speed is not so critical, so could be open to more radical architectures

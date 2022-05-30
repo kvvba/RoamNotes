@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       77f4d8ea-8544-45d5-aca7-924d75e7f521
+:END:
+#+title: Aircraft traffic issues
+
+* Environmental
+- ICAO set global minimum standards but regional concerns vary
+- Global: Climate change (and fuel use)
+- Local: Air quality (NOx and particulates), noise
+- By region:
+  - Europe: global and local concerns
+  - North America: predominantly local concerns
+  - Rest of world: environment generally not a key issue, with a few exceptions, but it is growing
+- Most pollutants emitted in upper atmosphere, understanding of effects immature
+  - Consensus is that contrails do have impact
+
+* Congestion
+- More flights need more and larger airports to accommodate the increase in passengers and flight movements
+- These are often build on the outskirts of cities with large infrastructure required to transport passengers to city centres
+- Pressure on land use and environmental concerns
+
+* Airline affordability
+- As new environmentally-friendly aircraft are developed, airlines need funds to buy them
+- These must come from the profits they make
+- Airline profitability highly fluid

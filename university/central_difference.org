@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       077ef527-d71a-469e-b74e-43d565737784
+:END:
+#+title: Central difference
+
+The central [[id:7b412b3c-ecce-47ff-a186-ef2fb10cf387][Finite differences]] scheme is good for eddy resolving methods. This is because they tend to be low dissipation compared with more diffusive [[id:0023b56a-2aaf-4155-85c3-e14076f7a59c][Upwind]] schemes. However, they are more prone to dispersion errors which show up as oscillations in solutions. A remedy to this is to use a blended scheme, for example that blends central differencing with [[id:0023b56a-2aaf-4155-85c3-e14076f7a59c][Upwinding]].

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       e71e5e6d-7432-417a-8e9b-5d8fb4a221cf
+:END:
+#+title: Auxiliary power unit
+
+Small gas turbine located in tail of the aircraft.
+
+Provides power for:
+- Main engine starting
+- Supply of cooling air in hot climates
+- Supply of electrical power when main engines are shut down
+- Air-conditioning
+- Powers electrical systems in case of main engine flame out

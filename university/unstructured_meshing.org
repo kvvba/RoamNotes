@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       0f369af6-dcfd-4ec5-b25e-60048e96d4bc
+:END:
+#+title: Unstructured meshing
+
+Cells do not follow cartesian grid and do not need to be 4-sided.
+
+* Advantages
+- Much easier to generate mesh for complex geometries
+- Much faster meshing (automation)
+- "1-click" meshing
+- Well suited to inexperienced users (little user input)
+- Automated process
+
+* Disadvantages
+- No obvious order to loop over
+  - Need to store additional information about connections between cells
+  - Hence more memory intensive and requires more work to calculate
+- Can lead to very high cell counts
+- More memory + CPU intensive
+
+* Types
+** Tetrahedral mesh
+Uses tetrahedrons. First generates non-manifold simulation mode, then meshes model's edges and faces, then volume.
+** Hex rich meshing
+Uses hexagonal cells. High cell counts and memory usage, good for complex geometry. Very fast meshing technique. Improvement over tetrahedral meshing.
+** Polyhedral mesh
+Uses polyhedrons. Provide faster convergence, robust convergence to lower residuals, and faster solution runtimes compares to tetrahedral and hexahedral meshes.
+** Hydrid meshing
+Structured and unstructured meshes can be combined into a hybrid mesh, gaining benefits for both in different regions.

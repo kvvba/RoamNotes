@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       6d63d2cb-7ebb-4786-9b44-b360383d02c8
+:END:
+#+title: Planning horizons
+
+* 5 year horizon
+- Final product requirements largely defined
+- Market is well understood
+- There are major customers identified who are active in the definition
+- The technology to be used is well understood and is either mature or close to it
+
+* 10 year horizon
+- The final product requirements are loosely defined
+- The detail of the market is less certain but there is a broad understanding of potential need
+- There are limited number of customers identified who are active in the definition
+- The major technologies to be used are identified and an acquisition program is launched
+
+* 20 year horizon
+- The understanding of the market is fluid but there is a consensus of the approximate size of the sectors
+- The options for satisfying the market are numerous
+- The technologies can only be described in outline (blue skies research)

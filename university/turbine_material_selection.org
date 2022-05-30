@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       f6d902c1-9b22-4cff-80e8-eb45a106bc90
+:END:
+#+title: Turbine material selection
+
+- Proof strength
+  - Margin for random failure
+  - Damage tolerance
+  - Does not cover vibration (HCF, high cycle fatigue)
+- Creep strength
+  - 100 hour creep life gives margin for service deterioration
+- Oxidation limit
+  - Due to exposure to oxygen at elevated temperatures

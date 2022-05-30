@@ -16,13 +16,13 @@ y_c = 4h \cdot (x/c) \cdot (1 - (x/c))
 Therefore:
 C_L = 2\pi\alpha + 4\pi \cdot (h/c) = 2\pi\alpha + 2\pi \cdot (2h/c)
 Where h is small, tan(\beta) = (2h/c)
-Where \beta is the angle from the leading edge to the maximum point of the parabolic aerofoil at x=(c/2), y=h.
+Where \beta is the angle (*in radians*) from the leading edge to the maximum point of the parabolic aerofoil at x=(c/2), y=h.
 For small angles \beta (thin aerofoils), tan(\beta) \approx \beta
 Hence \beta \approx 2h/c
 
 Hence:
 C_L = 2\pi(\alpha + \beta)
-Where \beta = tan^-1(2h/c) \approx 2h/c
+Where \beta = tan^-1(2h/c) \approx 2h/c rad
 
 Therefore:
 C_L = 2\pi(sin\alpha + sin\beta)
@@ -30,5 +30,5 @@ C_L = 2\pi(sin\alpha + sin\beta)
 
 Substituting into form C_L=2\pi(\alpha - \alpha_0)
 
-\alpha_0 = -sin(\beta) \approx -\beta = -(2h/c)
+\alpha_0 = -sin(\beta) \approx -\beta = -(2h/c) rad
 This formula is a good approximation to even non-parabolic camber, because only parabolic part of camber contributes to lift.

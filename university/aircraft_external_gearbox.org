@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       4e80092f-7b7a-41df-8018-87c1c8a066fa
+:END:
+#+title: Aircraft external gearbox
+
+Features:
+- Hydraulic pump
+- Fuel pump
+- Oil pump
+- Integrated drive generator
+  - Primary source of electrical power in aircraft, constant rpm
+- Breather
+  - Oil-air separator, centrifuge, 3D printed
+- Pneumatic starter for [[id:63c1ba94-74ef-45e7-941a-f377b3ef5122][Combustor starting]]
+  - Compressed air from [[id:e71e5e6d-7432-417a-8e9b-5d8fb4a221cf][Auxiliary power unit]]
+  - Air motors can weigh 75% less than equivalent electrical system
+
+* Pump types
+- Centrifugal pump
+- Gear pump
+- Gerotor pump
+- Vane pump

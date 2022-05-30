@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       3a7a32ba-c1ba-4f60-a8ee-04a30fb550c4
+:END:
+#+title: Liquid-gas flow types
+
+Liquid-gas [[id:ca34c0a7-00ba-4840-b48b-7bf7b013738e][Multiphase flow]] types in order of increasing gas flow:
+1. Bubbly - predominantly liquid with some small gas bubbles
+   - Use:
+     - [[id:29714690-47a1-460c-9248-26e8188d0a0e][Eulerian-Mixture (Algebraic Slip Model (ASM))]]
+     - [[id:b3461fb1-cdf8-496c-972e-e174a608db47][Discrete Phase Model (DPM)]]
+     - [[id:d2151249-9dc9-417b-b910-311c761b59fa][Eulerian-Eulerian model]]
+2. Slug - small bubble coalesce and join together, large regions of gas interrupted by slugs of fluid
+   - Use:
+     - [[id:d793a2ea-40c2-4040-90ea-0b029aa8f51e][Volume of fluid (VOF)]]
+3. Churn - gas core through pipe and some bubbles
+   - Use:
+     - [[id:d793a2ea-40c2-4040-90ea-0b029aa8f51e][Volume of fluid (VOF)]]
+     - [[id:d2151249-9dc9-417b-b910-311c761b59fa][Eulerian-Eulerian model]]
+4. Annular - continuous gas stream through pipe and annulus of liquid
+   - Use:
+     - [[id:b5be96b0-2425-4b76-8c11-412925c94613][Eulerian thin film model (ETFM)]]
+     - [[id:d793a2ea-40c2-4040-90ea-0b029aa8f51e][Volume of fluid (VOF)]]

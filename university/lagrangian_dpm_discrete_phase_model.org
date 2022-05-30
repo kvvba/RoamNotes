@@ -1,0 +1,61 @@
+:PROPERTIES:
+:ID:       b3461fb1-cdf8-496c-972e-e174a608db47
+:END:
+#+title: Discrete Phase Model (DPM)
+
+*  Description
+A Lagrangian [[id:d2c3d66b-ecdc-45dc-8ba2-323bb1a9cf94][Multiphase flow modelling]] approach, which models a dispersed phase a rigid, spherical particles in continuous flow. It can be used for fluids (drops or bubbles) or solids. DPM is only valid for simulating dispersed [[id:d2c3d66b-ecdc-45dc-8ba2-323bb1a9cf94][Multiphase flows]] with a [[id:7293783c-3bd1-4117-81bf-1aebc764ff58][Volume fraction]] of <10% for the dispersed phase.
+
+* The model
+- One phase modelled as continuous
+- Particles/droplets/bubbles modelled as spherical particles
+- Trajectory of each particle is calculated
+- This approach is best where the discrete phase is introduced from a specific location
+
+** Formula
+(d u_p)/(dx) = F_D (u - u_p) + g_x(1 - (\rho)/(\rho_p)) + F_x
+
+Where:
+F_D (u - u_p) is the drag force
+g_x(1 - (\rho)/(\rho_p)) is the gravity/buoyancy force
+F_x represents other forces (e.g. pressure grad, rotating forces)
+
+*** Drag coefficient F_D
+F_D = ((18\mu)/(\rho_p d_p^2)) \cdot ((C_D Re)/(24))
+
+*** Other forces F_x
+- Pressure gradient - where pressure changes significantly across the particle
+- Forces due to modelling in a rotating reference frame
+- Thermophoretic forces
+- Gaseous flow with a temperature gradient (force in opposite direction to gradient)
+- Brownian force
+- Saffman lift
+- Virtual mass
+
+** Particle/droplet size distributions
+- Real flows do not consist of particles, droplets, or bubble all of the same size
+- Lagrangian approach allows you to assign a size distribution to the injected discrete phase
+- Rosin-Rammler is one of the many potential distributions which mimics "real life" reasonably well
+  - This has a mean particle size and more particles near to the mean than farther away
+
+** Particle behaviour at boundaries
+
+K = We^0.5 Re^0.25
+We = (\rho d_I u_n^2)/\sigma (see: [[id:3111a3a0-0ebb-4810-8cfa-0558c42e2f7c][Weber number (We)]])
+Re = (\rho d_I u_n)/\mu (see: [[id:a29c4f89-fd8b-46b2-863b-5cc2cd01851a][Reynolds number]])
+
+#+BEGIN_EXAMPLE
+if droplet impact
+    if K>57.7
+        splash
+    else
+        no break-up
+        if We<=5
+            stick
+        elif 5<We<=10
+            rebound
+        else
+            spread
+#+END_EXAMPLE
+
+Could also transition to a film.

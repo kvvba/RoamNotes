@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       f7e74026-223b-406b-8bbf-2b088f80183f
+:END:
+#+title: Contra-rotating turbine
+
+As opposed to [[id:3a030663-0ab3-4cf9-9a27-ec4b03fa845a][Co-rotating turbine]].
+
+- Air passage is much straighter
+- Air is directed in correct direction for second turbine blade
+- More efficient second turbine
+  - Fewer NGV required to turn
+  - Less aerodynamic secondary loss
+  - Lighter, lower cost arrangement
+- Nozzle guide vanes (see: [[id:cba2f7e3-cffd-4041-a82e-0f66bc3fcef9][Turbine operation]]) of contra-rotating turbine between turbine stages are thinner
+- NGV do less turning
+  - Gas turning reduced by around 40\deg
+  - Hence more efficient, lighter, lower cost

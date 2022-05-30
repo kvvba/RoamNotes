@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       462efcc0-00b7-4b78-b62c-5d0f59cdfefc
+:END:
+#+title: Nozzle guide vane throat area
+
+Distance between the trailing edge of one vane to the suction surface of the next vane.
