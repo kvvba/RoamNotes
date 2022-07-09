@@ -8,4 +8,4 @@ It contains notes on the following subjects:
 - Computational Fluid Dynamics
 
 # Notes
-Currently these notes are unfinished as the semester is ongoing, and nodes have not been fully linked up.
+I no longer use org-roam, these notes are unfinished, not fully linked, and there are some minor errors in the CFD notes.
